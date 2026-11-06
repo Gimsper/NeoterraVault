@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "7e95a067cee72c31",
+    "type": "split",
+    "children": [
+      {
+        "id": "830577311bc7113c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92a3a86a6d7466ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "04859605311c6a4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f46e48bcc13b6cf0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69aeb85e77e789c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "731351350b6974b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "fb4905585eb08ab5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6f18f356d00a19ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "b00a34e75c80c3f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4247653611b39cf2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_MOCs/MOC - Facciones y Geopolitica.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "543836bbf3b2db8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_MOCs/MOC - Facciones y Geopolitica.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "0df9d5fd8e3b70a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "91cca04a9df95d34",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "f1b0cd09133a03c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_MOCs/MOC - Facciones y Geopolitica.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "92a3a86a6d7466ba",
+  "lastOpenFiles": [
+    "README.md",
+    "01_Mundo_y_Lore/Macro de Librerias SCMEH.md",
+    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/Secuencia - Levitar.md",
+    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/Artefacto - Little Fox.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Secuencias de Hechizos SCMEH.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Reglas FATE - Sistema de Magia Artificial.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Manual de Programacion SCMEH.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Magia Artificial y Reino Olvidado.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Macro de Librerias SCMEH.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Los Especialistas.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Libreria SCMEH - AeroUtils.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Ingenieros y Alquimistas.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Compendio de Librerias Elementales SCMEH.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Calculo de Rangos SCMEH - Big-O y Flujo.md",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore/Artefactos de Ejecucion.md",
+    "Magia_Artificial_FATE/00_MOCs/MOC - Magia Artificial y Artefactos.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/Tecnologia RFC y Silente.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/Los Resonantes.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/Los Piratas de Oruga.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/Los Nodos.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/Los Ecos y la Chatarra.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/Los Disonantes.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/Los Archiveros de Mnemosine.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/La Xenoferrita.md",
+    "Proyecto_Abaddon/01_Mundo_y_Lore/La Mente de Abaddon.md",
+    "Proyecto_Abaddon/00_MOCs/MOC - Facciones y Geopolitica.md",
+    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items",
+    "Magia_Artificial_FATE/01_Mundo_y_Lore",
+    "Magia_Artificial_FATE/00_MOCs",
+    "Magia_Artificial_FATE",
+    "Proyecto_Abaddon/01_Mundo_y_Lore",
+    "Proyecto_Abaddon/00_MOCs",
+    "Proyecto_Abaddon"
+  ]
+}
