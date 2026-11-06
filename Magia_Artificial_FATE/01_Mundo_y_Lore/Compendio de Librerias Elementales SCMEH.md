@@ -20,250 +20,397 @@ updated: 2026-11-05
 
 # 🌌 Compendio de Librerías Elementales (`RuneScript.Elements.*`)
 
-> *"Las librerías elementales no contienen lógica de disparo, ni temporizadores, ni miras de puntería. Son únicamente la voz con la que el código le ordena a la materia prima del cosmos cómo debe vibrar, condensarse o arder."*
-> — Cátedra de Física Alquímica, Academia de [[Ingenieros y Alquimistas]]
+> *"Si una librería te ofreciera una función llamada `LanzarBolaDeFuego()`, no serías un Especialista ni un programador rúnico: serías un usuario corriente apretando un interruptor roto. El verdadero arte reside en excitar las moléculas, confinar el plasma, condensar su núcleo, imprimirle un vector cinético y rezar para que tu rutina de seguridad no deje escapar una chispa a tus venas."*
+> — Cátedra de Arquitectura Algorítmica, Academia de [[Ingenieros y Alquimistas]]
 
 ---
 
-## 1. Filosofía de Moldeo Elemental Puro
+## 1. Principio Fundamental: Primitivas Atómicas vs Hechizos Monolíticos
 
-Bajo la arquitectura de [[Macro de Librerias SCMEH|RuneScript]], las **Librerías Elementales** cumplen una regla de oro:
-* **Principio de Aislamiento Físico:** Solo manejan el cambio de estado, densidad, temperatura, polaridad o cohesión de su elemento correspondiente.
-* **Separación de Responsabilidades:** No controlan vectores de movimiento (eso lo hace `Kinetics.Vector`), ni aceleraciones balísticas (`Kinetics.Speed`), ni detonadores (`Triggers.*`). 
+Bajo el estándar [[Macro de Librerias SCMEH|RuneScript]], queda terminantemente prohibida la inclusión de métodos de alto nivel que representen conjuros completos empaquetados. 
 
-Existen **6 Librerías Elementales Oficiales**:
+Toda llamada dentro de `RuneScript.Elements.*` obedece las siguientes **reglas de arquitectura modular**:
+1. **Regla de Atomicidad Física:** Cada función altera una y solo una propiedad de la materia (presión, fase, temperatura molecular, polaridad de dipolos, enlace de red cristalina o confinamiento de campo).
+2. **Sin Cinética ni Trayectorias Nativas:** Los elementos no tienen velocidad ni dirección por sí mismos. Para mover masa u ondas elementales se debe importar explícitamente `RuneScript.Kinetics.*`.
+3. **Composición Algorítmica Obligatoria:** Un hechizo (S.C.M.E.H.) es una **secuencia procedimental** compuesta por varios pasos:
+   * **Paso A — Captación / Preparación:** Recolectar masa o aislar comburente ambiental.
+   * **Paso B — Modificación de Estado:** Variar temperatura, densidad, ionización o fase.
+   * **Paso C — Geometría y Confinamiento:** Crear una envoltura de campo que contenga la energía para evitar fugas descontroladas.
+   * **Paso D — Validación Lógica:** Condicionales de estabilidad previa a la ignición o disparo (`IF (!campo.is_stable()) ABORT(...)`).
+   * **Paso E — Vectorización Cinética:** Transferencia de impulso o aceleración vectorial.
+   * **Paso F — Disparadores de Evento:** Instrucciones de impacto, colisión o temporizado (`Triggers.OnCollision`, `Triggers.OnTimer`).
 
 ```mermaid
 flowchart TD
-    ELEM["🌌 RuneScript.Elements"]
+    ELEM["🌌 RuneScript.Elements (Primitivas de Materia)"]
     
-    ELEM --> AERO["🌪️ Air (Aero) - Neumática y Presión"]
-    ELEM --> PYRO["🔥 Fire (Pyro) - Termodinámica y Plasma"]
-    ELEM --> HYDRO["💧 Water (Hydro) - Fluidos y Fases"]
-    ELEM --> GEO["⛰️ Earth (Geo) - Litología y Magnetismo"]
-    ELEM --> ELECTRO["⚡ Lightning (Electro) - Tensión y Arcos"]
-    ELEM --> AETHER["👁️ Aether (Éter) - Entropía del Reino Olvidado"]
+    ELEM --> AERO["🌪️ Air (Aero) - Barometría, Densidad y Flujo"]
+    ELEM --> PYRO["🔥 Fire (Pyro) - Térmica, Plasma y Confinamiento"]
+    ELEM --> HYDRO["💧 Water (Hydro) - Fases, Tensión y Viscosidad"]
+    ELEM --> GEO["⛰️ Earth (Geo) - Redes Litológicas y Reología"]
+    ELEM --> ELECTRO["⚡ Lightning (Electro) - Dieléctricos, Carga y Circuitos"]
+    ELEM --> AETHER["👁️ Aether (Éter) - Entropía y Métricas Espaciales"]
 ```
 
 ---
 
-## 2. Especificación Detallada de cada Librería
+## 2. Catálogo Oficial de Primitivas por Librería
 
 ---
 
-### 🌪️ 1. `RuneScript.Elements.Air` (`Aero`)
-* **Dominio Físico:** Dinámica de gases, presión diferencial, barometría y vacío atmosférico.
-* **Afinidad Elemental:** Aire.
+### 🔥 1. `RuneScript.Elements.Fire` (`Pyro`)
+Manipulación de agitación molecular, combustión química, ionización y envolturas de confinamiento de alta energía.
 
-#### Clases y Métodos:
-1. **`AirDensity` (Barometría y Vacío):**
-   * `.polarize_pressure(target: Entity/Object, surface: SurfaceType, delta_bar: Float)`
-     * *Efecto:* Aumenta o disminuye la presión atmosférica sobre una cara del objetivo (genera empuje o aplastamiento). FATE: *Crear Ventaja* o *Superar*.
-   * `.compress_gas(volume_m3: Float, ratio: Float) -> GasPocket`
-     * *Efecto:* Concentra masa de aire en un volumen esférico denso listo para expandirse.
-   * `.vacuum_pocket(radius_m: Float, duration_turns: Int)`
-     * *Efecto:* Desaloja instantáneamente las moléculas de oxígeno de un perímetro. (FATE: *Ataque de Zona* por asfixia).
-2. **`AirCurrent` (Forma y Estructura Neumática):**
-   * `.laminar_stream(vector: Vector3, width_m: Float) -> Stream`
-     * *Efecto:* Genera una corriente continua de flujo ordenado.
-   * `.vortex_shape(radius_m: Float, rpm: Int) -> Vortex`
-     * *Efecto:* Construye un cilindro o embudo de rotación ciclónica para desviar proyectiles.
-   * `.cushion(altitude_m: Float, weight_limit_kg: Float)`
-     * *Efecto:* Colchón neumático ascendente de sustentación continua.
-3. **`AeroThermal` (Expansión Térmica de Gases):**
-   * `.expand_blast(center: Point, force_bar: Float)`
-     * *Efecto:* Descompresión violenta que genera una onda de choque expansiva.
+#### A. `Pyro.Thermal` (Termodinámica Molecular)
+* `.excite_molecules(target_zone: Area/Object, temp_celsius: Float)`:
+  * Incrementa la energía cinética microscópica en una coordenada, elevando la temperatura sin encender llama directa a menos que exista comburente.
+* `.absorb_heat(source: Point/Object, sink: Point/Chassis, joules: Float)`:
+  * Extrae energía calórica de un cuerpo o zona para enfriarlo, transfiriéndola a un disipador o condensador.
+* `.set_thermal_gradient(from_point: Point, to_point: Point, delta_k: Float)`:
+  * Establece una línea de transferencia térmica rápida.
 
-```python
-# Ejemplo de Moldeo de Aire Puro:
-IMPORT RuneScript.Elements.Air AS Aero;
+#### B. `Pyro.Combustion` (Reacción Exotérmica)
+* `.ignite_mix(flammable_target: Object, oxygen_ratio: Float)`:
+  * Si la temperatura local supera el punto de inflamación del material, inicia la reacción en cadena de fuego.
+* `.sustain_reaction(combustion_core: FireCore, fuel_feed_rate: Float)`:
+  * Alimenta una llama activa consumiendo combustible ambiental o éter del operador.
+* `.ignite_surface(radius_m: Float, burn_rate: Float)`:
+  * Genera un plano residual de combustión en el suelo o superficie de impacto. FATE: Aspecto de zona `[Superficie en Llamas]`.
 
-Pocket = Aero.AirDensity.compress_gas(volume_m3=1.5, ratio=4.0);
-Aero.AirCurrent.vortex_shape(radius_m=2.0, rpm=2400);
-```
+#### C. `Pyro.Plasma` (Estado Ionizado)
+* `.ionize_gas(gas_pocket: GasPocket, energy_density: EnergyLevel) -> PlasmaCore`:
+  * Transforma un volumen de gas precalentado en masa gaseosa superionizada conductora. *Advertencia: Altamente inestable si no se confina de inmediato.*
+* `.set_plasma_conductivity(plasma_core: PlasmaCore, siemens_meter: Float)`:
+  * Modula la conductividad eléctrica del plasma para que pueda absorber y canalizar arcos voltaicos procedentes de `RuneScript.Elements.Lightning` sin romper su estructura.
+
+#### D. `Pyro.Radiation` (Flujo Térmico Radiante)
+* `.radiant_heat_flux(origin: Point, vector: Vector3, flux_watts_m2: Float)`:
+  * Emite un haz o cono de calor radiante infrarrojo invisible a distancia sin proyectil físico (calienta blindajes, funde componentes electrónicos o cocina munición enemiga en cargadores).
+
+#### E. `Pyro.Byproducts` (Subproductos de Combustión)
+* `.generate_smoke(combustion_core: FireCore, opacity_pct: Float, toxicity_level: Int, radius_m: Float) -> SmokeZone`:
+  * Genera una nube densa de monóxido y hollín opaco a partir de la combustión. FATE: Aspectos como `[Atmósfera Asfixiante]` o `[Ceguera por Humo Negro]`.
+* `.pyrolyze_material(target_solid: Object) -> FlammableVapor`:
+  * Descompone térmicamente materia sólida orgánica (madera, plástico, resinas) en vapor inflamable antes de la ignición, preparando áreas para combustiones súbitas.
+
+#### F. `Pyro.Flashpoint` (Sensibilidad Térmica de Materiales)
+* `.lower_flashpoint(target_material: Object, delta_celsius: Float)`:
+  * Altera la estabilidad química superficial de un objeto o blindaje reduciendo su temperatura mínima de autoignición (hace que materiales ignífugos o metales ardan ante una mínima chispa).
+
+#### G. `Pyro.Confinement` (Campos de Contención y Forma)
+* `.bind_sphere(energy_core: PlasmaCore/FireCore, radius_m: Float) -> Envelope`:
+  * Crea una barrera magnética/rúnica esférica que retiene la energía dentro del radio deseado.
+* `.bind_cylinder(energy_core: PlasmaCore/FireCore, length_m: Float, radius_m: Float) -> Envelope`:
+  * Confinamiento tubular para proyectiles de perforación o rayos térmicos.
+* `.compress(envelope: Envelope, factor: Float)`:
+  * Reduce el volumen del campo aumentando radicalmente su densidad térmica y presión interna.
+* `.is_stable(envelope: Envelope) -> Boolean`:
+  * Valida si el campo resiste la presión del núcleo. Si devuelve `false`, la secuencia corre riesgo de fuga bioeléctrica.
+* `.release(envelope: Envelope)`:
+  * Desactiva el confinamiento liberando súbitamente la energía almacenada al medio circundante.
 
 ---
 
-### 🔥 2. `RuneScript.Elements.Fire` (`Pyro`)
-* **Dominio Físico:** Excitación atómica, termodinámica exotérmica, combustión y física de plasma.
-* **Afinidad Elemental:** Fuego.
+### 🌪️ 2. `RuneScript.Elements.Air` (`Aero`)
+Control de presiones diferenciales, densidad de masa gaseosa, separación de componentes y vectores de momento angular.
 
-#### Clases y Métodos:
-1. **`ThermalFlux` (Control de Temperatura Molecular):**
-   * `.excite_molecules(target: Object/Entity, target_temp_celsius: Float)`
-     * *Efecto:* Eleva la temperatura interna de un cuerpo mediante agitación molecular directa.
-   * `.drain_heat(volume_m3: Float, delta_celsius: Float)`
-     * *Efecto:* Enfría un área absorbiendo el calor ambiental para canalizarlo en un punto focal.
-   * `.focal_point(target_point: Point, temp_celsius: Float) -> HeatNode`
-     * *Efecto:* Genera un punto de calor microscópico de altísima temperatura (capaz de fundir cerraduras o cortar metales).
-2. **`Combustion` (Ignición y Comburentes):**
-   * `.spark(oxygen_mix_ratio: Float)`
-     * *Efecto:* Genera una chispa rúnica instantánea de encendido.
-   * `.ignite_material(target: FlammableObject, burn_rate: Float)`
-     * *Efecto:* Incendia un material inflamable manteniendo una llama controlada. FATE: Aspecto `[Envuelto en Llamas]`.
-   * `.consume_oxygen(radius_m: Float)`
-     * *Efecto:* Alimenta el fuego consumiendo el oxígeno del entorno para avivar la llama.
-3. **`PlasmaState` (Gas Superionizado - Alta Energía):**
-   * `.ionize_gas(volume_m3: Float, kelvin_temp: Float) -> PlasmaCore`
-     * *Efecto:* Transforma el gas circundante en plasma ionizado de color cegador.
-   * `.shape_lance(length_m: Float, core_temp: Float) -> ThermalLance`
-     * *Efecto:* Moldea el plasma en una hoja o lanza térmica pura (FATE: *Ataque* demoledor que ignora blindajes comunes).
+#### A. `Aero.Pressure` (Barometría Diferencial)
+* `.set_differential(surface_high: Surface, surface_low: Surface, delta_bar: Float)`:
+  * Desbalancea la presión barométrica entre dos caras de un objetivo o cuerpo para generar sustentación o empuje neumático.
+* `.depressurize_zone(volume_m3: Float, target_bar: Float) -> LowPressureZone`:
+  * Desaloja masa gaseosa de un volumen creando una zona de baja presión o vacío técnico.
 
-```python
-# Ejemplo de Moldeo de Fuego:
-IMPORT RuneScript.Elements.Fire AS Pyro;
+#### B. `Aero.Density` (Compresión y Expansión de Gases)
+* `.compress_gas(volume_m3: Float, ratio: Float) -> GasPocket`:
+  * Condensa moléculas de gas circundante en un bolsón esférico de alta densidad (precursor de combustiones o expansiones).
+* `.expand_gas(gas_pocket: GasPocket, expansion_rate: Float)`:
+  * Provoca una descompresión acelerada de un bolsón de gas generando una onda de choque expansiva pura.
 
-Heat = Pyro.ThermalFlux.focal_point(target_point=LockCore, temp_celsius=1400.0);
-Pyro.Combustion.ignite_material(target=TargetArmor, burn_rate=2.5);
-```
+#### C. `Aero.GasFlow` (Dinámica de Flujos)
+* `.stream_vector(origin: Point, vector: Vector3, flux_liters_sec: Float) -> AirStream`:
+  * Establece una corriente laminar estable de gas continuo en una dirección.
+* `.vortex_angular(axis_vector: Vector3, radius_m: Float, rpm: Int) -> VortexField`:
+  * Introduce momento angular y fuerza centrífuga sobre una masa de gas (desvío de proyectiles balísticos o vórtices de succión).
+
+#### D. `Aero.Composition` (Separación y Filtrado de Gases)
+* `.isolate_component(volume_m3: Float, gas_type: [OXYGEN | NITROGEN | CO2 | TOXIN]) -> GasPocket`:
+  * Separa selectivamente un componente químico del aire circundante (e.g. concentrar $O_2$ puro para alimentar combustiones extremas, saturar de nitrógeno para sofocar incendios, o depurar toxinas ambientales).
+
+#### E. `Aero.Drag` (Fricción y Coeficiente Aerodinámico)
+* `.set_drag_coefficient(target: Object/Entity, drag_factor: Float)`:
+  * Modifica cómo el aire interactúa con la superficie de un cuerpo en movimiento. Permite frenar proyectiles balísticos en el aire multiplicando su fricción o desacelerar caídas libres estilo paracaídas neumático.
+
+#### F. `Aero.Acoustics` (Acústica y Ondas de Presión)
+* `.decouple_vibration(zone: Area)`:
+  * Desacopla la transmisión mecánica de ondas de sonido a través del aire en un perímetro definido (silenciador físico total de detonaciones, pasos o motores).
+* `.pulse_compression(origin: Point, vector: Vector3, decibels: Float)`:
+  * Emite un frente de onda acústico concentrado de alta energía hacia un vector (aturdimiento sináptico o fractura de vidrios/sensores por sobrepresión sonora).
+
+#### G. `Aero.ThermalShift` (Física de Gases Adiabática)
+* `.joule_thomson_expansion(gas_pocket: GasPocket, ratio: Float)`:
+  * Descomprime un volumen gaseoso de forma no reactiva, induciendo una caída brusca de temperatura en el gas (generación instantánea de escarcha, enfriamiento de chasis sobrecalentados o niebla por condensación de humedad ambiental).
 
 ---
 
 ### 💧 3. `RuneScript.Elements.Water` (`Hydro`)
-* **Dominio Físico:** Hidrostática, tensión superficial, viscosidad y transiciones de fase del $H_2O$.
-* **Afinidad Elemental:** Agua.
+Captación de masa acuosa, transición molecular de fase, rigidez superficial y modulación de flujo viscoso.
 
-#### Clases y Métodos:
-1. **`FluidDynamics` (Masa Líquida y Presión Hidráulica):**
-   * `.condense_ambient_humidity(origin: Point, liters: Float) -> LiquidBody`
-     * *Efecto:* Agrupa la humedad del aire o del suelo en una masa líquida manipulable.
-   * `.pressurize_stream(nozzle_mm: Float, bar_pressure: Float) -> HydroJet`
-     * *Efecto:* Genera un chorro de agua a ultra-alta presión capaz de cortar blindajes o noquear objetivos.
-   * `.surface_tension_lock(liquid: LiquidBody, hardness: Float)`
-     * *Efecto:* Modifica los enlaces de hidrógeno para que el agua actúe como un sólido frente a impactos rápidos (barrera elástica).
-2. **`PhaseShift` (Transición de Fase Molecular):**
-   * `.freeze_solid(liquid: LiquidBody, hardness_moh: Float) -> IceMass`
-     * *Efecto:* Congela agua líquida de golpe en hielo cristalino. FATE: Aspecto `[Pies Congelados]` o `[Muro de Hielo]`.
-   * `.flash_evaporate(liquid: LiquidBody) -> SteamCloud`
-     * *Efecto:* Hierve el agua al instante creando una nube de vapor hirviente que ciega y quema.
-   * `.frost_coating(surface: SurfaceType)`
-     * *Efecto:* Genera una película de escarcha resbaladiza. FATE: Aspecto de zona `[Suelo Extremadamente Resbaladizo]`.
-3. **`Viscosity` (Densidad y Fluidos No-Newtonianos):**
-   * `.modulate_density(liquid: LiquidBody, cP_viscosity: Float)`
-     * *Efecto:* Convierte el agua en un fluido espeso similar al gel para atrapar o amortiguar impactos balísticos.
+#### A. `Hydro.Gathering` (Masa Acuosa)
+* `.extract_ambient_moisture(origin: Point, volume_liters: Float) -> FluidVolume`:
+  * Condensa el vapor de agua disperso en el aire o extrae humedad del subsuelo inmediato hacia una masa líquida manipulable.
 
-```python
-# Ejemplo de Moldeo de Agua:
-IMPORT RuneScript.Elements.Water AS Hydro;
+#### B. `Hydro.Phase` (Transición Termodinámica)
+* `.shift_phase(fluid: FluidVolume, target_state: [SOLID | LIQUID | GAS], rate: Float)`:
+  * Modifica el enlace termodinámico de las moléculas de $H_2O$.
+* `.crystallize_lattice(fluid: FluidVolume, hardness_factor: Float) -> IceLattice`:
+  * Fuerza una estructura cristalina hexagonal rígida (hielo de alta densidad para coberturas o barreras sólidas).
+* `.sublimate_instant(fluid: FluidVolume) -> VaporCloud`:
+  * Pasa líquido a vapor sobrecalentado de golpe creando una cortina de ocultamiento y escaldadura.
 
-WaterPool = Hydro.FluidDynamics.condense_ambient_humidity(origin=Self.Hands, liters=25.0);
-IceShield = Hydro.PhaseShift.freeze_solid(liquid=WaterPool, hardness_moh=6.0);
-```
+#### C. `Hydro.FluidDynamics` (Reología y Presión)
+* `.set_surface_tension(fluid: FluidVolume, tension_coefficient: Float)`:
+  * Altera la fuerza de los enlaces superficiales permitiendo que el agua actúe como una lámina elástica amortiguadora contra impactos.
+* `.pressurize(fluid: FluidVolume, bar_pressure: Float)`:
+  * Introduce energía hidrostática para convertir el líquido en un chorro cortante de alta velocidad.
+* `.set_viscosity(fluid: FluidVolume, cP_viscosity: Float)`:
+  * Transforma el líquido en un fluido no-newtoniano (espeso ante reposo, ultra-rígido ante impactos bruscos).
+
+#### D. `Hydro.Solutes` (Disolución, Purificación y Salinidad)
+* `.dissolve_solute(fluid: FluidVolume, solute_type: [ELECTROLYTE_SALTS | ACID | TOXIN], concentration_ppm: Float)`:
+  * Modifica la composición del agua incorporando solutos. Disolver sales electrolíticas la convierte en un conductor eléctrico óptimo para arcos de `RuneScript.Elements.Lightning`, o permite transportar agentes corrosivos sin dispersión.
+* `.precipitate_solutes(fluid: FluidVolume)`:
+  * Fuerza la separación y decantación de minerales e impurezas químicas disueltas (desalinización táctica y purificación para consumo).
+
+#### E. `Hydro.Capillarity` (Adherencia y Humectabilidad Superficial)
+* `.set_contact_angle(fluid: FluidVolume, target_surface: Surface, angle_deg: Float)`:
+  * Modula la interacción física entre el líquido y las superficies sólidas.
+  * *Ángulo bajo (0° - Superhumectante):* El agua se adhiere fuertemente a muros, telas o armaduras sin escurrirse, manteniéndolas saturadas para conductividad o congelación posterior.
+  * *Ángulo alto (>150° - Superhidrofóbico):* Repelencia hidrofóbica total (efecto loto); crea una película lubricante que hace resbaladizo el suelo o repele ataques con fluidos corrosivos.
+
+#### F. `Hydro.FlowRegime` (Régimen de Coherencia de Flujo)
+* `.set_flow_coherence(fluid: FluidVolume, regime: [LAMINAR_COHERENT | TURBULENT_SPRAY])`:
+  * *Laminar:* Mantiene el chorro compacto en un vector uniforme sin dispersión de gotas, maximizando el alcance y la energía de corte hidrostático.
+  * *Turbulento:* Dispersa la masa fluida en un cono de microaerosol o rocío atomizado de cobertura amplia.
+
+#### G. `Hydro.Osmosis` (Presión Osmótica de Tejidos)
+* `.induce_osmotic_flux(fluid: FluidVolume, target_tissue: OrganicTissue, direction: [DEHYDRATE | HYDRATE])`:
+  * Provoca un gradiente osmótico violento para drenar o saturar agua en tejidos vegetales, fúngicos o biomasa sintética.
+  * ⚠️ **Restricción de Firmware de la Asociación de Alquimistas del Código:** Por decreto regulatorio internacional, todos los inductores rúnicos poseen un DRM ético a nivel de circuito. Cualquier intento de apuntar esta función a tejidos humanos o humanoides dispara instantáneamente la excepción `UNAUTHORIZED_BIOCIDE_LOCKOUT`, apagando el artefacto y disipando el éter a tierra para evitar necrosis letal no autorizada.
 
 ---
 
 ### ⛰️ 4. `RuneScript.Elements.Earth` (`Geo`)
-* **Dominio Físico:** Cohesión mineral, reología de suelos, litología y magnetismo de vetas ferrosas.
-* **Afinidad Elemental:** Tierra.
+Interacción con la litología de suelos, redes cristalinas minerales, planos de corte y polarización ferrosa.
 
-#### Clases y Métodos:
-1. **`MineralCohesion` (Densidad y Estructura Pétrea):**
-   * `.densify_rock(target_rock: Stone, density_ratio: Float)`
-     * *Efecto:* Aumenta la masa molecular de la piedra haciéndola ultradensa y resistente al fuego y proyectiles.
-   * `.liquefy_soil(radius_m: Float, depth_m: Float)`
-     * *Efecto:* Rompe la fricción entre partículas de tierra/cemento, transformándolo en arena movediza. FATE: Aspecto `[Atrapado en Codo de Lodo]`.
-   * `.cleave_fault(line_vector: Vector2, depth_m: Float)`
-     * *Efecto:* Abre una falla o zanja tectónica localizada en el pavimento o terreno rocoso.
-2. **`FerroMagnetics` (Alineación Magnética Terrestre):**
-   * `.polarize_iron_vein(ground_area: Area, tesla_force: Float)`
-     * *Efecto:* Excita los minerales ferrosos bajo el suelo para crear un imán gigante que atrae armas o vehículos enemigos al piso.
-   * `.extract_ferrous_dust(radius_m: Float) -> MetalDustCloud`
-     * *Efecto:* Extrae micropartículas de hierro de la tierra creando una nube abrasiva y conductora.
-3. **`Crystalline` (Crecimiento Mineral Rápido):**
-   * `.grow_spikes(surface: Point, height_m: Float, count: Int)`
-     * *Efecto:* Hace brotar agujas o picos de piedra afilada del suelo o muros. FATE: *Ataque* o trampa de empalamiento.
-   * `.vitrify_sand(volume_m3: Float) -> ObsidianShard`
-     * *Efecto:* Transmuta silicatos y arena en vidrio volcánico u obsidiana de filo molecular.
+#### A. `Geo.Lattice` (Cohesión Litológica)
+* `.densify_mineral(stone_target: MineralBody, density_ratio: Float)`:
+  * Reordena la red atómica de rocas o muros de cemento haciéndolos exponencialmente más resistentes a la fragmentación.
+* `.cleave_fault(plane_vector: Vector3, stress_joules: Float)`:
+  * Aplica un esfuerzo cortante a lo largo de un plano litológico para inducir una grieta o falla controlada en terreno o estructuras.
 
-```python
-# Ejemplo de Moldeo de Tierra:
-IMPORT RuneScript.Elements.Earth AS Geo;
+#### B. `Geo.Granular` (Reología de Suelos)
+* `.fluidize_soil(ground_area: Area, depth_m: Float)`:
+  * Rompe la fricción de fricción intergranular entre partículas de tierra, asfalto o arena, transformando el piso firme en lodo o arena movediza. FATE: Aspecto `[Piso Licuado e Inestable]`.
+* `.recompact_soil(ground_area: Area)`:
+  * Reestablece instantáneamente el rozamiento granular, solidificando de golpe la materia y atrapando cualquier extremidad sumergida.
 
-Geo.MineralCohesion.liquefy_soil(radius_m=3.0, depth_m=1.0);
-Geo.Crystalline.grow_spikes(surface=EnemyArea, height_m=1.8, count=5);
-```
+#### C. `Geo.Ferrous` (Alineación Magnética Mineral)
+* `.polarize_mineral_domain(target_area: Area, field_tesla: Float)`:
+  * Excita los dominios ferromagnéticos de las vetas subterráneas de hierro para inducir un polo atractor hacia el suelo.
+
+#### D. `Geo.Crystalline` (Nucleación Mineral)
+* `.nucleate_crystal(seed_point: Point, growth_vector: Vector3, rate: Float) -> CrystalSpire`:
+  * Estimula la precipitación y crecimiento rápido de prismas minerales o cuarzos afilados en una trayectoria vectorial.
+
+#### E. `Geo.Seismic` (Propagación Sísmica y Acústica de Suelos)
+* `.pulse_seismic_wave(origin: Point, vector: Vector3, frequency_hz: Float, amplitude_joules: Float)`:
+  * Envía una vibración mecánica continua o en pulso a través del suelo o estructuras de roca/cemento (desestabiliza el equilibrio enemigo a distancia, quiebra cimientos o sacude coberturas).
+* `.dampen_seismic_vibrations(zone: Area)`:
+  * Amortigua y absorbe cualquier vibración mecánica superficial en el terreno dentro del radio (permite desplazamiento en silencio absoluto sobre baldosas, escombros o grava crujiente).
+
+#### F. `Geo.SurfaceTexture` (Fricción y Acabado Litológico)
+* `.set_friction_profile(stone_surface: Surface, profile: [ULTRA_GRIP_ABRASIVE | MIRROR_POLISHED_ZERO_FRICTION])`:
+  * Modifica la aspereza atómica de la roca o cemento.
+  * *Ultra-Grip:* Genera microdientes moleculares de alto agarre, permitiendo escalar muros verticales a mano limpia sin equipo de escalada.
+  * *Mirror-Polished:* Pule la superficie a nivel atómico anulando la fricción superficial (cualquier entidad que pise o frene patina incontrolablemente como en hielo puro).
+
+#### G. `Geo.Porosity` (Permeabilidad y Microcanales)
+* `.set_porosity(mineral_body: MineralBody, porosity_pct: Float)`:
+  * Modula los poros microscópicos de la piedra.
+  * *Baja porosidad (0%):* Vuelve la roca impermeable y estanca contra filtraciones de agua, ácidos o gases a presión.
+  * *Alta porosidad (>40%):* Abre microcanales capilares para que la roca absorba rápidamente fluidos combustibles o humedad del entorno.
+
+#### H. `Geo.Piezoelectric` (Conector Piezoeléctrico Tierra $\leftrightarrow$ Rayo)
+* `.excite_piezo_discharge(crystal_core: CrystalSpire, mechanical_stress_pascals: Float) -> VoltageSpike`:
+  * Induce una descarga de alto voltaje al aplicar una sobretensión o impacto mecánico brusco sobre una formación de cuarzo/cristal, permitiendo a operadores de Tierra generar chispas eléctricas tácticas.
 
 ---
 
 ### ⚡ 5. `RuneScript.Elements.Lightning` (`Electro`)
-* **Dominio Físico:** Potencial de ionización, arcos voltaicos, inducción electromagnética y corriente de plasma.
-* **Afinidad Elemental:** Rayo.
+Ruptura dieléctrica del aire, acumulación de carga estática y cierre de arcos inductivos.
 
-#### Clases y Métodos:
-1. **`VoltagePotential` (Diferencial de Potencial e Ionización):**
-   * `.charge_capacitor(volts: Float, amperes: Float) -> EnergyNode`
-     * *Efecto:* Acumula una carga electrostática violenta en el catalizador o en un objeto metálico.
-   * `.polarize_air_channel(source: Point, target: Entity) -> IonizedPath`
-     * *Efecto:* Ioniza una línea invisible de aire creando un canal conductor de resistencia cero para que el rayo viaje sin desviarse.
-   * `.static_field(radius_m: Float, c_charge: Float)`
-     * *Efecto:* Carga el ambiente de electricidad estática; eriza el pelo y sobrecarga circuitos electrónicos.
-2. **`ArcDischarge` (Disparo y Arcos Voltaicos):**
-   * `.strike_channel(path: IonizedPath, joules: Float)`
-     * *Efecto:* Descarga un rayo fulgurante por el canal ionizado. FATE: *Ataque* electrostático instantáneo.
-   * `.fork_arc(parent_arc: Arc, max_branches: Int)`
-     * *Efecto:* Divide el rayo en múltiples ramas secundarias (Complejidad $\mathcal{O}(n^2)$).
-3. **`ElectroMagnet` (Inducción y Pulsos):**
-   * `.magnetic_pinch(target: MetalObject, tesla_force: Float)`
-     * *Efecto:* Aplasta o arruga un objeto metálico mediante compresión magnética pura.
-   * `.emp_burst(radius_m: Float)`
-     * *Efecto:* Emite un pulso electromagnético que fríe radios, terminales y luces en el radio.
+#### A. `Electro.Dielectric` (Canal de Resistencia Cero)
+* `.ionize_channel(start_point: Point, end_point: Point, target_resistance: Float) -> IonChannel`:
+  * Quema microscópicamente un filamento invisible de aire transformándolo en un conductor de resistencia nula. *Sin este paso previo, cualquier descarga eléctrica saltará sin rumbo al objeto metálico más cercano.*
 
-```python
-# Ejemplo de Moldeo de Rayo:
-IMPORT RuneScript.Elements.Lightning AS Electro;
+#### B. `Electro.Charge` (Potencial Electrostático)
+* `.accumulate(capacitance_source: Hardware/Capacitor, coulombs: Float) -> ChargeNode`:
+  * Almacena carga bioeléctrica concentrada en el acumulador del artefacto.
+* `.polarize_dipole(node_a: Point, node_b: Point, delta_volts: Float)`:
+  * Establece una tensión o diferencia de potencial eléctrico entre el lanzador y la coordenada de destino.
 
-Path = Electro.VoltagePotential.polarize_air_channel(source=Chassis, target=EnemyMech);
-Electro.ArcDischarge.strike_channel(path=Path, joules=50000.0);
-```
+#### C. `Electro.Circuit` (Descarga e Inducción Básica)
+* `.close_discharge(channel: IonChannel, charge_node: ChargeNode)`:
+  * Conecta la carga acumulada con el canal ionizado provocando el arco voltaico instantáneo a la velocidad del destello.
+* `.generate_magnetic_pulse(current_amperes: Float, radius_m: Float)`:
+  * Emite un pulso electromagnético inducido (EMP) capaz de alterar los circuitos lógicos de otros artefactos en el radio.
+
+#### D. `Electro.Magnetics` (Campos Magnéticos y Aceleración de Lorentz)
+* `.induce_magnetic_solenoid(axis_vector: Vector3, radius_m: Float, field_tesla: Float) -> SolenoidField`:
+  * Genera un campo de atracción o repulsión magnética sobre blindajes, armas o metralla ferrosa circundante.
+* `.lorentz_acceleration(rail_vector: Vector3, conductive_mass: Object, current_amps: Float)`:
+  * Aplica fuerza de Lorentz perpendicular sobre una masa conductora (principio de *railgun*; propulsa proyectiles o esquirlas metálicas a velocidad hipersónica mediante corriente pura).
+
+#### E. `Electro.Bioelectric` (Interferencia Neuromuscular por Microamperios)
+* `.stimulate_motor_nerve(target_entity: Entity, limb: LimbType, pulse_pattern: [TETANIC_LOCK | INVOLUNTARY_REFLEX])`:
+  * Aplica pulsos en milivoltios sobre terminales nerviosas motoras.
+  * *Tetanic Lock:* Parálisis por contracción muscular tetánica sostenida (aturdimiento táctico no letal tipo táser).
+  * *Involuntary Reflex:* Espasmo muscular instantáneo (fuerza al blanco a soltar un objeto retenido o a disparar accidentalmente su arma).
+
+#### F. `Electro.Static` (Carga Electrostática Pasiva en Superficies)
+* `.charge_surface_static(surface_target: Surface, charge_density_coulombs_m2: Float)`:
+  * Deposita carga estática latente sobre picaportes, rejas metálicas, consolas o charcos de agua. Cualquier entidad que haga contacto sin toma de tierra cierra el circuito y absorbe la descarga acumulada.
+
+#### G. `Electro.SignalJamming` (Inhibición y Ruido de Radiofrecuencia)
+* `.emit_rf_interference(band: [RADIO_COMMS | SENSOR_TELEMETRY | DATA_BUS], dbm_power: Float, radius_m: Float)`:
+  * Inunda el espectro electromagnético local con ruido blanco sostenido, bloqueando transmisiones de radio, balizas y enlace de datos de drones enemigos sin dañar físicamente el hardware.
 
 ---
 
 ### 👁️ 6. `RuneScript.Elements.Aether` (`Aether` / Éter Primordial)
-* **Dominio Físico:** Entropía de vacío, alteración de constantes cósmicas y remanentes del [[Magia Artificial y Reino Olvidado|Reino Olvidado]].
-* **Afinidad Elemental:** Ninguna / Sangre Primordial.
-* **Restricción:** Exclusivo de **Rango S** y **Rango SSS**. Exige artefactos de aleaciones divinas.
+Alteración de constantes físicas fundamentales y entropía cósmica. *Restringido a Rango S y SSS.*
 
-#### Clases y Métodos:
-1. **`EntropicFlux` (Desintegración de Leyes):**
-   * `.decay_matter(target: Any, half_life_seconds: Float)`
-     * *Efecto:* Acelera la entropía molecular; el objetivo envejece, se oxida o se convierte en polvo gris en segundos.
-   * `.dissolve_magic_matrix(target_sequence: SequenceID)`
-     * *Efecto:* Descompila y borra el código de un hechizo enemigo activo en el aire.
-2. **`Singularity` (Masa Gravitacional Anómala):**
-   * `.collapse_micro_point(point: Point, gravitational_pull: Float) -> SingularityCore`
-     * *Efecto:* Crea un micro-agujero gravitatorio que devora luz y materia cercana.
-   * `.spatial_tear(length_m: Float, duration_ticks: Int)`
-     * *Efecto:* Desgarra el espacio creando una grieta donde las armas no pueden penetrar.
-3. **`RunicFabric` (Runas Divinas no Compiladas):**
-   * `.invoke_forgotten_glyph(glyph_id: DivineRune)`
-     * *Efecto:* Fuerza la manifestación de un milagro divino original. Requiere tirada de `[✨] Control (5+)` so pena de desintegración del operador.
+#### A. `Aether.Entropy` (Degradación de Estructuras)
+* `.accelerate_decay(matter_target: Any, half_life_factor: Float)`:
+  * Incrementa la tasa de entropía molecular; el objetivo sufre desintegración o corrosión acelerada en cuestión de milisegundos.
+
+#### B. `Aether.Spacetime` (Curvatura Local)
+* `.distort_local_metric(point: Point, curvature_tensor: Float) -> SpatialDistortion`:
+  * Genera una deformación en el espacio local que desvía trayectorias de luz, sonido y proyectiles cinéticos.
+
+#### C. `Aether.Matrix` (Interferencia de Código Mágico)
+* `.decompile_active_flux(target_sequence: SequenceID)`:
+  * Ataca la matriz lógica de un hechizo enemigo en ejecución, disolviendo sus variables y forzando una excepción en el artefacto rival.
+
+#### D. `Aether.Topology` (Plegado Métrico y Puentes Espaciales)
+* `.anchor_metric_fold(anchor_a: Point, anchor_b: Point, throat_radius_m: Float) -> MetricBridge`:
+  * Pliega la métrica euclidiana conectando dos coordenadas distantes mediante un puente topológico de distancia cero (puente de Einstein-Rosen sostenido). Permite transferir proyectiles, fluidos o personas instantáneamente entre ambos puntos mientras se mantenga el flujo bioeléctrico.
+
+#### E. `Aether.ChronoDilation` (Dilatación del Marco Temporal Local)
+* `.set_temporal_dilation_factor(volume_m3: Float, dilation_factor: Float)`:
+  * Modifica la tasa de flujo del tiempo en un marco de referencia local.
+  * *Factor < 1.0 (Ralentización):* Proyectiles, ondas y entidades dentro del volumen se mueven a velocidad microscópica, otorgando tiempo de reacción táctica.
+  * *Factor > 1.0 (Aceleración):* Acelera procesos de forma salvaje (una corrosión, hemorragia o combustión se resuelve en una fracción de segundo).
+
+#### F. `Aether.VacuumFlux` (Energía de Vacío Cuántico y Fuerza de Casimir)
+* `.induce_casimir_gradient(surface_a: Surface, surface_b: Surface, attraction_joules: Float)`:
+  * Modula las fluctuaciones cuánticas del estado fundamental entre dos superficies materiales sin medio físico intermedio, induciendo una compresión violenta que aplasta o desgarra blindajes ignorando su dureza convencional.
+
+#### G. `Aether.Constants` (Sobreescritura de Constantes Universales Locales)
+* `.override_local_constant(zone: Area, constant_id: UniversalConstant, multiplier: Float)`:
+  * Reescribe transitoriamente una constante física fundamental del cosmos dentro de un volumen delimitado.
+
+##### 📋 Catálogo Oficial de Constantes Modificables (`UniversalConstant.*`)
+
+| ID de Constante | Símbolo Físico | Ley Gobernada | Efecto Táctico al Alterar Multiplicador (`multiplier`) |
+| :--- | :---: | :--- | :--- |
+| `VACUUM_PERMITTIVITY` | $\varepsilon_0$ | Permisividad eléctrica del vacío | **$< 1.0$:** El aire no soporta voltaje; los arcos de rayo colapsan y no pueden dispararse.<br>**$> 1.0$:** Hiperconductividad de vacío; las chispas saltan a decenas de metros. |
+| `VACUUM_PERMEABILITY` | $\mu_0$ | Permeabilidad magnética | **$< 1.0$:** Los campos magnéticos se disuelven; balas e imanes pierden interacción electromagnética.<br>**$> 1.0$:** Inducción magnética masiva; metales quedan clavados al suelo. |
+| `GRAVITATIONAL_COUPLING` | $G$ | Constante de gravitación universal | **$= 0.0$:** Gravedad cero absoluta en la burbuja.<br>**$< 0.0$:** Inversión gravitacional; todo cae violentamente hacia el cielo.<br>**$> 2.0$:** Hipergravedad de aplastamiento. |
+| `LOCAL_LIGHT_SPEED` | $c$ | Límite de propagación electromagnética | **$< 1.0$:** Reduce la velocidad de la luz y el radio; genera retraso extremo en visores y sensores ópticos rivales.<br>**$> 1.0$:** Aceleración causal de pulsos de energía. |
+| `BOLTZMANN_TRANSFER` | $k_B$ | Constante de dispersión térmica | **$= 0.0$:** Cero termodinámico adiabático perfecto; nada puede enfriarse ni calentarse dentro de la zona (inmunidad térmica total mientras dure). |
+| `PLANCK_ACTION_QUANTUM` | $\hbar$ | Umbral de indeterminación cuántica | **$> 10^3$:** Incertidumbre a escala macroscópica; la materia y los proyectiles parpadean en múltiples posiciones probabilísticas a la vez, volviéndose casi imposibles de acertar. |
+
+---
+
+## 3. Ejemplo Canónico: Construcción Algorítmica de un Proyectil de Plasma
+
+A continuación se muestra cómo un Especialista debe concatenar primitivas de **cuatro librerías distintas** (`Aero`, `Pyro`, `Kinetics`, `Triggers`) para construir una esfera de plasma propulsada:
 
 ```python
-# Ejemplo de Moldeo de Aether (Rango S / SSS):
-IMPORT RuneScript.Elements.Aether AS Aether;
+# ==============================================================================
+# SECUENCIA: EsferaDePlasma // DEMOSTRACIÓN DE ARQUITECTURA MODULAR
+# ==============================================================================
 
-Aether.EntropicFlux.decay_matter(target=TitanShield, half_life_seconds=0.5);
+IMPORT RuneScript.Elements.Air AS Aero;
+IMPORT RuneScript.Elements.Fire AS Pyro;
+IMPORT RuneScript.Kinetics.Vector AS KineticVector;
+IMPORT RuneScript.Triggers AS Triggers;
+
+SEQUENCE EsferaDePlasma(Target: Entity) {
+    HEADER {
+        Rank: "B";
+        Affinity: "Fire";
+        Control_Threshold: 2;
+    }
+
+    EXECUTE {
+        # PASO 1: Condensar bolsón de aire ambiental como comburente base
+        GasPocket = Aero.Density.compress_gas(volume_m3=0.25, ratio=3.5);
+
+        # PASO 2: Elevar temperatura e ionizar el gas a estado de plasma
+        Pyro.Thermal.excite_molecules(target_zone=GasPocket, temp_celsius=2600.0);
+        Core = Pyro.Plasma.ionize_gas(gas_pocket=GasPocket, energy_density=HIGH);
+
+        # PASO 3: Confinar el núcleo en una envoltura esférica estable
+        Envelope = Pyro.Confinement.bind_sphere(energy_core=Core, radius_m=0.20);
+        Envelope.compress(factor=1.5); # Densificación del núcleo
+
+        # PASO 4: Auditoría de seguridad del campo antes de acelerar
+        IF (!Envelope.is_stable()) {
+            ABORT("Inestabilidad de contención: colapso de campo evitado");
+        }
+
+        # PASO 5: Impulso vectorial balístico hacia el objetivo
+        Direction = KineticVector.calculate_line(from=Operator.Hand, to=Target.CenterOfMass);
+        KineticVector.apply_impulse(target=Envelope, vector=Direction, force_newtons=400.0);
+
+        # PASO 6: Disparador de impacto (colisión con entidad o terreno)
+        Triggers.OnCollision(target=Envelope) {
+            Envelope.release(); # Se disuelve la barrera liberando la onda térmica
+            Pyro.Combustion.ignite_surface(radius_m=3.0, burn_rate=STEADY);
+        }
+    }
+
+    SAFETY_OVERFLOW {
+        ON Control_Failure:
+            # En caso de desconcentración, se disipa la energía al suelo verticalmente
+            Envelope.release();
+            Pyro.Thermal.absorb_heat(source=Core, sink=CHASSIS_HEAT_SINK, joules=5000.0);
+            Operator.TakeStress(amount=1, type="Mental");
+    }
+}
 ```
 
 ---
 
-## 3. Matriz Comparativa de Librerías
+## 4. Matriz de Primitivas Físicas por Elemento
 
-| Elemento | Namespace | Propiedad Física Primaria | Impacto Típico en FATE | Riesgo de Fallo Bioeléctrico |
-| :--- | :--- | :--- | :--- | :--- |
-| **Aire** | `Elements.Air` | Presión Barométrica / Vacío | Movilidad, Desarme, Desvío | Caídas, despresurización de tímpanos |
-| **Fuego** | `Elements.Fire` | Excitación Térmica / Plasma | Daño Letal Directo, Fundición | Quemaduras cutáneas, sobrecalentamiento |
-| **Agua** | `Elements.Water` | Hidrostática / Fases Hielo-Vapor | Control de Terreno, Corte, Barreras | Congelación de extremidades, ahogo |
-| **Tierra** | `Elements.Earth` | Cohesión Litológica / Magnetismo | Cobertura, Fosas, Dureza | Sobrecarga ósea, fracturas por retroceso |
-| **Rayo** | `Elements.Lightning` | Diferencial de Tensión / Arco | Ataque Instantáneo, EMP, Aturdimiento | Paro cardíaco, convulsiones sinápticas |
-| **Éter** | `Elements.Aether` | Entropía Pura / Gravedad Anómala | Aniquilación, Alteración Espacial | Borrado de memoria, disolución celular |
+| Elemento | Namespace | Propiedades Físicas Gobernadas | Submódulos Atómicos |
+| :--- | :--- | :--- | :--- |
+| **Aire** | `Elements.Air` | Presión diferencial, densidad gaseosa, corrientes, filtrado, fricción y acústica | `Pressure`, `Density`, `GasFlow`, `Composition`, `Drag`, `Acoustics`, `ThermalShift` |
+| **Fuego** | `Elements.Fire` | Agitación molecular, ignición química, plasma, radiación térmica y subproductos | `Thermal`, `Combustion`, `Plasma`, `Radiation`, `Byproducts`, `Flashpoint`, `Confinement` |
+| **Agua** | `Elements.Water` | Extracción de humedad, cambios de fase, tensión superficial, solutos, adherencia y flujo | `Gathering`, `Phase`, `FluidDynamics`, `Solutes`, `Capillarity`, `FlowRegime`, `Osmosis` |
+| **Tierra** | `Elements.Earth` | Cohesión litológica, reología granular, magnetismo, nucleación, sismología, textura, porosidad y piezoelectricidad | `Lattice`, `Granular`, `Ferrous`, `Crystalline`, `Seismic`, `SurfaceTexture`, `Porosity`, `Piezoelectric` |
+| **Rayo** | `Elements.Lightning` | Ruptura dieléctrica, carga capacitiva, arcos, magnetismo de Lorentz, bioelectricidad, estática y jamming | `Dielectric`, `Charge`, `Circuit`, `Magnetics`, `Bioelectric`, `Static`, `SignalJamming` |
+| **Éter** | `Elements.Aether` | Entropía molecular, curvatura métrica, descompilación, topología, dilatación temporal, vacío y constantes cósmicas | `Entropy`, `Spacetime`, `Matrix`, `Topology`, `ChronoDilation`, `VacuumFlux`, `Constants` |
 
 ---
 
-## 4. Entidades Relacionadas
+## 5. Entidades Relacionadas
 * [[Macro de Librerias SCMEH]]
-* [[Calculo de Rangos SCMEH - Big-O y Flujo]]
 * [[Manual de Programacion SCMEH]]
+* [[Calculo de Rangos SCMEH - Big-O y Flujo]]
+* [[Secuencias de Hechizos SCMEH]]
 * [[Artefactos de Ejecucion]]
-* [[Los Especialistas]]
 * [[Reglas FATE - Sistema de Magia Artificial]]

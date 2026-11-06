@@ -20,177 +20,204 @@ updated: 2026-11-05
 
 # 📦 Macro General de Librerías S.C.M.E.H. (Arquitectura SDK)
 
-> *"Un conjuro militar no es una masa informe de energía; es una suite de software bien modulada. Quien mezcla el moldeo elemental con la cinemática y los sensores de proximidad sin orden, solo logra fundir su propio catalizador."*
+> *"Un conjuro militar no es una masa informe de energía ni un botón prefabricado; es un programa algorítmico bien estructurado. Quien intente proyectar calor sin aislar comburente, confinar la geometría y calcular el vector de impulso, solo conseguirá fundir su propio catalizador y quemar las terminales bioeléctricas de su brazo."*
 > — Tratado de Arquitectura de Sistemas, Academia de [[Ingenieros y Alquimistas]]
 
 ---
 
-## 1. Filosofía de Modularidad
+## 1. Filosofía de Arquitectura por Capas Atómicas
 
-Para evitar la redundancia y permitir que los jugadores diseñen hechizos verdaderamente creativos y tácticos, el estándar **RuneScript** divide su código en dos grandes familias de librerías:
+Para garantizar que los jugadores de **FATE Básico** deban pensar de forma verdaderamente táctica e ingenieril al crear o modificar hechizos, el estándar **RuneScript** prohíbe las funciones de "hechizo de un solo paso". El SDK se organiza en **capas de responsabilidades estrictamente desacopladas**:
 
-1. **Librerías de Moldeo Elemental (`Elements`):** Encargadas *única y exclusivamente* de interactuar con la materia física del elemento (darle forma, variar su temperatura, densidad, fase o compresión).
-2. **Librerías de Acciones y Sistemas Especializados:** Controlan la dinámica de ejecución independiente del elemento (velocidad, sensores de activación, óptica/ilusión, reparación de hardware, telepatía o seguridad).
+1. **Capa de Materia y Estado (`Elements.*`):** Altera propiedades físicas elementales (temperatura, presión, ionización, enlaces de red o cambios de fase). No contiene lógica balística ni de detonación.
+2. **Capa de Confinamiento y Geometría (`Geometry.*` / `Confinement.*`):** Retiene la energía o masa moldeada dentro de una forma estable (esfera, cilindro, plano) para evitar fugas descontroladas y regular su densidad volumétrica.
+3. **Capa de Dinámica y Movimiento (`Kinetics.*`):** Transfiere momento cinético, aceleraciones progresivas, impulsos balísticos o manipula la masa inercial.
+4. **Capa de Disparadores y Eventos (`Triggers.*`):** Detecta las condiciones que detonan, sostienen o liberan las fases del algoritmo (`OnCollision`, temporizadores, proximidad, sensores o claves de voz).
+5. **Capas Especializadas y Auxiliares:** Percepción sensorial (`Sensory`), enlaces mentales (`Neural`), mantenimiento de hardware (`Engineering`) y protocolos de contención (`Safety`).
 
 ```mermaid
 flowchart TD
     SDK["📦 SDK RÚNICO (RuneScript Standard Library)"]
     
-    SDK --> ELEM["🌌 1. Moldeo Elemental (Elements)"]
-    SDK --> KIN["⚡ 2. Cinética y Movimiento (Kinetics)"]
-    SDK --> TRIG["⏱️ 3. Disparadores e Interfaz (Triggers)"]
-    SDK --> SENS["👁️ 4. Ilusiones y Percepción (Sensory)"]
-    SDK --> NEUR["🧠 5. Red Sináptica y Psíquica (Neural)"]
-    SDK --> ENG["🛠️ 6. Ingeniería y Mantenimiento (Engineering)"]
-    SDK --> SAFE["🛡️ 7. Seguridad y Contención (Safety)"]
+    SDK --> ELEM["🌌 1. Materia y Estado (Elements)"]
+    SDK --> CONF["📐 2. Confinamiento y Forma (Geometry / Confinement)"]
+    SDK --> KIN["⚡ 3. Cinética y Trayectorias (Kinetics)"]
+    SDK --> TRIG["⏱️ 4. Disparadores y Eventos (Triggers)"]
+    SDK --> SENS["👁️ 5. Ilusiones y Percepción (Sensory)"]
+    SDK --> NEUR["🧠 6. Red Sináptica y Psíquica (Neural)"]
+    SDK --> ENG["🛠️ 7. Mantenimiento y Hardware (Engineering)"]
+    SDK --> SAFE["🛡️ 8. Seguridad y Disipación (Safety)"]
 ```
 
 ---
 
-## 2. Catálogo de Capas y Librerías
-
-### 🌌 Capa 1: Moldeo Elemental (`RuneScript.Elements.*`)
-*Manipula exclusivamente el estado físico de la materia. No maneja balística ni sensores.*
-
-* **`Elements.Air` (`Aero`):** Ver [[Libreria SCMEH - AeroUtils|Librería AeroUtils]]. Regula presiones barométricas (alta/baja presión), vacío parcial, bolsas de sustentación, densidad ambiental y vórtices.
-* **`Elements.Fire` (`Pyro`):** Generación de ignición exotérmica, modulación de temperatura puntual (°C), combustión de comburentes y generación de plasma ionizado.
-* **`Elements.Water` (`Hydro`):** Hidrodinámica, condensación de humedad ambiental, tensión superficial y cambios de fase (agua líquida, escarcha/hielo sólido y vapor hirviente).
-* **`Elements.Earth` (`Geo`):** Cohesión mineral, polarización magnética de vetas ferrosas, licuefacción de suelos, cristalización de sílice y dureza geológica.
-* **`Elements.Lightning` (`Electro`):** Diferencial de potencial (tensión/voltios), ionización del medio, direccionamiento de arco voltaico y acumulación estática.
-* **`Elements.Aether` (`Aether`):** Materia primordial del [[Magia Artificial y Reino Olvidado|Reino Olvidado]]. Manejo de entropía, desintegración molecular y singularidades (Exclusivo Rango S y SSS).
+## 2. Catálogo General de Capas y Módulos
 
 ---
 
-### ⚡ Capa 2: Cinética y Movimiento (`RuneScript.Kinetics.*`)
-*Controla el comportamiento espacial y la velocidad de cualquier masa u objeto.*
+### 🌌 Capa 1: Primitivas de Materia y Estado (`RuneScript.Elements.*`)
+*(Para la especificación exhaustiva de cada clase y método, consúltese el [[Compendio de Librerias Elementales SCMEH]]).*
 
-* **`Kinetics.Speed`:** Aceleración progresiva, aceleración instantánea por ráfaga (`BURST`), desaceleración controlada y fijación de velocidad terminal.
-* **`Kinetics.Vector`:** Bloqueo de trayectorias lineales, cálculos de parábolas balísticas, cambios de vector en ángulo recto y atracción/repulsión vectorial.
-* **`Kinetics.Gravity`:** Anulación transitoria de masa inercial (gravedad cero localizada), anclajes cinéticos (fijar un objeto en el espacio como si estuviera soldado al aire) y micro-pozos atractores.
+* **`Elements.Air` (`Aero`):**
+  * `Pressure`: Gradientes de presión barométrica y vacío localizado.
+  * `Density`: Compresión y expansión controlada de masa gaseosa.
+  * `GasFlow`: Corrientes laminares vectoriales y vórtices centrífugos.
+* **`Elements.Fire` (`Pyro`):**
+  * `Thermal`: Agitación molecular exotérmica y absorción/drenaje calórico.
+  * `Combustion`: Puntos de ignición química y propagación superficial de fuego.
+  * `Plasma`: Ionización supercrítica de gases precalentados.
+* **`Elements.Water` (`Hydro`):**
+  * `Gathering`: Extracción y acumulación de humedad ambiental.
+  * `Phase`: Cambios de estado (líquido, cristalización rígida en hielo, vaporización súbita).
+  * `FluidDynamics`: Tensión superficial elástica, presurización hidráulica y viscosidad no newtoniana.
+* **`Elements.Earth` (`Geo`):**
+  * `Lattice`: Cohesión litológica de minerales y planos de corte estructural.
+  * `Granular`: Licuefacción de suelos (rotura de fricción granular) y recompresión instantánea.
+  * `Ferrous`: Polarización magnética de vetas subterráneas.
+  * `Crystalline`: Precipitación y nucleación direccional de prismas líticos.
+* **`Elements.Lightning` (`Electro`):**
+  * `Dielectric`: Trazado de canales ionizados de baja resistencia en el aire.
+  * `Charge`: Acumulación electrostática en catalizadores y capacitores.
+  * `Circuit`: Cierre de arcos voltaicos y pulsos de inducción electromagnética.
+* **`Elements.Aether` (`Aether` - Rango S/SSS):**
+  * `Entropy`: Aceleración de la degradación molecular.
+  * `Spacetime`: Distorsión de la curvatura métrica local.
+  * `Matrix`: Descompilación y borrado de matrices de hechizos rivales.
 
 ---
 
-### ⏱️ Capa 3: Disparadores e Interfaces (`RuneScript.Triggers.*`)
-*Define la condición exacta que dispara o pausa el algoritmo.*
+### 📐 Capa 2: Confinamiento y Geometría (`RuneScript.Geometry.*`)
+*Evita que la energía o masa condensada se disipe caóticamente antes de alcanzar el objetivo.*
 
-* **`Triggers.Voice`:**
-  * `on_vocal_command("clave")`: Dispara la secuencia al detectar una orden fonética hablada.
-  * `vocal_authorization(user_id)`: Bloqueo biométrico por timbre de voz del Especialista.
+* **`Geometry.Confinement`:**
+  * `bind_sphere(target_core, radius_m) -> Envelope`: Genera una membrana de contención esférica.
+  * `bind_cylinder(target_core, length_m, radius_m) -> Envelope`: Moldeo en haz o estaca direccional.
+  * `bind_sheet(target_core, width_m, height_m, thickness_mm) -> Envelope`: Pantalla o escudo plano.
+* **`Geometry.Transform`:**
+  * `scale_volume(envelope, factor)`: Aumenta o comprime el volumen manteniendo la masa interna.
+  * `anchor_to_caster(envelope, offset_vector)`: Fija la geometría a la posición del operador mientras se canaliza.
+
+---
+
+### ⚡ Capa 3: Cinética y Movimiento (`RuneScript.Kinetics.*`)
+*Controla el comportamiento inercial y espacial de cualquier masa, envoltura o proyectil.*
+
+* **`Kinetics.Vector`:**
+  * `calculate_line(from_point, to_point) -> Vector3`: Traza el vector de puntería hacia el centro de masa del blanco.
+  * `apply_impulse(target, vector, force_newtons)`: Aplica una fuerza instantánea para proyectar el objetivo.
+  * `lock_trajectory(target, vector, max_deviation_deg)`: Impide que vientos o impactos desvíen la trayectoria.
+* **`Kinetics.Speed`:**
+  * `accelerate_progressive(target, acceleration_mps2, terminal_velocity)`: Empuje balístico continuo.
+  * `decelerate(target, rate_mps2)`: Frenado controlado antes de colisión amiga.
+* **`Kinetics.Gravity`:**
+  * `nullify_inertial_mass(target, duration_sec)`: Reduce la resistencia inercial a cero (hace que objetos pesados floten con mínimo esfuerzo).
+  * `anchor_in_space(target)`: Clava una masa a una coordenada fija del espacio tridimensional como si estuviese soldada a la realidad.
+
+---
+
+### ⏱️ Capa 4: Disparadores y Eventos (`RuneScript.Triggers.*`)
+*Gobierna las condiciones lógicas bajo las cuales se liberan, cambian de fase o explotan los efectos.*
+
+* **`Triggers.Collision`:**
+  * `OnCollision(target, on_hit_callback)`: Se ejecuta en el instante milimétrico en que el objeto hace contacto físico o energético con un obstáculo.
 * **`Triggers.Proximity`:**
-  * `proximity_alarm(radius_m, target_filter)`: Modos de trampa o mina defensiva.
-  * `thermal_sensor(temp_threshold)`: Se activa si una fuente de calor biológica entra al radio.
+  * `OnProximity(origin, radius_m, entity_filter, callback)`: Activa subrutinas cuando una entidad biológica entra en el perímetro configurado.
 * **`Triggers.Chronos`:**
-  * `timer_delay(seconds)`: Retardo de detonación controlada.
-  * `sync_pulse(channel)`: Coordinación de disparos simultáneos entre escuadras de Especialistas.
-* **`Triggers.Remote`:**
-  * `manual_detonator(signal_code)`: Disparo a distancia mediante radiofrecuencia o pulso rúnico.
+  * `OnTimer(duration_seconds, callback)`: Retardo programado (para granadas temporizadas o trampas de área).
+* **`Triggers.Voice`:**
+  * `OnVocalCommand(voice_signature, keyphrase, callback)`: Disparo condicionado a una clave fónica autorizada del operador.
 
 ---
 
-### 👁️ Capa 4: Ilusiones y Percepción (`RuneScript.Sensory.*`)
+### 👁️ Capa 5: Ilusiones y Percepción (`RuneScript.Sensory.*`)
 *Engaña los receptores sensoriales biológicos y electrónicos.*
 
 * **`Sensory.Optics`:**
-  * `refract_light(target)`: Camuflaje mimético o invisibilidad angular.
+  * `refract_light(target)`: Camuflaje mimético o invisibilidad angular por desvío de fotones.
   * `project_hologram(geometry, loop_anim)`: Proyección de dobles, espectros visuales y señuelos tridimensionales.
 * **`Sensory.Acoustics`:**
-  * `ventriloquism(coords, audio_sample)`: Emite voces o ruidos en un punto alejado del operador.
-  * `mute_frequencies(band)`: Silenciamiento total de pasos, disparos o motores.
-* **`Sensory.Phantom`:**
-  * `false_sensory_feedback(sense, pattern)`: Inducción de percepciones falsas (olor a gas quemado, sabor ferroso, sensación táctil de calor o dolor).
+  * `mute_frequencies(band)`: Silenciamiento total de pasos, disparos o turbinas neumáticas.
+  * `project_phantom_audio(coords, audio_sample)`: Emisión de sonido deslocalizado para crear distracciones.
 
 ---
 
-### 🧠 Capa 5: Red Sináptica y Psíquica (`RuneScript.Neural.*`)
+### 🧠 Capa 6: Red Sináptica y Psíquica (`RuneScript.Neural.*`)
 *Interactúa con el sistema neurológico del usuario o de objetivos vivos.*
 
-* **`Neural.MindLink`:** Enlace de comunicación sináptica bidireccional entre mentes de [[Los Especialistas]].
-* **`Neural.Empathy`:**
-  * `suppress_fear(target)`: Supresión de pánico y dolor (FATE: +2 a tiradas de Voluntad contra estrés mental).
-  * `induce_dread(target)`: Proyección de un aura de terror o sumisión paralizante.
+* **`Neural.MindLink`:**
+  * `establish_channel(target_specialist, bandwidth)`: Enlace telepático bidireccional entre operadores.
 * **`Neural.Cognition`:**
-  * `sensory_overload(target)`: Bombardeo bioeléctrico que aturde o causa ceguera/sordera temporal.
-  * `memory_echo_scan(object)`: Lectura de las impresiones psíquicas residuales dejadas en un objeto.
+  * `suppress_pain_receptors(target)`: Suprime el dolor físico temporalmente (+2 a tiradas de Voluntad en FATE).
+  * `synaptic_disruption_pulse(target_brain)`: Descarga que satura nervios ópticos o vestibulares provocando mareo y desorientación.
 
 ---
 
-### 🛠️ Capa 6: Ingeniería y Mantenimiento (`RuneScript.Engineering.*`)
-*Para reparaciones tácticas, soporte de equipo y gestión de datos.*
+### 🛠️ Capa 7: Mantenimiento e Ingeniería (`RuneScript.Engineering.*`)
+*Para reparaciones de campaña, monitorización de temperatura y soporte de slots.*
 
-* **`Engineering.Repair`:**
-  * `reconstruct_molecular(target, integrity_pct)`: Restaura metales fracturados, armas dañadas o blindajes.
-  * `seal_breach(hull_point)`: Sellado estanco de emergencia en tanques, esclusas o tuberías.
 * **`Engineering.Diagnostics`:**
-  * `scan_artefact_heat(target_artefact)`: Monitoriza la temperatura de un [[Artefactos de Ejecucion|Artefacto de Ejecución]] para evitar sobrecalentamientos.
-  * `bypass_damaged_bus(circuit)`: Puenteo provisional de una ranura rota para disparar un último hechizo.
+  * `get_bus_temperature(artefact_chassis) -> Float`: Monitoriza el calor acumulado en los disipadores del hardware.
+  * `bypass_fried_bus(slot_id)`: Puenteo de emergencia de una ranura de memoria quemada para disparar un último recurso.
 * **`Engineering.MemoryChip`:**
-  * `burn_single_use_chip(sequence_data)`: Quema y compila secuencias en chips de memoria desechables de un solo uso.
+  * `burn_single_use_chip(sequence_data) -> ChipObject`: Compila y graba la secuencia en un chip físico desechable.
 
 ---
 
-### 🛡️ Capa 7: Seguridad y Contención (`RuneScript.Safety.*`)
-*Librería transversal obligatoria para amortiguar el retroceso ante fallos en tiradas.*
+### 🛡️ Capa 8: Seguridad y Disipación (`RuneScript.Safety.*`)
+*Módulos transversales obligatorios en el bloque `SAFETY_OVERFLOW` para mitigar el retroceso bioeléctrico.*
 
 * **`Safety.Vent`:**
-  * `shunt_heat_to_atmosphere()`: Descarga la sobretensión calórica al aire.
-  * `ground_electrical_surge()`: Descarga energía residual a tierra o chasis.
-* **`Safety.Firewall`:**
-  * `sever_neural_link()`: Desconexión de emergencia antes de sufrir daño cerebral ante ataques mentales.
+  * `shunt_heat_to_atmosphere(joules)`: Dispersa el exceso calórico en el aire circundante antes de que afecte la mano del lanzador.
+  * `ground_electrical_surge()`: Deriva picos de alto voltaje al chasis metálico o al piso.
 * **`Safety.Abort`:**
-  * `safe_cooldown_shutdown()`: Apagado progresivo del artefacto sin explosión.
+  * `collapse_confinement_inward(envelope)`: Disuelve el campo de contención de forma progresiva sin estallido expansivo.
 
 ---
 
-## 3. Ejemplo Maestro: Mina Táctica con Sensor y Voz
+## 3. Demostración de Arquitectura: Trampa Defensiva de Suelo Licuado con Cierre Rígido
 
-A continuación se muestra cómo un jugador importa y combina módulos de distintas capas en un único algoritmo coherente:
+El siguiente ejemplo demuestra cómo se entrelazan de forma estrictamente modular **tres capas** (`Geo`, `Triggers`, `Safety`):
 
 ```python
-# =========================================================
-# S.C.M.E.H. TÁCTICA // MINA DE VÓRTICE PROGRAMABLE
-# ARTEFACTO: RANGO B // REQUISITO: [✨] CONTROL (2)
-# =========================================================
+# ==============================================================================
+# SECUENCIA: CepoLitologico // DEMOSTRACIÓN DE LÓGICA PASO A PASO
+# OBJETIVO: Licuar el piso y solidificarlo cuando el enemigo lo pise
+# ==============================================================================
 
-IMPORT RuneScript.Elements.Air AS Aero;
-IMPORT RuneScript.Kinetics.Speed AS Kin;
+IMPORT RuneScript.Elements.Earth.Granular AS Granular;
 IMPORT RuneScript.Triggers.Proximity AS Sensor;
-IMPORT RuneScript.Triggers.Voice AS Voice;
 IMPORT RuneScript.Safety AS Safe;
 
-SEQUENCE MinaVortice(AnchorPoint: Point) {
+SEQUENCE CepoLitologico(TargetZone: Area) {
     HEADER {
         Rank: "B";
-        Affinity: "Air";
+        Affinity: "Earth";
         Control_Threshold: 2;
         Recycle: "Per_Scene";
     }
 
     PARAMETERS {
-        Detection_Radius: 3.5.meters;
-        Compression_Ratio: 4.5;
+        Trap_Radius: 2.0.meters;
+        Depth: 0.8.meters;
     }
 
     EXECUTE {
-        # 1. Arma el sensor de proximidad en el suelo
-        Sensor.proximity_arm(radius_m=Detection_Radius, target_type="HostileEntity");
+        # PASO 1: Anular la fricción de grano en el suelo seleccionado (crear fosa licuada)
+        Granular.fluidize_soil(ground_area=TargetZone, depth_m=Depth);
 
-        # 2. Cláusula de cancelación por voz del portador
-        IF (Voice.detect_command("¡CODIGO CERO!")) {
-            ABORT("Mina desactivada por clave vocal autorizada");
+        # PASO 2: Armar sensor de proximidad sobre el área afectada
+        Sensor.OnProximity(origin=TargetZone.center, radius_m=Trap_Radius, entity_filter="Hostile") {
+            # PASO 3: En el instante en que el blanco pisa el terreno licuado, recompactar de golpe
+            Granular.recompact_soil(ground_area=TargetZone);
+            # Resultado en FATE: El blanco queda con el aspecto [Atrapado en Suelo Petrificado]
         }
-
-        # 3. Moldeo elemental de alta densidad
-        Pocket = Aero.AirPressure.compress_pocket(volume_m3=2.0, density_ratio=Compression_Ratio);
-
-        # 4. Aceleración cinética de estallido
-        Kin.Speed.accelerate(target=Pocket, rate=INSTANT_BURST);
     }
 
     SAFETY_OVERFLOW {
         ON Control_Failure:
-            # En caso de fallo en tirada FATE, la detonación sale hacia arriba
-            Safe.Vent.shunt_shockwave_upward();
-            Safe.Vent.shunt_heat_to_atmosphere();
+            # Si el operador falla el control, el suelo se recompacta de inmediato
+            Granular.recompact_soil(ground_area=TargetZone);
+            Safe.Vent.shunt_heat_to_atmosphere(joules=1200.0);
     }
 }
 ```
@@ -198,8 +225,9 @@ SEQUENCE MinaVortice(AnchorPoint: Point) {
 ---
 
 ## 4. Entidades Relacionadas
+* [[Compendio de Librerias Elementales SCMEH]]
 * [[Manual de Programacion SCMEH]]
-* [[Libreria SCMEH - AeroUtils]]
+* [[Calculo de Rangos SCMEH - Big-O y Flujo]]
 * [[Artefactos de Ejecucion]]
 * [[Secuencias de Hechizos SCMEH]]
 * [[Los Especialistas]]
