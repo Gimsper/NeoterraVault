@@ -65,14 +65,14 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 
 ### 📊 HABILIDADES (Pirámide Fate)
 
-| Nivel | Habilidades |
-| :--- | :--- |
-| **Excelente (+5)** | *(Reservado para avances / Hitos Trascendentes)* |
-| **Enorme (+4)** | **`[✨] Control`** *(Umbral seguro de canalización mágica: Rango S / Resistencia rúnica)* |
-| **Grande (+3)** | **Voluntad**, **Pelear** |
-| **Bueno (+2)** | **Atletismo**, **Investigar**, **Disparar** |
-| **Normal (+1)** | **Percepción**, **Físico**, **Saber**, **Sigilo** |
-| **Mediocre (+0)** | *Todas las demás (Carisma, Contactos, Conducir, Engañar, Máquinas, Provocar, Recursos, Robar)* |
+| Nivel              | Habilidades                                                                                    |
+| :----------------- | :--------------------------------------------------------------------------------------------- |
+| **Excelente (+5)** | *(Reservado para avances / Hitos Trascendentes)*                                               |
+| **Enorme (+4)**    | **`[✨] Control`** *(Umbral seguro de canalización mágica: Rango S / Resistencia rúnica)*       |
+| **Grande (+3)**    | **Voluntad**, **Pelear**                                                                       |
+| **Bueno (+2)**     | **Atletismo**, **Investigar**, **Disparar**                                                    |
+| **Normal (+1)**    | **Percepción**, **Físico**, **Saber**, **Sigilo**                                              |
+| **Mediocre (+0)**  | *Todas las demás (Carisma, Contactos, Conducir, Engañar, Máquinas, Provocar, Recursos, Robar)* |
 
 ---
 
