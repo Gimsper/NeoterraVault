@@ -1,0 +1,6 @@
+# Configuración de cifrado automático con git-crypt
+# Cualquier archivo dentro de 99_Secretos_GM/ se cifra antes de hacer git commit/push
+99_Secretos_GM/** filter=git-crypt diff=git-crypt
+
+# Cualquier archivo con extensión .secret.md en cualquier carpeta también se cifra
+*.secret.md filter=git-crypt diff=git-crypt
