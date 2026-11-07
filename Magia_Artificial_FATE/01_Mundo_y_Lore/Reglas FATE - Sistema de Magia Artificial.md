@@ -67,13 +67,13 @@ Se incorpora la habilidad **`[✨] Control`** a la pirámide de habilidades del 
 
 ### Tabla de Equivalencia de Rangos y Control
 
-| Nivel de la Habilidad FATE | Valor Numérico | Rangos Seguros de Secuencia | Calificativo Operativo |
-| :--- | :---: | :--- | :--- |
-| **Mediocre (+1)** | `[✨] Control (1)` | **Rango C** | Principiante / Civil |
-| **Aceptable (+2)** | `[✨] Control (2)` | **Rango B** | Soldado / Operador Regular |
-| **Bueno (+3)** | `[✨] Control (3)` | **Rango A** | Élite / Operador Táctico |
-| **Grande (+4)** | `[✨] Control (4)` | **Rango S** | Maestro / Grado Estratégico |
-| **Excelente (+5+)** | `[✨] Control (5+)`| **Rango SSS** | Singularidad / Nivel Calamidad |
+| Nivel de la Habilidad FATE |   Valor Numérico   | Rangos Seguros de Secuencia | Calificativo Operativo         |
+| :------------------------- | :----------------: | :-------------------------- | :----------------------------- |
+| **Mediocre (+1)**          | `[✨] Control (1)`  | **Rango C**                 | Principiante / Civil           |
+| **Aceptable (+2)**         | `[✨] Control (2)`  | **Rango B**                 | Soldado / Operador Regular     |
+| **Bueno (+3)**             | `[✨] Control (3)`  | **Rango A**                 | Élite / Operador Táctico       |
+| **Grande (+4)**            | `[✨] Control (4)`  | **Rango S**                 | Maestro / Grado Estratégico    |
+| **Excelente (+5+)**        | `[✨] Control (5+)` | **Rango SSS**               | Singularidad / Nivel Calamidad |
 
 ---
 
@@ -85,6 +85,35 @@ Un **[[Artefactos de Ejecución|Artefacto de Ejecución]]** se gestiona en FATE 
 * **Slots (Ranuras de Memoria):** Cada slot alberga exactamente una secuencia de hechizo.
 * **Aspecto de Equipo:** Todo artefacto tiene un aspecto propio que describe su fabricación o desgaste (ej. *Catalizador Estándar de la Milicia*, *Brazalete con Blindaje de Cobre*).
 * **Retrocompatibilidad:** Puede cargar secuencias de su rango y de cualquier rango inferior (e.g. un catalizador Rango A puede cargar secuencias de rangos A, B y C).
+
+### Especificaciones de Hardware en Mesa de Juego
+
+Los cuatro componentes internos del artefacto modelan restricciones tácticas concretas en FATE:
+
+1. **RPU (CPU Rúnica) $\rightarrow$ Tipo de Acción y Complejidad Big-O:**
+   * $\mathcal{O}(1)$ (Rango C): Acción estándar de un solo objetivo.
+   * $\mathcal{O}(n)$ (Rango B): Puede actuar sobre objetivos múltiples en línea o con seguimiento.
+   * $\mathcal{O}(n^2)$ (Rango A): Ataques o efectos encadenados que cubren interacciones cruzadas en combate.
+   * *Latencia:* Un procesador rápido permite activar proezas defensivas como **Interrupción / Acción Libre**; un procesador bajo requiere una **Acción Completa**.
+2. **R-RAM (Búfer Sináptico) $\rightarrow$ Ventajas Mágicas Simultáneas:**
+   * Dicta cuántos **Aspectos de Situación con duración sostenida** puede mantener el personaje activos a la vez.
+   * *Rango C:* 1 aspecto activo (ej. si levita un objeto y luego levita otro, el primero cae).
+   * *Rango B:* 2 aspectos activos concurrentes.
+   * *Rango A:* 3 a 4 aspectos activos simultáneos.
+3. **V-RAM (Memoria Vectorial Espacial) $\rightarrow$ Escala de Zonas:**
+   * *Puntual (Rango C):* Solo afecta a un blanco en la misma zona del lanzador o a distancia de toque.
+   * *Zona Local (Rango B):* Puede afectar a toda la zona en la que se encuentra el blanco.
+   * *Multi-Zona (Rango A+):* Afecta a múltiples zonas adyacentes o a todo el campo de batalla de la escena.
+4. **TDP & Bus Térmico $\rightarrow$ Casillas de Estrés de Hardware:**
+   * Los artefactos de calidad poseen entre **1 y 3 casillas de Estrés de Hardware** (`[1]`, `[2]`).
+   * Cuando se fuerza una tirada o se realiza *Overclock*, el artefacto absorbe el impacto en sus casillas antes de que el daño pase al estrés físico o mental del Especialista.
+
+---
+
+### Mecánica de Overclocking
+El jugador puede declarar en su turno que **fuerza el procesador del artefacto** para ejecutar una secuencia un rango superior a sus especificaciones de fábrica:
+* **Coste:** Debe marcar obligatoriamente 1 casilla de estrés de hardware o añadir el Aspecto de Situación con 1 invocación gratuita para el enemigo: `[Disipadores al Rojo Vivo]` o `[Búfer Rúnico Corrupto]`.
+* Si las casillas de hardware se llenan, el catalizador sufre una Consecuencia de Equipo (`[Hardware Inutilizado]`).
 
 ---
 

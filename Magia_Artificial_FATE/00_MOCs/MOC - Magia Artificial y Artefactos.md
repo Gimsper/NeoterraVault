@@ -74,7 +74,7 @@ flowchart TD
 * **[[Ingenieros y Alquimistas]]:** La casta técnica indispensable. Hardware vs. software, calibración de catalizadores y la célebre cláusula de exención de responsabilidades.
 
 ### 2. Tecnología y Magia Pseudo-Mágica
-* **[[Artefactos de Ejecucion|Artefactos de Ejecución]]:** Catalizadores portátiles, jerarquía de Rangos (C, B, A, S, SSS), sistema de bahías o ranuras (slots), retrocompatibilidad descendente y protocolos de seguridad.
+* **[[Artefactos de Ejecucion|Artefactos de Ejecución]]:** Catalizadores bio-rúnicos portátiles, arquitectura de hardware (RPU, R-RAM, V-RAM, TDP/Bus), métodos de activación (triggers), factores de forma, jerarquía de Rangos (C, B, A, S, SSS), ranuras (slots), protocolos de overclocking y retrocompatibilidad.
 * **[[Secuencias de Hechizos SCMEH|Secuencias de Hechizos (SCMEH)]]:** Algoritmos digitales inspirados en runas divinas, imposibilidad de aprendizaje memorístico, chips de memoria de un solo uso y sincronía elemental.
 * **[[Calculo de Rangos SCMEH - Big-O y Flujo|Cálculo de Rangos (Big-O y Flujo)]]:** Sistema matemático para auditar secuencias combinando complejidad algorítmica $\mathcal{O}$, flujo bioeléctrico (`kR/s`), hilos de concurrencia y fusiones elementales.
 * **[[Manual de Programacion SCMEH|Manual de Programación RuneScript]]:** Estándar formal para que los jugadores escriban sus secuencias en pseudocódigo cyber-arcano: bloques de cabecera, parámetros, ejecución, protocolos de seguridad y exploits para FATE.
