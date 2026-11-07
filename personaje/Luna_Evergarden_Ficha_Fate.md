@@ -5,57 +5,59 @@
 
 ### 👤 IDENTIDAD
 * **Nombre:** Luna Evergarden
-* **Raza / Condición:** Especialista (humanoide bio-modificado con materiales del Reino Olvidado)
+* **Género:** Femenino (Mujer)
+* **Raza / Condición:** Especialista (humanoide bio-modificada con materiales del Reino Olvidado)
 * **Afinidad Elemental:** 🔥 **Pyro** (`RuneScript.Elements.Fire` — Termodinámica molecular, combustión, plasma y confinamiento térmico)
 * **Capacidad de Recuperación:** 3 (Puntos de Destino iniciales al inicio de cada sesión: 3)
-* **Descripción Breve:** Joven Especialista de porte erguido, mirada penetrante y una sonrisa ladeada cargada de mordacidad. Viste el uniforme de cadete militar de la Federación, llevado con calculada elegancia rebelde. En la mano o en su funda táctica porta su catalizador **Little Fox**, un dispositivo portátil de factor de forma similar a un smartphone reforzado con pantalla táctil de cuarzo rúnico; para él, este terminal no es un simple aparato, sino la consola de un virtuoso donde compone secuencias de fuego complejas, cargadas de efectos visuales deslumbrantes y geometrías térmicas milimétricas. Sobre el pecho o al cinto, en riguroso contraste, descansa una reliquia enmudecida por el fuego: el viejo catalizador de trinchera de su padre, derretido e inútil para la magia, pero su ancla emocional más sagrada.
+* **Descripción Breve:** Joven Especialista de porte erguido, mirada penetrante y una sonrisa ladeada teñida de mordacidad. Viste el uniforme de cadete militar de la Federación, portado con una calculada elegancia rebelde. En la mano o en su funda táctica lleva su catalizador **Little Fox**, un dispositivo de mano con formato similar a un smartphone blindado con pantalla táctil de cuarzo rúnico; para ella, este terminal no es una simple herramienta reglamentaria, sino la consola de una virtuosa donde compone secuencias de fuego complejas, dotadas de una geometría térmica milimétrica y efectos visuales despampanantes. Sobre el pecho o al cinto, en riguroso contraste, descansa una reliquia enmudecida por el fuego: el viejo catalizador de trinchera de su padre, derretido e inútil para la magia, pero su ancla emocional más sagrada.
 
 ---
 
-### 🎭 PERSONALIDAD Y PSICOLOGÍA: *«El Cínico Teatral (La Pira Iluminada)»*
+### 🎭 PERSONALIDAD Y PSICOLOGÍA: *«La Cínica Teatral (La Pira Iluminada)»*
 
-> *"Mis amigos del pueblo murieron sin que nadie supiera sus nombres, aplastados en el barro en menos de diez segundos. La vida humana es una broma corta y mediocre... así que si el remate va a ser el final de la mía, más vale que haga temblar el escenario. La mediocridad no entrará en mi obituario."*
+> *"Mis amigos del pueblo murieron sin que nadie supiera sus nombres, aplastados en el barro en menos de diez segundos. La vida humana es una broma corta y mediocre... así que si el remate va a ser el final de la mía, más vale que haga temblar el escenario. La mediocridad jamás entrará en mi obituario."*
 
 #### 1. El Odio a la Muerte Vulgar y la Sed de Trascendencia
-Haber visto a sus compañeros morir como ganado anónimo en la carretera le inoculó un asco visceral hacia la muerte simple, torpe o burocrática. Sabe que la infección por antimagia devora su mente poco a poco, y por eso mismo se niega a marchitarse en una cama vieja o perecer por una bala perdida en una guardia rutinaria. Luna vive con una urgencia febril: si su final está marcado, convertirá su vida y su combate en una pira deslumbrante que nadie pueda ignorar.
+Haber visto a sus compañeros morir como ganado anónimo en la carretera le inoculó un asco visceral hacia la muerte simple, torpe o burocrática. Aunque desconoce la naturaleza teórica de la "antimagia", intuye con certeza que el remolino caótico que ahora invade su cabeza está enlazado a los engendros que atacaron la caravana. Sabiendo que ese contagio devora su mente, se niega en redondo a marchitarse en una cama vieja o perecer por una bala perdida en una guardia rutinaria. Luna vive con una urgencia febril: si su final está marcado por esas criaturas, convertirá su vida y su combate en una pira deslumbrante que nadie pueda ignorar.
 
-#### 2. El Esteta del Plasma (Magia Despampanante)
+#### 2. La Esteta del Plasma (Magia Despampanante)
 Para Luna, un ataque de fuego ordinario es un insulto al arte de la programación rúnica:
 * **Sobrecomplejidad Estética:** Al operar el *Little Fox*, sus dedos no se limitan a introducir el valor de daño. En milisegundos concatena variables de confinamiento esférico (`Pyro.Confinement`), gradientes de color térmico (mutando del bermellón oscuro a un blanco de plasma cegador) y estelas de radiación geométrica (`Pyro.Plasma.ionize_gas`).
-* **Puesta en Escena:** Aunque la situación solo requiera disuadir, Luna programa la secuencia para que la deflagración dibuje una corona de fuego simétrica, una onda de calor resonante o una lluvia de chispas suspendidas. Prefiere arriesgar una décima de segundo extra antes que tolerar una explosión desprolija.
+* **Puesta en Escena:** Aunque la situación solo requiera disuadir, Luna programa la secuencia para que la deflagración dibuje una corona de fuego simétrica, una onda de calor resonante o una lluvia de ascuas suspendidas. Prefiere arriesgar una décima de segundo extra antes que tolerar una explosión desprolija.
 
 #### 3. El Talón de Aquiles: Su Padre en Cuidados Intensivos
-Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vulnerable: su padre moribundo es lo único que le impide inmolarse en una misión suicida hoy mismo. Frente a él no hay ironía ni teatralidad; solo el devoto hijo de un veterano, dispuesto a quemar el mundo o pactar con lo prohibido para mantenerlo con vida.
+Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vulnerable: su padre moribundo es lo único que le impide inmolarse en una misión suicida hoy mismo. Frente a él no hay ironía ni teatralidad; solo la devota hija de un veterano, dispuesta a quemar el mundo o forzar los secretos más prohibidos del laboratorio para mantenerlo con vida.
 
 ---
 
 ### 🏷️ ASPECTOS
 
 1. **Concepto Principal:**  
-   > **«Especialista novato, hijo de un veterano, marcado por la Antimagia»**  
-   * *Invocación (+2 o repetir):* Al aplicar combate táctico rudo heredado del frente, exigir acceso y credenciales militares, o mantenerse desafiante frente a monstruos cósmicos donde otros cadetes huyen despavoridos.  
-   * *Forzado (+1 Punto FATE):* Los altos mandos le asignan misiones suicidas o ingratas por ser recluta e "hijo de", los oficiales desconfían de sus métodos teatrales, o la burocracia obstaculiza sus investigaciones.
+   > **«Especialista novata, hija de un veterano, marcada por los Heraldos»**  
+   * *Invocación (+2 o repetir):* Al aplicar combate táctico rudo heredado del frente, exigir acceso y credenciales militares, o mantenerse desafiante frente a engendros monstruosos donde otros cadetes huyen despavoridos.  
+   * *Forzado (+1 Punto FATE):* Los altos mandos le asignan misiones suicidas o ingratas por ser recluta e "hija de", los oficiales desconfían de sus métodos teatrales, o la burocracia obstaculiza sus investigaciones.
 
 2. **Complicación:**  
-   > **«La resonancia de la Red de la Antimagia devora mi mente»**  
-   * *Invocación (+2 o repetir):* Al anticipar ataques de los Heraldos, sintonizar frecuencias espaciales corruptas o descifrar fenómenos de antimagia que desafían la ciencia rúnica.  
-   * *Forzado (+1 Punto FATE):* En momentos críticos, sufre jaquecas lacerantes, estática sensorial, voces alienígenas del enjambre o una parálisis momentánea debida a la sobrecarga neural.
+   > **«El eco de los Heraldos devora mi mente»**  
+   * *Nota de Lore:* Luna no conoce el concepto científico de la "antimagia"; solo sabe que las voces, visiones y sentimientos ajenos que asaltan su cerebro provienen directamente de los monstruos que emboscaron su caravana.  
+   * *Invocación (+2 o repetir):* Al anticipar ataques de los Heraldos por pura resonancia instintiva, percibir distorsiones anómalas en el ambiente o reaccionar a engendros antes de que sean visibles.  
+   * *Forzado (+1 Punto FATE):* En momentos críticos, sufre jaquecas lacerantes, estática sensorial, ráfagas de palabras incomprensibles del enjambre o una parálisis momentánea debida a la sobrecarga mental.
 
 3. **Fase 1 (Trasfondo y Origen):**  
    > **«El peso de una vida efímera»**  
-   * *Descripción de Fase:* La masacre de la caravana lo despojó de todo apego material y de la ingenuidad civil. Considera que la existencia común es ceniza en potencia; esto le da una frialdad absoluta ante el peligro, pero también un desdén hacia la mediocridad y la cobardía.  
+   * *Descripción de Fase:* La masacre de la caravana la despojó de todo apego material y de la ingenuidad civil. Considera que la existencia común es ceniza en potencia; esto le da una frialdad absoluta ante el peligro, pero también un desdén hacia la mediocridad y la cobardía.  
    * *Invocación (+2 o repetir):* Actuar con sangre fría bajo peligro inminente, ignorar el dolor personal en combate y rechazar sobornos o pérdidas materiales sin titubear.  
    * *Forzado (+1 Punto FATE):* Tratar con insensibilidad a compañeros en pánico, asumir riesgos absurdamente desmedidos por buscar un clímax dramático, o menospreciar advertencias de seguridad básicas.
 
 4. **Fase 2 (El Laboratorio y la Acreditación):**  
-   > **«Apto en los registros, anómalo bajo la piel»**  
-   * *Descripción de Fase:* En el centro de pruebas, Luna dio positivo como Especialista. Aprovechó el alistamiento para permanecer junto a su padre hospitalizado y tener acceso al archivo clasificado de la Federación, ocultando la corrupción que pulsa en su torrente bioenergético.  
+   > **«Apta en los registros, anómala bajo la piel»**  
+   * *Descripción de Fase:* En el centro de pruebas, Luna dio positivo como Especialista. Aprovechó el alistamiento para permanecer junto a su padre hospitalizado y conseguir acceso a los archivos clasificados de la Federación, ocultando la anomalía biológica que pulsa en su cuerpo desde el ataque.  
    * *Invocación (+2 o repetir):* Moverse por áreas restringidas, manipular la cadena de mando o fingir sumisión reglamentaria ante inspectores.  
-   * *Forzado (+1 Punto FATE):* Un escáner médico de rutina o un sensor de éter detecta firmas caóticas en su núcleo; debe sabotear las pruebas, falsificar datos o huir antes de ser disecado como espécimen.
+   * *Forzado (+1 Punto FATE):* Un escáner médico de rutina o un sensor de éter detecta firmas caóticas en su núcleo; debe sabotear las pruebas, falsificar datos o huir antes de ser retenida para disección.
 
 5. **Fase 3 (La Reliquia y la Meta Oculta):**  
    > **«El catalizador calcinado de mi padre como brújula»**  
-   * *Descripción de Fase:* El artefacto derretido de su padre no emite ni un destello de magia, pero representa la razón por la que Luna no se ha dejado devorar aún por la antimagia. Es su promesa silenciosa de que descubrirá la cura antes de que el corazón de su padre se detenga.  
+   * *Descripción de Fase:* El artefacto derretido de su padre no emite ni un destello de magia, pero representa la razón por la que Luna no se ha rendido. Es su promesa silenciosa de que descubrirá qué eran realmente los Heraldos y cómo salvar la vida de su padre antes de que su corazón se detenga.  
    * *Invocación (+2 o repetir):* Aferrarse físicamente a la reliquia para centrar la cordura en medio de una crisis psíquica; evocar lecciones tácticas y enseñanzas rústicas de su padre.  
    * *Forzado (+1 Punto FATE):* Si un superior o criminal intenta confiscarlo o dañarlo, Luna pierde los estribos; o recibe una notificación médica urgente del hospital en pleno despliegue encubierto.
 
