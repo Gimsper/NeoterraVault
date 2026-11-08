@@ -42,6 +42,7 @@ flowchart TD
         T5["🗺️ [[Macro de Librerias SCMEH|Macro del SDK]]"]
         T6["📐 [[Calculo de Rangos SCMEH - Big-O y Flujo|Cálculo Big-O y Flujo]]"]
         T7["🌌 [[Compendio de Librerias Elementales SCMEH|Librerías Elementales]]"]
+        T8["🏭 [[Corporaciones y Fabricantes de Neoterra|Fabricantes y Marcas]]"]
     end
 
     subgraph Catalogo ["📦 Catálogo de Objetos y Hechizos"]
@@ -81,6 +82,7 @@ flowchart TD
 * **[[Macro de Librerias SCMEH|Macro General de Librerías (SDK)]]:** Arquitectura modular de 7 capas que divide el moldeo elemental de las acciones especializadas (cinética, disparadores/voz/sensores, ilusiones/óptica, psiónica, ingeniería y seguridad).
 * **[[Compendio de Librerias Elementales SCMEH|Compendio de Librerías Elementales]]:** Especificación técnica de las 6 librerías de moldeo físico puro (`Air`, `Fire`, `Water`, `Earth`, `Lightning`, `Aether`) con sus clases, métodos y parámetros.
 * **[[Libreria SCMEH - AeroUtils|Librería AeroUtils (Utilidades de Aire)]]:** Primer SDK modular oficial con clases (`AirPressure`, `WindFlow`, `AeroAcoustics`, `AeroSafety`) y métodos estandarizados para programar secuencias de viento y barometría.
+* **[[Corporaciones y Fabricantes de Neoterra]]:** Catálogo y panorama de las cuatro grandes corporaciones armamentísticas y civiles (Aegis, Kitsune, Vulcan, Synapse) y el mercado negro de artefactos desbloqueados.
 
 ---
 
