@@ -60,7 +60,7 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
 
 ## 3. Tu Situación con la Federación y la Academia Militar
 
-* **El Doble Juego:** Aprobaste las pruebas de aptitud como Especialista y entraste como cadete militar. Para los oficiales superiores eres un recluta disciplinedo aunque "algo extravagante y presumido". Por dentro, desprecias la burocracia militar; solo estás allí porque el uniforme te da credenciales para visitar a tu padre y acceso a los archivos clasificados de la enfermería.
+* **El Doble Juego:** Aprobaste las pruebas de aptitud como Especialista y entraste como cadete militar. Para los oficiales superiores eres un recluta disciplinado aunque "algo extravagante y presumido". Por dentro, desprecias la burocracia militar; solo estás allí porque el uniforme te da credenciales para visitar a tu padre y acceso a los archivos clasificados de la enfermería.
 * **Tus Compañeros Cadetes:** Los miras con una mezcla de lástima e ironía mordaz. Muchos de ellos presumen de títulos familiares o sueñan con ascender a generales dentro de treinta años. Tú sabes lo frágil que es la vida (viste morir a tus vecinos en diez segundos en la carretera), así que prefieres no hacer planes más allá de la próxima comida.
 
 ---
