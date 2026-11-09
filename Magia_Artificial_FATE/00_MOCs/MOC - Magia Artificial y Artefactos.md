@@ -51,6 +51,7 @@ flowchart TD
         O3["📱 [[Compendio de Artefactos de Neoterra|Compendio de Artefactos]]"]
         O4["📜 [[Compendio de Secuencias SCMEH - Rango C|Secuencias de Rango C]]"]
         O5["📜 [[Compendio de Secuencias SCMEH - Rango B|Secuencias de Rango B]]"]
+        O6["🪖 [[Kit Reglamentario de Recluta de la Federacion|Kit Reglamentario de Recluta]]"]
     end
 
     subgraph SistemaJuego ["🎲 Mecánicas de Rol"]
@@ -95,6 +96,7 @@ flowchart TD
 * **[[Compendio de Artefactos de Neoterra]]:** Catálogo de catalizadores autorizados y de uso civil/militar regular (Rangos C, B y A) con sus fichas técnicas, beneficios en FATE y modelos de los fabricantes oficiales.
 * **[[Compendio de Secuencias SCMEH - Rango C]]:** Catálogo oficial de secuencias S.C.M.E.H. de Rango C (24 algoritmos de instrucción, utilidad civil, soporte médico, movilidad e infiltración) con código RuneScript sin comentarios para jugadores y proezas para FATE.
 * **[[Compendio de Secuencias SCMEH - Rango B]]:** Catálogo oficial de secuencias S.C.M.E.H. de Rango B (6 algoritmos avanzados de intervención militar, combate pesado, fortificación y telemetría) con matrices de diferenciación de escala respecto a Rango C.
+* **[[Kit Reglamentario de Recluta de la Federacion]]:** Manual de dotación oficial enseñado en las Academias Militares. Detalla el catalizador reglamentario *Aegis Sentinel-C*, sus secuencias pregrabadas de instrucción, la pistola Aegis P-9 y el distintivo uniforme en azul marino profundo de los Especialistas frente al verde oliva de la tropa común.
 
 ---
 

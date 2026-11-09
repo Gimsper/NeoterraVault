@@ -9,7 +9,7 @@
 * **Raza / Condición:** Especialista (humanoide bio-modificada con materiales del Reino Olvidado)
 * **Afinidad Elemental:** 🔥 **Pyro** (`RuneScript.Elements.Fire` — Termodinámica molecular, combustión, plasma y confinamiento térmico)
 * **Capacidad de Recuperación:** 3 (Puntos de Destino iniciales al inicio de cada sesión: 3)
-* **Descripción Breve:** Joven Especialista de porte erguido, mirada penetrante y una sonrisa ladeada teñida de mordacidad. Viste el uniforme de cadete militar de la Federación, portado con una calculada elegancia rebelde. En la mano o en su funda táctica lleva su catalizador **Little Fox**, un dispositivo de mano con formato similar a un smartphone blindado con pantalla táctil de cuarzo rúnico; para ella, este terminal no es una simple herramienta reglamentaria, sino la consola de una virtuosa donde compone secuencias de fuego complejas, dotadas de una geometría térmica milimétrica y efectos visuales despampanantes. Sobre el pecho o al cinto, en riguroso contraste, descansa una reliquia enmudecida por el fuego: el viejo catalizador de trinchera de su padre, derretido e inútil para la magia, pero su ancla emocional más sagrada.
+* **Descripción Breve:** Joven Especialista de porte erguido, mirada penetrante y una sonrisa ladeada teñida de mordacidad. Viste el uniforme de cadete Especialista de la Federación en su característico azul marino profundo, portado con una calculada elegancia rebelde (que contrasta marcadamente con el verde oliva de los reclutas de infantería común). Aunque la Federación le asignó el tosco catalizador reglamentario de ordenanza (*Aegis Sentinel-C*), Luna se negó a operar con semejante 'ladrillo de baquelita' y adquirió por decisión y ahorros propios un **Little Fox** de Kitsune Micro-Arcana; para ella, este terminal táctil no es un simple visor civil, sino la consola de una virtuosa donde compone secuencias de fuego milimétricas con efectos visuales despampanantes. Sobre el pecho o al cinto, en riguroso contraste, descansa una reliquia enmudecida por el fuego: el viejo catalizador de trinchera de su padre, derretido e inútil para la magia, pero su ancla emocional más sagrada.
 
 ---
 
@@ -91,8 +91,9 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 
 ### 🎒 EXTRAS Y EQUIPAMIENTO
 
-#### 1. 📱 Artefacto de Ejecución Activo: *Little Fox [Rango C]*
-* **Tipo:** Terminal portátil de mano / interfaz de tipo smartphone blindado militar con pantalla táctil rúnica de cristal de cuarzo y pulsadores laterales.
+#### 1. 📱 Catalizador Activo (Elección Personal): *[[Artefacto - Little Fox|Little Fox [Rango C]]]*
+* **Origen:** Adquirido por Luna por decisión y ahorros propios en *Kitsune Micro-Arcana*, prescindiendo del tosco modelo de dotación para tener 3 ranuras y modulación táctil rápida.
+* **Tipo:** Terminal de mano tipo smartphone blindado militar con pantalla táctil de cuarzo rúnico.
 * **Aspecto del Extra:** *«Terminal portátil de compilación rápida para cadetes»*
 * **Mecánica Operativa (El Arte del Teclado):**  
   Para ejecutar cualquier conjuro de `RuneScript.Elements.Fire`, Luna sostiene el dispositivo en la mano e introduce activamente en pantalla los parámetros numéricos: temperatura (`temp_celsius`), vector de trayectoria (`vector`), radio de confinamiento geométrico (`confinement_radius`) y densidad de plasma. Su bioenergía latente se vierte en el artefacto solo tras la validación de estos datos.
@@ -102,13 +103,20 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
   * **V-RAM:** *512 MB-Arcanos* $\rightarrow$ **Escala Puntual** (misma zona o contacto directo, 0 a 5 metros).
   * **TDP / Estrés de Hardware:** **1 casilla `[1]`** para disipación térmica y absorción de sobrecargas.
 * **Secuencias Configuradas en Slots (SCMEH - Rango C):**
-  * **Slot #1 — S.C.M.E.H. *Corona de Plasma Focalizada* [Pyro / Rango C]:**  
-    *Permite usar `[✨] Control` para Atacar o Crear Ventaja a corta distancia mediante la ionización y sobrecalentamiento geométrico del blanco.*
-  * **Slot #2 — S.C.M.E.H. *Escudo de Choque Térmico Despampanante* [Pyro / Rango C]:**  
-    *Permite usar `[✨] Control` para Defenderse contra ataques físicos y proyectiles, vaporizándolos o desviándolos con un anillo de calor deslumbrante.*
-  * **Slot #3:** *[Ranura Disponible para intercambio de secuencia o Chip de Memoria consumible]*
+  * **Slot #1 — S.C.M.E.H. [[Secuencia - Daga de Plasma Confinada]] [Pyro / Rango C]:**  
+    *Permite usar `[✨] Control` para Atacar cuerpo a cuerpo (Arma: 2). Gracias a su afinidad de Fuego, dura 4 asaltos y coloca `[En Llamas]` en éxitos con estilo.*
+  * **Slot #2 — S.C.M.E.H. [[Secuencia - Pantalla Deflectora de Punto]] [Neutro / Rango C]:**  
+    *Permite usar `[✨] Control` para Defenderse (+2 a la Defensa) desviando proyectiles individuales con un broquel hexagonal.*
+  * **Slot #3 — S.C.M.E.H. [[Secuencia - Micro-Impulso Cinetico]] [Aire / Rango C]:**  
+    *Evasión reactiva o cierre de brecha de 4 m (enfriamiento de 1 turno de por medio).*
 
-#### 2. 🛡️ Reliquia Inerte: *El Catalizador Calcinado de Papá*
+#### 2. 🪖 Dotación Reglamentaria de la Federación (Kit de Recluta)
+* **Catalizador de Ordenanza:** *Aegis Sentinel-C [Rango C]* (guardado reglamentariamente en su taquilla o macuto; dos ranuras con percutor mecánico. Luna lo tiene limpio para pasar revista militar, pero evita usarlo en combate real).
+* **Arma de Servicio Convencional:** Pistola semiautomática Aegis P-9 (9 mm Parabellum, cargador de 15 disparos).
+* **Consumible Sanitario Reglamentario:** 1x Chip ROM sellado de un solo uso con [[Secuencia - Parche de Coagulacion Hidrostatica]].
+* **Protección Corporal:** Uniforme reglamentario de cadete Especialista en azul marino profundo con chaleco interior de kevlar ligero.
+
+#### 3. 🛡️ Reliquia Inerte: *El Catalizador Calcinado de Papá*
 * **Tipo:** Objeto narrativo / Reliquia familiar inoperativa.
 * **Estado:** Hardware completamente fundido por el ataque de los Heraldos. Circuitos muertos, sin capacidad de compilar código ni albergar ranuras.
 * **Función:** Ancla de cordura y foco dramático del aspecto *«El catalizador calcinado de mi padre como brújula»*.

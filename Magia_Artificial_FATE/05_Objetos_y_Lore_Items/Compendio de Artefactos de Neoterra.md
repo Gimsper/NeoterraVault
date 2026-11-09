@@ -32,7 +32,8 @@ updated: 2026-11-07
 │ Rango     │ Modelo y Fabricante               │ Utilidad y Enfoque Táctico                   │
 ├───────────┼───────────────────────────────────┼──────────────────────────────────────────────┤
 │ RANGO C   │ 🦊 [[Artefacto - Little Fox]]      │ Terminal táctil, plasma y versatilidad civil │
-│ (Cadete)  │ 🛡️ Aegis Trench-Gauntlet Mk.IV    │ Guantelete de trinchera, blindaje y cerrojo  │
+│ (Cadete)  │ 🛡️ Aegis Sentinel-C (Dotación)    │ Terminal militar reglamentario, cerrojo duro │
+│           │ 🛡️ Aegis Trench-Gauntlet Mk.IV    │ Guantelete de trinchera, blindaje de veterano│
 │           │ 🔥 Vulcan Pocket-Piston "Chispa"  │ Herramienta minera, percusión térmica puntual│
 │           │ ⚡ Null-Glove "Sombra-0"          │ Guantelete de sigilo y ganzúa electromágnet. │
 ├───────────┼───────────────────────────────────┼──────────────────────────────────────────────┤
@@ -62,11 +63,27 @@ Dispositivos introductorios, ideales para reclutas, cadetes y operativos clandes
 * *Hardware:* RPU *FoxCore v1.1* $\mathcal{O}(1)$ | R-RAM: 1 Hilo Activo | V-RAM: Escala Puntual (0-5 m) | Bus: $15\text{ kR/s}$.
 * *Slots:* 3 ranuras Rango C (equipado de fábrica con [[Secuencia - Levitar]]).
 * *Aspecto de Equipo:* `[Terminal Portátil Táctil para Cadetes de Vanguardia]`
+* *Distribución:* **Venta libre en el mercado civil y comercial.** De acceso público en tiendas arcanas para estudiantes, duelistas y técnicos; homologado para uso militar privado por cadetes autorizados.
 * *Beneficio Único:* **Modulación Táctil:** Concede un bonificador de **+1 al Crear Ventajas** basadas en geometrías térmicas o cromáticas gracias a su interfaz de pantalla fluida.
 
 ---
 
-### 1.2. 🛡️ Aegis Trench-Gauntlet Mk.IV *(Aegis Dynamics)*
+### 1.2. 🛡️ Aegis Sentinel-C *(Aegis Dynamics — Dotación Oficial de la Federación)*
+* *Factor de Forma:* Terminal de antebrazo con carcasa de acero fundido verde oliva mate, cerrojo de armado por muelle y perillas de baquelita endurecida. Es el **artefacto reglamentario de ordenanza entregado a todos los reclutas y cadetes** al alistarse en la Federación.
+* *Activación:* **Cerrojo mecánico lateral:** Exige amartillar la recámara rúnica con el pulgar para conectar el acumulador antes de liberar el flujo bio-mágico.
+* *Hardware:*
+  * **RPU:** *Bastion-Lite v1.0* $\rightarrow$ Algoritmos $\mathcal{O}(1)$. Latencia estable ($160\text{ ms}$).
+  * **R-RAM:** *128 KR-Buffer* $\rightarrow$ **1 Hilo Activo**.
+  * **V-RAM:** *256 MB-Arcanos* $\rightarrow$ **Proyección Frontal Corta** (0 a 3 metros).
+  * **Bus Térmico:** *Chasis macizo a prueba de lodo* $\rightarrow$ Flujo seguro de hasta **$15\text{ kR/s}$**.
+* *Slots:* 2 ranuras Rango C (de serie precargado con [[Secuencia - Pantalla Deflectora de Punto]] y [[Secuencia - Pulso Neumatico de Rechazo]]).
+* *Aspecto de Equipo:* `[Terminal Militar Reglamentario de Instrucción]`
+* *Proeza / Beneficio de FATE:*
+  * **Fiabilidad de Ordenanza:** El chasis es virtualmente indestructible; posee **1 casilla de estrés de equipo `[1]`** y jamás sufre fallos ni atascos mecánicos por agua, barro o polvo de trinchera.
+
+---
+
+### 1.3. 🛡️ Aegis Trench-Gauntlet Mk.IV *(Aegis Dynamics)*
 * *Factor de Forma:* Pesado guantelete de antebrazo forjado en aleación de acero arcano verde oliva con cerrojo mecánico lateral. El modelo clásico que llevaron los veteranos de trinchera (como el padre de Luna).
 * *Activación:* **Percutor mecánico manual:** Se tira del cerrojo de resorte con el pulgar para armar la recámara rúnica antes de cerrar el puño.
 * *Hardware:*
@@ -81,7 +98,7 @@ Dispositivos introductorios, ideales para reclutas, cadetes y operativos clandes
 
 ---
 
-### 1.3. 🔥 Vulcan Pocket-Piston "Chispa" *(Vulcan Heavy Industries)*
+### 1.4. 🔥 Vulcan Pocket-Piston "Chispa" *(Vulcan Heavy Industries)*
 * *Factor de Forma:* Cilindro manual de hierro fundido y cobre con empuñadura engomada, válvula de purga de vapor y un pistón neumático frontal.
 * *Activación:* **Gatillo de presión neumática:** Requiere apretar la palanca con fuerza muscular para liberar el cartucho térmico.
 * *Hardware:*
@@ -96,7 +113,7 @@ Dispositivos introductorios, ideales para reclutas, cadetes y operativos clandes
 
 ---
 
-### 1.4. ⚡ Null-Glove "Sombra-0" *(Colectivo Null-Sector / Mercado Negro)*
+### 1.5. ⚡ Null-Glove "Sombra-0" *(Colectivo Null-Sector / Mercado Negro)*
 * *Factor de Forma:* Guantelete ligero de cuero sintético con micro-bobinas de cobre reciclado cosidas en la palma y procesador sin número de serie.
 * *Activación:* **Sensor de flexión dactilar:** Detecta el chasquido o cierre de dedos específicos.
 * *Hardware:*

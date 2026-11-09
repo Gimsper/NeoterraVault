@@ -4,11 +4,14 @@ type: objeto
 categoria: equipo/artefacto
 rango: "C"
 slots_totales: 3
+audiencia: jugadores_y_gm
+acceso: civil_publico
 tags:
   - equipo/artefacto
   - rango/c
   - objeto
   - fate/extra
+  - mercado/civil
 aliases:
   - Little Fox
   - Little Fox (Rango C)
@@ -24,12 +27,21 @@ updated: 2026-11-05
 
 ---
 
-## 1. Descripción y Especificaciones Técnicas
-El **Little Fox** es el [[Artefactos de Ejecución|Artefacto de Ejecución]] más extendido y accesible para principiantes, cadetes y novatos en instrucción. Su diseño ergonómico combina un brazalete metálico reforzado con un pequeño terminal de antebrazo dotado de tres bahías de acople rúnico.
+![Esquema Técnico de Ingeniería: Little Fox (Kitsune Micro-Arcana)](assets/little_fox_schematic.jpg)
 
-* **Fabricante:** Talleres Estándar de la Federación / [[Ingenieros y Alquimistas]].
+---
+
+> [!NOTE] Producto Comercial de Venta Libre (Información Pública Civil y Militar)
+> El **Little Fox** es un dispositivo de consumo masivo comercializado abiertamente por [[Corporaciones y Fabricantes de Neoterra|Kitsune Micro-Arcana]]. No constituye equipo clasificado ni exige credenciales de la Federación: cualquier ciudadano con magia latente, estudiante de preparatoria, técnico civil o cadete militar puede adquirirlo legalmente en tiendas de electrónica arcana y armerías comerciales.
+
+## 1. Descripción y Especificaciones Técnicas
+El **Little Fox** es el catalizador de Rango C más vendido de Neoterra. Su popularidad radica en su versatilidad civil: funciona tanto como terminal de mano autónomo (similar a un smartphone blindado) como montado en un raíl magnético sobre el antebrazo.
+
+A diferencia del tosco [[Kit Reglamentario de Recluta de la Federacion|Aegis Sentinel-C]] de dotación militar básica —que es pesado, tiene botones mecánicos duros y solo 2 ranuras—, el Little Fox ofrece **3 ranuras de memoria**, pantalla táctil de cuarzo rúnico de alta sensibilidad y un chasis ultraligero de aleación de titanio y magnesio, convirtiéndolo en la elección por excelencia de cadetes virtuosos (como Luna Evergarden), duelistas callejeros y técnicos civiles.
+
+* **Fabricante:** [[Corporaciones y Fabricantes de Neoterra|Kitsune Micro-Arcana]].
 * **Rango Operativo:** **Rango C** (Iniciación / Civil).
-* **Factor de Forma (Chasis):** Brazalete / Terminal compacto de antebrazo con pantalla analógica de cristal de cuarzo y botones engomados.
+* **Factor de Forma (Chasis):** Terminal táctil de mano (perfil smartphone de 6.5 pulgadas) acoplable a raíl de antebrazo, con pantalla de cuarzo rúnico y chasis de titanio-magnesio Kitsune.
 * **Método de Activación Primario:** Periférico dual: **Percutor táctil de botón** en la muñeca y **sensor giroscópico básico** (giro brusco de puño).
 * **Capacidad de Almacenamiento:** 3 slots exclusivamente para secuencias de Rango C.
 
