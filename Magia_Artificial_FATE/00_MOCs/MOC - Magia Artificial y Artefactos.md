@@ -11,7 +11,7 @@ aliases:
   - MOC Magia Artificial
 status: revisado
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-08
 ---
 
 # 🔮 MOC - Sistema de Magia Artificial y Artefactos de Ejecución (FATE Básico)
@@ -48,6 +48,9 @@ flowchart TD
     subgraph Catalogo ["📦 Catálogo de Objetos y Hechizos"]
         O1["🦊 [[Artefacto - Little Fox]]"]
         O2["🌪️ [[Secuencia - Levitar]]"]
+        O3["📱 [[Compendio de Artefactos de Neoterra|Compendio de Artefactos]]"]
+        O4["📜 [[Compendio de Secuencias SCMEH - Rango C|Secuencias de Rango C]]"]
+        O5["📜 [[Compendio de Secuencias SCMEH - Rango B|Secuencias de Rango B]]"]
     end
 
     subgraph SistemaJuego ["🎲 Mecánicas de Rol"]
@@ -89,6 +92,9 @@ flowchart TD
 ### 3. Catálogo de Equipo y Hechizos (In-Game / Extras FATE)
 * **[[Artefacto - Little Fox]]:** El catalizador canónico de iniciación (Rango C) dotado de 3 ranuras para novatos y cadetes.
 * **[[Secuencia - Levitar]]:** S.C.M.E.H. de alteración gravitacional y barométrica de Rango C (Afinidad Aire, requisito Control 1, usos infinitos hasta 250 kg).
+* **[[Compendio de Artefactos de Neoterra]]:** Catálogo de catalizadores autorizados y de uso civil/militar regular (Rangos C, B y A) con sus fichas técnicas, beneficios en FATE y modelos de los fabricantes oficiales.
+* **[[Compendio de Secuencias SCMEH - Rango C]]:** Catálogo oficial de secuencias S.C.M.E.H. de Rango C (24 algoritmos de instrucción, utilidad civil, soporte médico, movilidad e infiltración) con código RuneScript sin comentarios para jugadores y proezas para FATE.
+* **[[Compendio de Secuencias SCMEH - Rango B]]:** Catálogo oficial de secuencias S.C.M.E.H. de Rango B (6 algoritmos avanzados de intervención militar, combate pesado, fortificación y telemetría) con matrices de diferenciación de escala respecto a Rango C.
 
 ---
 
@@ -108,7 +114,7 @@ flowchart TD
 | Rango | Complejidad Big-O | Flujo Bio-Mágico | Puntuación (PC) | Habilidad `[✨] Control` | Nivel FATE | Ejemplo Operativo |
 | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | **C** | $\mathcal{O}(1)$ | Bajo ($< 10\text{ kR/s}$) | 1 - 2 pts | `[✨] Control (1)` | Mediocre (+1) | [[Artefacto - Little Fox]] / [[Secuencia - Levitar]] |
-| **B** | $\mathcal{O}(n) / \mathcal{O}(\log n)$ | Medio ($10 - 100\text{ kR/s}$) | 3 - 4 pts | `[✨] Control (2)` | Aceptable (+2) | Lanzas balísticas, proyectiles continuos |
+| **B** | $\mathcal{O}(n) / \mathcal{O}(\log n)$ | Medio ($10 - 100\text{ kR/s}$) | 3 - 4 pts | `[✨] Control (2)` | Regular (+2) | [[Compendio de Secuencias SCMEH - Rango B]] / [[Secuencia - Mandoble de Plasma Confinado]] |
 | **A** | $\mathcal{O}(n^2)$ | Alto ($100 - 1.000\text{ kR/s}$) | 5 - 6 pts | `[✨] Control (3)` | Bueno (+3) | Rayos en cadena, áreas de atracción masiva |
 | **S** | $\mathcal{O}(2^n)$ | Alto / Crítico ($> 500\text{ kR/s}$) | 7 - 8 pts | `[✨] Control (4)` | Grande (+4) | Tormentas de plasma bi-elemental, asedio |
 | **SSS** | $\mathcal{O}(n!) / \mathcal{O}(\infty)$ | Crítico ($> 1.000\text{ kR/s}$) | 9+ pts | `[✨] Control (5+)` | Excelente (+5+) | Alteración espacial, runas del Reino Olvidado |

@@ -18,12 +18,13 @@ aliases:
   - Secuencia Levitar
 status: revisado
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-08
 ---
 
 # 🌪️ Secuencia: Levitar (Rango C)
 
-> *"Una de las primeras lecciones en la academia: el aire tiene masa y el vacío pesa. Si sabes dónde presionar el código, 200 kilos de metal flotan como plumas."*
+> *"El error de novato es creer que levitar un cajón de municiones es solo empujar aire hacia arriba. Si no calculas su centro de masa y no confinas un faldón de vórtice perimetral, la carga resbala como una pastilla de jabón mojada y le revienta los tobillos a tu compañero."*
+> — Cátedra de Aerodinámica Aplicada, Academia de [[Ingenieros y Alquimistas]]
 
 ---
 
@@ -32,50 +33,121 @@ updated: 2026-11-05
 ```text
 ================================================================
 NOMBRE: Levitar (Rango C)
-CLASIFICACIÓN: S.C.M.E.H. de Manipulación Barométrica / Kinética
+CLASIFICACIÓN: S.C.M.E.H. Barométrica, Centro de Masa y Sustentación
 ================================================================
-Afinidad:   Aire
-Requisito:  [✨] Control (1)
-Recarga:    Usos Infinitos
+Afinidad:    Aire
+Requisito:   [✨] Control (1)
+Recarga:     Usos Infinitos
+Complejidad: O(1)
+Flujo:       4.2 kR/s
 
 Acción:
-Permite controlar la densidad de objetos y el aire a su alrededor 
-para generar una presión diferencial suficiente como para hacerlo 
-flotar. Solo funciona en objetos que pesen menos de 250 kg.
+Anula la masa inercial de un cuerpo (hasta 250 kg), calcula su centro 
+de gravedad y genera un cojín de sustentación barométrica de cuatro 
+cuadrantes con faldón de vórtice para impedir deslizamiento lateral.
 ================================================================
 ```
 
 ---
 
-## 2. Descripción Operativa
-**Levitar** (a menudo llamada coloquialmente *Telekinesis de Rango C*) es una de las secuencias básicas de instrucción que todo novato practica durante su etapa de acondicionamiento. Aunque pertenece al rango inicial, los veteranos reconocen su altísima versatilidad tanto en labores logísticas como en situaciones tácticas imprevistas.
+## 2. Descripción Operativa y Mecánica Aerodinámica
 
-* **Mecánica Física:** Al activarse mediante un [[Artefactos de Ejecución|Artefacto de Ejecución]] (como el [[Artefacto - Little Fox|Little Fox]]), el código polariza las partículas del aire bajo el objeto objetivo, creando un colchón de sustentación localizado y alterando transitoriamente el centro de gravedad del cuerpo.
-* **Límite de Carga:** 250 kilogramos métricos. Intentar elevar pesos superiores provoca que el campo de presión colapse de forma inmediata.
-* **Frecuencia de Uso:** Diseñada para ciclos estables de baja energía; su recarga es instantánea (*Usos Infinitos*), limitada únicamente por la fatiga del operador.
+La secuencia **Levitar** (a menudo llamada coloquialmente *Telekinesis de Rango C*) es una de las aplicaciones más elegantes de la ingeniería neumática de Neoterra. No es un rayo tractor místico; es un colchón de aire activo estabilizado mediante aerodinámica computacional.
+
+### Arquitectura de Sustentación Activa
+El algoritmo supera las limitaciones de la sustentación barométrica simple mediante el control activo del centro de gravedad y la contención perimetral del fluido:
+1. **Supresión Inercial (`KineticGravity.nullify_inertial_mass`):** Reduce temporalmente la resistencia inercial del objeto a cero relativo. Esto significa que ya no se requieren toneladas de fuerza para vencer su peso en reposo; basta una presión barométrica moderada.
+2. **Cojín Barométrico de 4 Cuadrantes (`AeroPressure.set_differential`):** El algoritmo divide la superficie inferior del objetivo en cuatro cuadrantes virtuales (Norte, Sur, Este, Oeste). Ajusta dinámicamente un gradiente de $\Delta P = 1.35\text{ bar}$ entre la cara inferior y superior. Si el objeto cabecea hacia delante, el cuadrante frontal aumenta la presión instantáneamente para nivelarlo.
+3. **Faldón de Vórtice Centrífugo de Contención (`AeroGas.vortex_angular`):** Rodea el perímetro inferior del objeto con una cortina laminar rotatoria de aire a $1.200\text{ RPM}$. Este "faldón" neumático atrapa la burbuja de alta presión debajo del cuerpo, impidiendo que el aire escape lateralmente y evitando que la carga resbale.
+4. **Vector de Arrastre Táctico (`KineticVector.lock_trajectory`):** Sincroniza la posición tridimensional del objeto suspendido con el vector de la mano del Especialista, permitiéndole empujar, atraer o desplazar la carga a paso de marcha hasta a 4 metros de distancia.
 
 ---
 
-## 3. Implementación en FATE Básico (Proeza de Magia)
+## 3. Código Algorítmico Oficial (RuneScript)
 
-En el sistema **FATE Básico**, la secuencia **Levitar** se traduce como una **Proeza activa** vinculada a una ranura de un catalizador:
+```python
 
-### Ficha de la Proeza en FATE
+IMPORT RuneScript.Elements.Air.Pressure AS AeroPressure;
+IMPORT RuneScript.Elements.Air.GasFlow AS AeroGas;
+IMPORT RuneScript.Kinetics.Gravity AS KineticGravity;
+IMPORT RuneScript.Kinetics.Vector AS KineticVector;
+IMPORT RuneScript.Safety.Abort AS SafeAbort;
+
+SEQUENCE Levitar(TargetObject: Object) {
+    HEADER {
+        Rank: "C";
+        Affinity: "Air";
+        Control_Threshold: 1;
+        Recycle: "Infinite";
+        Complexity: "O(1)";
+        Throughput: "4.2 kR/s";
+    }
+
+    PARAMETERS {
+        Max_Mass_Kg: 250.0;
+        Max_Altitude_M: 4.0;
+        Hold_Duration_Sec: 30.0;
+        Vortex_Skirt_Rpm: 1200;
+        Stabilization_Delta_Bar: 1.35;
+    }
+
+    EXECUTE {
+        KineticGravity.nullify_inertial_mass(
+            target=TargetObject,
+            duration_sec=Hold_Duration_Sec
+        );
+
+        AeroPressure.set_differential(
+            surface_high=TargetObject.BottomSurface,
+            surface_low=TargetObject.TopSurface,
+            delta_bar=Stabilization_Delta_Bar
+        );
+
+        AeroGas.vortex_angular(
+            axis_vector=Vector3(0, 1, 0),
+            radius_m=TargetObject.BoundingRadius * 1.15,
+            rpm=Vortex_Skirt_Rpm
+        );
+
+        KineticVector.lock_trajectory(
+            target=TargetObject,
+            vector=Operator.PointingVector,
+            max_deviation_deg=5.0
+        );
+    }
+
+    SAFETY_OVERFLOW {
+        ON Control_Failure:
+            AeroPressure.set_differential(
+                surface_high=TargetObject.BottomSurface,
+                surface_low=TargetObject.TopSurface,
+                delta_bar=1.05
+            );
+            SafeAbort.collapse_confinement_inward(envelope=TargetObject);
+    }
+}
+```
+
+---
+
+## 4. Implementación en FATE Básico (Proeza de Magia)
+
 * **Nombre de la Proeza:** *S.C.M.E.H. Levitar [Rango C]*
-* **Requisito de Activación:** Tener una habilidad de `[✨] Control` a **Mediocre (+1)** o superior, y tenerla cargada en un [[Artefactos de Ejecución|Artefacto]] de **Rango C o superior**.
+* **Requisito de Activación:** Tener `[✨] Control` a **Mediocre (+1)** o superior, y cargada en un [[Artefactos de Ejecución|Artefacto]].
 * **Acciones Permitidas:**
-  1. **Superar Obstáculos (con `[✨] Control`):** Permite cruzar abismos, escalar muros o rescatar objetos inalcanzables que pesen hasta 250 kg sin necesidad de herramientas físicas ni tiradas atléticas convencionales.
-  2. **Crear una Ventaja (con `[✨] Control`):** Permite colocar aspectos de escena o de objetivo como `[Objeto Flotante de Cobertura]`, `[Suspendido en el Aire]` o `[Desarmado a Distancia]`.
+  1. **Superar Obstáculos (con `[✨] Control`):** Cruzar abismos, transportar heridos en camillas neumáticas, elevarse verticalmente hasta un balcón o trasladar cargas pesadas (<250 kg) sin fatiga física.
+  2. **Crear una Ventaja (con `[✨] Control`):** Colocar aspectos como `[Cajón Blindado Flotante de Cobertura]`, `[Suspendido a Salvo del Suelo Electrificado]` o `[Desarmado Flotante a Distancia]`.
 * **Bonificador por Afinidad Elemental (Aire):**
-  * Si el [[Los Especialistas|Especialista]] posee un aspecto que refleje **Afinidad con el Aire**, recibe un **+2 a su tirada de `[✨] Control`** al activar esta secuencia, o puede invocar gratuitamente el aspecto creado con éxito regular.
+  * Si el Especialista tiene afinidad nativa con **Aire**, el peso máximo se eleva a **400 kg** o puede mover dos objetos ligeros simultáneamente.
 * **Margen de Fallo:**
-  * Si se intenta activar sin el `[✨] Control (1)` necesario o con un resultado de dados catastrófico (fallo con margen de -3 o más), el objeto cae abruptamente infligiendo daño de estrés físico al objetivo o al propio usuario.
+  * Si se falla con un margen de -3 o más, el faldón de vórtice colapsa bruscamente; el objeto cae al suelo de forma descontrolada infligiendo 2 casillas de estrés físico al entorno inmediato.
 
 ---
 
-## 4. Entidades Relacionadas
-* [[Artefactos de Ejecución]]
+## 5. Entidades Relacionadas
+* [[Compendio de Secuencias SCMEH - Rango C]]
+* [[Compendio de Librerias Elementales SCMEH]]
 * [[Artefacto - Little Fox]]
-* [[Secuencias de Hechizos (SCMEH)]]
+* [[Compendio de Artefactos de Neoterra]]
 * [[Los Especialistas]]
 * [[Reglas FATE - Sistema de Magia Artificial]]

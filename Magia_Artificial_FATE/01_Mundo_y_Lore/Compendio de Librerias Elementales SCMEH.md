@@ -129,6 +129,8 @@ Control de presiones diferenciales, densidad de masa gaseosa, separación de com
 #### C. `Aero.GasFlow` (Dinámica de Flujos)
 * `.stream_vector(origin: Point, vector: Vector3, flux_liters_sec: Float) -> AirStream`:
   * Establece una corriente laminar estable de gas continuo en una dirección.
+* `.create_vortex_ring(origin: Point, vector: Vector3, core_radius_m: Float, circulation_gamma: Float) -> VortexRing`:
+  * Genera un anillo de vórtice toroidal autosostenido (solitón neumático) que preserva la masa y la energía cinética sin dispersión por rozamiento ambiental a lo largo de su trayectoria.
 * `.vortex_angular(axis_vector: Vector3, radius_m: Float, rpm: Int) -> VortexField`:
   * Introduce momento angular y fuerza centrífuga sobre una masa de gas (desvío de proyectiles balísticos o vórtices de succión).
 
@@ -162,6 +164,8 @@ Captación de masa acuosa, transición molecular de fase, rigidez superficial y 
 #### B. `Hydro.Phase` (Transición Termodinámica)
 * `.shift_phase(fluid: FluidVolume, target_state: [SOLID | LIQUID | GAS], rate: Float)`:
   * Modifica el enlace termodinámico de las moléculas de $H_2O$.
+* `.crystallize_lamellar_matrix(fluid: FluidVolume, layer_thickness_um: Float, hardness_factor: Float) -> CompositeIce`:
+  * Estructura los cristales de hielo en una matriz estratificada laminar cruzada (inspirada en la estructura del nácar), disipando grietas por cizallamiento y multiplicando su resistencia balística contra proyectiles.
 * `.crystallize_lattice(fluid: FluidVolume, hardness_factor: Float) -> IceLattice`:
   * Fuerza una estructura cristalina hexagonal rígida (hielo de alta densidad para coberturas o barreras sólidas).
 * `.sublimate_instant(fluid: FluidVolume) -> VaporCloud`:
@@ -223,12 +227,18 @@ Interacción con la litología de suelos, redes cristalinas minerales, planos de
   * Estimula la precipitación y crecimiento rápido de prismas minerales o cuarzos afilados en una trayectoria vectorial.
 
 #### E. `Geo.Seismic` (Propagación Sísmica y Acústica de Suelos)
+* `.listen_elastic_waves(contact_point: Point, sample_rate_hz: Float) -> SeismicWaveform`:
+  * Escucha pasiva de deformaciones mecánicas superficiales (ondas P y S) a través de roca o concreto sin emitir energía activa.
+* `.triangulate_phase_delay(sensor_array: List[Point], signal: SeismicWaveform) -> SeismicVector`:
+  * Compara los micro-retrasos de llegada de la onda entre los nodos de contacto de la mano del operador para triangular el vector angular de origen y calcular distancia según la atenuación de amplitud.
 * `.pulse_seismic_wave(origin: Point, vector: Vector3, frequency_hz: Float, amplitude_joules: Float)`:
   * Envía una vibración mecánica continua o en pulso a través del suelo o estructuras de roca/cemento (desestabiliza el equilibrio enemigo a distancia, quiebra cimientos o sacude coberturas).
 * `.dampen_seismic_vibrations(zone: Area)`:
   * Amortigua y absorbe cualquier vibración mecánica superficial en el terreno dentro del radio (permite desplazamiento en silencio absoluto sobre baldosas, escombros o grava crujiente).
 
 #### F. `Geo.SurfaceTexture` (Fricción y Acabado Litológico)
+* `.set_directional_shear_friction(stone_surface: Surface, normal_release: Boolean, max_shear_mu: Float)`:
+  * Modula una adherencia dependiente de la carga biomecánica: traba firmemente la suela ante esfuerzo cortante lateral o pendientes verticales, pero libera la adhesión instantáneamente cuando el pie se levanta perpendicularmente, permitiendo una marcha fluida.
 * `.set_friction_profile(stone_surface: Surface, profile: [ULTRA_GRIP_ABRASIVE | MIRROR_POLISHED_ZERO_FRICTION])`:
   * Modifica la aspereza atómica de la roca o cemento.
   * *Ultra-Grip:* Genera microdientes moleculares de alto agarre, permitiendo escalar muros verticales a mano limpia sin equipo de escalada.
@@ -266,6 +276,12 @@ Ruptura dieléctrica del aire, acumulación de carga estática y cierre de arcos
   * Emite un pulso electromagnético inducido (EMP) capaz de alterar los circuitos lógicos de otros artefactos en el radio.
 
 #### D. `Electro.Magnetics` (Campos Magnéticos y Aceleración de Lorentz)
+* `.detect_ferrous_nodes(target: Object, flux_density_tesla: Float) -> List[MagneticNode]`:
+  * Escanea variaciones de reluctancia magnética para mapear componentes ferrosos internos ocultos (clavijas de cerrojos, bobinas de relés o muelles).
+* `.apply_rotational_torque(target_core: Object, torque_newton_meters: Float, axis: Vector3)`:
+  * Induce un par de giro tangencial continuo sobre un núcleo ferroso giratorio (rotor de cerradura o bombín).
+* `.pulse_focused_attraction(node: MagneticNode, lift_force_newtons: Float)`:
+  * Aplica un pulso electromagnético enfocado en una coordenada micrométrica para elevar un componente individual (un perno) hasta su línea de corte sin mover los adyacentes.
 * `.induce_magnetic_solenoid(axis_vector: Vector3, radius_m: Float, field_tesla: Float) -> SolenoidField`:
   * Genera un campo de atracción o repulsión magnética sobre blindajes, armas o metralla ferrosa circundante.
 * `.lorentz_acceleration(rail_vector: Vector3, conductive_mass: Object, current_amps: Float)`:

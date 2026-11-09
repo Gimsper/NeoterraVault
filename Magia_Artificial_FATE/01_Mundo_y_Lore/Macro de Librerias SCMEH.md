@@ -75,10 +75,12 @@ flowchart TD
   * `Granular`: Licuefacción de suelos (rotura de fricción granular) y recompresión instantánea.
   * `Ferrous`: Polarización magnética de vetas subterráneas.
   * `Crystalline`: Precipitación y nucleación direccional de prismas líticos.
+  * `Seismic`: Escucha pasiva de ondas mecánicas elásticas, triangulación de desfase y pulsos de vibración.
 * **`Elements.Lightning` (`Electro`):**
   * `Dielectric`: Trazado de canales ionizados de baja resistencia en el aire.
   * `Charge`: Acumulación electrostática en catalizadores y capacitores.
   * `Circuit`: Cierre de arcos voltaicos y pulsos de inducción electromagnética.
+  * `Magnetics`: Mapeo de reluctancia ferrosa, pares de torsión rotacional en núcleos y aceleración de Lorentz.
 * **`Elements.Aether` (`Aether` - Rango S/SSS):**
   * `Entropy`: Aceleración de la degradación molecular.
   * `Spacetime`: Distorsión de la curvatura métrica local.
@@ -135,6 +137,8 @@ flowchart TD
 * **`Sensory.Optics`:**
   * `refract_light(target)`: Camuflaje mimético o invisibilidad angular por desvío de fotones.
   * `project_hologram(geometry, loop_anim)`: Proyección de dobles, espectros visuales y señuelos tridimensionales.
+* **`Sensory.Haptics`:**
+  * `project_haptic_pulse(target_contact_point, pattern_id, intensity_mw)`: Modula microcorrientes galvánicas en la empuñadura del catalizador para transmitir telemetría espacial (dirección y proximidad) directamente al tacto de la mano del operador.
 * **`Sensory.Acoustics`:**
   * `mute_frequencies(band)`: Silenciamiento total de pasos, disparos o turbinas neumáticas.
   * `project_phantom_audio(coords, audio_sample)`: Emisión de sonido deslocalizado para crear distracciones.
