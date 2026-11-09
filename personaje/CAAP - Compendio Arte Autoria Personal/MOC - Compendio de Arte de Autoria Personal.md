@@ -64,7 +64,10 @@ flowchart TD
     
     subgraph ActoI ["🔥 Acto I: Preludio y Pinceladas (Rango C)"]
         direction TB
-        C1["🔴 [[Secuencia - Aguja de Plasma Rubi|CAAP-C01: Aguja de Plasma Rubí]]<br/><i>Micro-balística rubí (Tarea académica de seguridad)</i>"]
+        C1["🔴 [[Secuencia - Aguja de Plasma Rubi|CAAP-C01: Aguja de Plasma Rubí]]<br/><i>Micro-balística rubí (Tarea de seguridad)</i>"]
+        C_BLUR["🔒 <i>[CAAP-C02 ... C05: Bloques Cifrados]</i>"]
+        C6["☄️ [[Secuencia - Cometa de Rubi|CAAP-C06: Cometa de Rubí]]<br/><i>Ataque principal / Cadencia infinita</i>"]
+        C1 -.-> C_BLUR -.-> C6
     end
     
     subgraph ActoII ["⚡ Acto II: La Tensión Dramática (Rango B)"]
@@ -96,6 +99,11 @@ flowchart TD
 | Código / ID | Título de la Obra   | Rango | Complejidad $\mathcal{O}$ | Flujo ($kR/s$) | Concepto Teatral / Efecto FATE                                                        |
 | :---------- | :------------------ | :---: | :-----------------------: | :------------: | :------------------------------------------------------------------------------------ |
 | `CAAP-C01`  | [[Secuencia - Aguja de Plasma Rubi\|Aguja de Plasma Rubí]] |  `C`  |     $\mathcal{O}(1)$      |     $8.8$      | *Micro-balística confinada de salón. Tarea de academia ultra-segura (¡aburrida!).* |
+| `CAAP-C02`  | [[CAAP-C02 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
+| `CAAP-C03`  | [[CAAP-C03 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
+| `CAAP-C04`  | [[CAAP-C04 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
+| `CAAP-C05`  | [[CAAP-C05 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
+| `CAAP-C06`  | [[Secuencia - Cometa de Rubi\|Cometa de Rubí]] |  `C`  |     $\mathcal{O}(1)$      |     $6.7$      | *¡Mi consentida! Balística esférica continua, sin enfriamiento y optimizada.* |
 | `CAAP-B01`  | *(Próximo estreno)* |  `B`  |     $\mathcal{O}(n)$      |   $10 - 100$   | *Balística cinética de plasma, coreografía de proyectiles o barrera simétrica.*       |
 | `CAAP-A01`  | *(Próximo estreno)* |  `A`  |    $\mathcal{O}(n^2)$     | $100 - 1.000$  | *Deflagración masiva bi-fase, implosión de vacío térmico o corona de plasma blanco.*  |
 | `CAAP-OVER` | *(Protocolo Negro)* |  `S`  |    $\mathcal{O}(2^n)$     |    Crítico     | *Pira de emergencia: consumo del catalizador para garantizar una despedida inmortal.* |
@@ -111,6 +119,7 @@ flowchart TD
   * `RuneScript.Geometry.Confinement` (Esferas de Dyson térmicas, filamentos tensores, conos focales de plasma). 
   * `RuneScript.Sensory.Optics` (Desplazamiento Doppler, gradientes cromáticos, deslumbramiento de magnesio).
   * `RuneScript.Kinetics.Vector` (Aceleración de gas ionizado, presión de choque barométrica).
+  * `RuneScript.Core.Math` (Aritmética de bajo nivel, cálculo cinemático de raíces y trigonometría). %%Porque la vida es demasiado corta para calcular raíces cuadradas flotantes a mano mientras te disparan%%
 * **Parámetro Estético Obligatorio en todo `EXECUTE`:**  
   Ninguna secuencia creada por✨Mi✨ se considera finalizada a menos que mantenga la temperatura por encima del punto de incandescencia blanca ($\ge 4.500\text{ K}$) y proyecte una estela geométrica visible en el espectro visible. Además de una hermosa y trabajada creación de efectos deslumbrantes
 

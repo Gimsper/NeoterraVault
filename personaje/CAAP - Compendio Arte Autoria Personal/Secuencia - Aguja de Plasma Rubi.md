@@ -52,7 +52,24 @@ Aun así... algo de dignidad tenía que meterle. No iba a permitir que mi termin
 
 ---
 
-## 🎛️ 2. Ficha Técnica Oficial (S.C.M.E.H.)
+## 📸 2. Evidencia Óptica: *"El Testimonio Gráfico de mi Humillación Académica"*
+
+_Adjunto captura directa del sensor frontal del Little Fox. Filtro polarizado a 4.000 K para evitar quemar el sensor óptico._
+
+![[Aguja de Plasma Rubí (CAAP-C01).webp]]
+*Figura 1.1: Registro de impacto puntual en el polígono cerrado de la Academia. Obsérvese el haz cilíndrico de 30 cm y el núcleo térmico de gradiente rubí.*
+
+> *"¿Orgullosa de esta foto? Por favor, miren ese fondo: un banco de tiro descolorido de la Federación, un maniquí balístico gris y una aguja tan obediente y dócil que casi parece un lápiz térmico para soldar latas. Es deprimente.*  
+> *Aun así, la adjunto aquí por dos razones indiscutibles:*  
+> *1. **Evidencia forense:** Para cerrarle la boca a los amargados de la Comandancia que insinúan que mis códigos son puras fantasías de sobremesa.*  
+> *2. **Contraste estético:** Para que cuando termine la Versión 2.0 y reduzca a escoria vitrificada un objetivo a veinte metros, todos puedan apreciar la colosal distancia entre una alumna constreñida y una verdadera artista del plasma."*  
+> — **Luna**, anotación manuscrita sobre el metadato del archivo `.webp`.
+
+%%(Entre nosotras: la aguja se ve bonita. Odio admitirlo, pero el corte escarlata en la oscuridad del polígono tenía una elegancia gótica deliciosa... lástima que durara menos de un segundo antes de que el estúpido 'SafeVent' apagara la fiesta).%%
+
+---
+
+## 🎛️ 3. Ficha Técnica Oficial (S.C.M.E.H.)
 
 ```
 ================================================================================
@@ -73,7 +90,7 @@ DAÑO ESTIMADO    : Perforación térmica puntual + ignición residual de 0.25 m
 
 ---
 
-## 💻 3. Código Algorítmico Oficial (RuneScript)
+## 💻 4. Código Algorítmico Oficial (RuneScript)
 
 ```python
 IMPORT RuneScript.Elements.Air.Density AS AeroDensity;
@@ -189,7 +206,7 @@ SEQUENCE AgujaPlasmaRubi(Target: Entity) {
 
 ---
 
-## 🎲 4. Implementación en FATE Básico (Proeza de Magia)
+## 🎲 5. Implementación en FATE Básico (Proeza de Magia)
 
 ### Mecánica de Activación y Acción
 * **Acción Principal:** **Atacar** o **Crear una Ventaja** contra un blanco a distancia corta (misma zona o zona adyacente inmediata, máx. 5 m).
@@ -204,7 +221,7 @@ SEQUENCE AgujaPlasmaRubi(Target: Entity) {
 
 ---
 
-## 🔮 5. Bitácora de Luna: *Próximamente... La Versión 2.0*
+## 🔮 6. Bitácora de Luna: *Próximamente... La Versión 2.0*
 
 > [!TIP]
 > ### ⚡ EN EL BANCO DE TRABAJO: *Aguja Carmesí v2.0 (The Director's Cut)*
@@ -219,7 +236,7 @@ SEQUENCE AgujaPlasmaRubi(Target: Entity) {
 
 ---
 
-## 🔗 Enlaces del Compendio
+## 🔗 7. Enlaces del Compendio
 
 * 🎭 Índice Maestro: [[MOC - Compendio de Arte de Autoria Personal]]
 * 🦊 Consola de Compilación: [[Artefacto - Little Fox]]

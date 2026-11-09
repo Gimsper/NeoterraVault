@@ -47,6 +47,7 @@ flowchart TD
     SDK --> NEUR["🧠 6. Red Sináptica y Psíquica (Neural)"]
     SDK --> ENG["🛠️ 7. Mantenimiento y Hardware (Engineering)"]
     SDK --> SAFE["🛡️ 8. Seguridad y Disipación (Safety)"]
+    SDK --> MATH["🔢 9. Núcleo Matemático (Core.Math)"]
 ```
 
 ---
@@ -175,6 +176,19 @@ flowchart TD
   * `ground_electrical_surge()`: Deriva picos de alto voltaje al chasis metálico o al piso.
 * **`Safety.Abort`:**
   * `collapse_confinement_inward(envelope)`: Disuelve el campo de contención de forma progresiva sin estallido expansivo.
+
+---
+
+### 🔢 Capa 9: Núcleo y Operaciones Matemáticas (`RuneScript.Core.Math`)
+*Primitivas de aritmética y cálculo numérico ejecutadas a bajo nivel por la CPU Rúnica en $\mathcal{O}(1)$. Imprescindibles para cinemática balística, temporizadores dinámicos, cálculo de envolventes y trigonometría.*
+
+* **`Core.Math`:**
+  * `sqrt(value: Float) -> Float`: Raíz cuadrada de precisión flotante. Crucial para ecuaciones cinéticas, tiempos de vuelo dinámicos ($t = \sqrt{2d/a}$) y módulos vectoriales tridimensionales.
+  * `pow(base: Float, exponent: Float) -> Float`: Potenciación de magnitudes y cálculos de dispersión cuadrática inversa ($1/r^2$).
+  * `abs(value: Float) -> Float`: Valor absoluto de diferenciales térmicos, barométricos o de reluctancia magnética.
+  * `min(a: Float, b: Float) -> Float` / `max(a: Float, b: Float) -> Float`: Acotación de umbrales energéticos y márgenes operativos.
+  * `clamp(val: Float, min_val: Float, max_val: Float) -> Float`: Restringe un valor dentro de un rango seguro para evitar sobrecargas de hardware.
+  * `sin(radians: Float) -> Float` / `cos(radians: Float) -> Float` / `tan(radians: Float) -> Float`: Funciones trigonométricas para descomposición de vectores angulares, deflexión parabólica y arcos de tiro.
 
 ---
 

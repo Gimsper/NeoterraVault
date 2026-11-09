@@ -54,14 +54,14 @@ El software de Rango B entra de lleno en la doctrina de **guerra táctica y ased
 
 La siguiente tabla resume las **6 secuencias canónicas de Rango B** disponibles para los [[Los Especialistas|Especialistas]] de combate avanzado. Cada una cuenta con su propia **nota atómica individual** con el código completo en [[Manual de Programacion SCMEH|RuneScript]] y su implementación en [[Reglas FATE - Sistema de Magia Artificial|FATE Básico]]:
 
-| N° | Secuencia S.C.M.E.H. | Afinidad | Big-O | Flujo | Ciclo | Utilidad Principal | Ficha Atómica Detallada |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| **01** | 🔥 **Mandoble de Plasma Confinado** | Fuego | $\mathcal{O}(n)$ | $38.5	ext{ kR/s}$ | Por Escena | Hoja de 1.10 m a 3,800 °C con solenoide activo (Arma: 4; perfora blindajes de tanques) | [[Secuencia - Mandoble de Plasma Confinado]] |
-| **02** | ⛰️ **Muralla Litológica de Fortificación** | Tierra | $\mathcal{O}(n)$ | $42.0	ext{ kR/s}$ | 1 Asalto | Monolito de 2.5 m x 3.0 m x 30 cm (~5.4 t) con 6 casillas de estrés estructural | [[Secuencia - Muralla Litologica de Fortificacion]] |
-| **03** | 👁️ **Espejismo Doppler Holográfico** | Neutro | $\mathcal{O}(n)$ | $24.0	ext{ kR/s}$ | Por Escena | Clon móvil a 60 Hz hasta 30 m con corrimiento Doppler acústico (absorbe 2 disparos) | [[Secuencia - Espejismo Doppler Holografico]] |
-| **04** | 💧 **Látigo de Corte Hidrostático** | Agua | $\mathcal{O}(n)$ | $32.0	ext{ kR/s}$ | Infinito | Filamento transónico de 8 m a 300 bar (Arma: 3; secciona acero y extremidades) | [[Secuencia - Latigo de Corte Hidrostatico]] |
-| **05** | 🛡️ **Cúpula Deflectora Balística** | Neutro | $\mathcal{O}(n)$ | $48.0	ext{ kR/s}$ | 1 Asalto | Domo hemisférico 360° de 2.5 m (+3 Defensa grupal, 4 casillas de estrés) | [[Secuencia - Cupula Deflectora Balistica]] |
-| **06** | ⛰️ **Baliza de Resonancia Eterodinámica** | Tierra | $\mathcal{O}(n)$ | $18.5	ext{ kR/s}$ | Infinito | Marcado piezoeléctrico a 50 m y telemetría a través de muros a 5 km por 24 h | [[Secuencia - Baliza de Resonancia Eterodinamica]] |
+|   N°   | Secuencia S.C.M.E.H.                       | Afinidad |      Big-O       |       Flujo       |   Ciclo    | Utilidad Principal                                                                     | Ficha Atómica Detallada                             |
+| :----: | :----------------------------------------- | :------: | :--------------: | :---------------: | :--------: | :------------------------------------------------------------------------------------- | :-------------------------------------------------- |
+| **01** | 🔥 **Mandoble de Plasma Confinado**        |  Fuego   | $\mathcal{O}(n)$ | $38.5	ext{ kR/s}$ | Por Escena | Hoja de 1.10 m a 3,800 °C con solenoide activo (Arma: 4; perfora blindajes de tanques) | [[Secuencia - Mandoble de Plasma Confinado]]        |
+| **02** | ⛰️ **Muralla Litológica de Fortificación** |  Tierra  | $\mathcal{O}(n)$ | $42.0	ext{ kR/s}$ |  1 Asalto  | Monolito de 2.5 m x 3.0 m x 30 cm (~5.4 t) con 6 casillas de estrés estructural        | [[Secuencia - Muralla Litologica de Fortificacion]] |
+| **03** | 👁️ **Espejismo Doppler Holográfico**      |  Neutro  | $\mathcal{O}(n)$ | $24.0	ext{ kR/s}$ | Por Escena | Clon móvil a 60 Hz hasta 30 m con corrimiento Doppler acústico (absorbe 2 disparos)    | [[Secuencia - Espejismo Doppler Holografico]]       |
+| **04** | 💧 **Látigo de Corte Hidrostático**        |   Agua   | $\mathcal{O}(n)$ | $32.0	ext{ kR/s}$ |  Infinito  | Filamento transónico de 8 m a 300 bar (Arma: 3; secciona acero y extremidades)         | [[Secuencia - Latigo de Corte Hidrostatico]]        |
+| **05** | 🛡️ **Cúpula Deflectora Balística**        |  Neutro  | $\mathcal{O}(n)$ | $48.0	ext{ kR/s}$ |  1 Asalto  | Domo hemisférico 360° de 2.5 m (+3 Defensa grupal, 4 casillas de estrés)               | [[Secuencia - Cupula Deflectora Balistica]]         |
+| **06** | ⛰️ **Baliza de Resonancia Eterodinámica**  |  Tierra  | $\mathcal{O}(n)$ | $18.5	ext{ kR/s}$ |  Infinito  | Marcado piezoeléctrico a 50 m y telemetría a través de muros a 5 km por 24 h           | [[Secuencia - Baliza de Resonancia Eterodinamica]]  |
 
 ---
 
