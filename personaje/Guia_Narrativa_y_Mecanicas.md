@@ -7,7 +7,7 @@
 
 Luna es un personaje femenino impulsado por tres tensiones simultáneas:
 1. **La Fachada de Cadete:** Debe fingir ser una recluta obediente y estándar ante la Federación y los médicos del laboratorio militar para mantener acceso diario a la habitación de su padre y a los bancos de datos restringidos.
-2. **El Reloj de la Vida de su Padre:** En cuidados intensivos, su padre es lo único sagrado y verdadero que le queda; toda su teatralidad y cinismo se quiebran cuando entra a esa sala de hospital.
+2. **El Reloj de la Vida de su Padre:** En cuidados intensivos desde hace seis meses tras el Incidente 14, su padre ([[Ronald_Evergarden|Capitán Ronald Evergarden]]) es lo único sagrado y verdadero que le queda; toda su teatralidad y cinismo se quiebran cuando entra a esa sala de hospital.
 3. **El Misterio de los Heraldos (La Red Oculta):** Luna no sabe qué es formalmente la "antimagia" (la ciencia y los altos mandos mantienen el término bajo estricto secreto o estudio clasificado). Sin embargo, desde la emboscada intuye con certeza visceral que el remolino de visiones, voces y sentimientos ajenos que martillean su cráneo proviene directamente de los monstruos que destrozaron la caravana: los Heraldos. Su objetivo real al alistarse es averiguar qué eran esas criaturas y qué le dejaron dentro.
 
 ---

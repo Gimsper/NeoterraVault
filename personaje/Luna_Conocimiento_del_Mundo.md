@@ -34,7 +34,7 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
 
 ### 🛡️ Aegis Dynamics: La Chatarra de la Federación
 * **Lo que opinas:** Ves a los artefactos de Aegis como **ladrillos de hierro toscos, feos y aburridos**. Te recuerdan a los sargentos amargados de la academia que te gritan por no llevar la corbata reglamentaria. 
-* **La Herida Familiar:** Tu padre combatió toda su vida con un guantelete pesado de Aegis. Hoy conservas ese viejo catalizador colgado de tu cinto: está derretido e inservible, mudo por el fuego de trinchera. Amas a tu padre con devoción absoluta, pero juraste que jamás combatirías como un peón gris con un cerrojo de hierro.
+* **La Herida Familiar:** Tu padre, el legendario [[Ronald_Evergarden|Capitán Ronald Evergarden]], combatió más de 25 años en la Guardia de Especialistas con un guantelete pesado de Aegis. Hoy conservas ese viejo catalizador colgado de tu cinto: está derretido e inservible, mudo por el fuego de trinchera. Amas a tu padre con devoción absoluta, pero juraste que jamás combatirías como un peón gris con un cerrojo de hierro.
 
 ### 🔥 Vulcan Heavy Industries: Fuerza Bruta de Mineros
 * **Lo que opinas:** Respetas el volumen de fuego que generan, pero los consideras herramientas de demolición para gente sin oído ni gusto artístico. Son aparatos ruidosos, que huelen a grasa y vapor, diseñados para derribar murallas a golpes, no para bailar entre llamas de plasma.

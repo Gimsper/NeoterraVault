@@ -338,14 +338,14 @@ Alteración de constantes físicas fundamentales y entropía cósmica. *Restring
 
 ##### 📋 Catálogo Oficial de Constantes Modificables (`UniversalConstant.*`)
 
-| ID de Constante | Símbolo Físico | Ley Gobernada | Efecto Táctico al Alterar Multiplicador (`multiplier`) |
-| :--- | :---: | :--- | :--- |
-| `VACUUM_PERMITTIVITY` | $\varepsilon_0$ | Permisividad eléctrica del vacío | **$< 1.0$:** El aire no soporta voltaje; los arcos de rayo colapsan y no pueden dispararse.<br>**$> 1.0$:** Hiperconductividad de vacío; las chispas saltan a decenas de metros. |
-| `VACUUM_PERMEABILITY` | $\mu_0$ | Permeabilidad magnética | **$< 1.0$:** Los campos magnéticos se disuelven; balas e imanes pierden interacción electromagnética.<br>**$> 1.0$:** Inducción magnética masiva; metales quedan clavados al suelo. |
-| `GRAVITATIONAL_COUPLING` | $G$ | Constante de gravitación universal | **$= 0.0$:** Gravedad cero absoluta en la burbuja.<br>**$< 0.0$:** Inversión gravitacional; todo cae violentamente hacia el cielo.<br>**$> 2.0$:** Hipergravedad de aplastamiento. |
-| `LOCAL_LIGHT_SPEED` | $c$ | Límite de propagación electromagnética | **$< 1.0$:** Reduce la velocidad de la luz y el radio; genera retraso extremo en visores y sensores ópticos rivales.<br>**$> 1.0$:** Aceleración causal de pulsos de energía. |
-| `BOLTZMANN_TRANSFER` | $k_B$ | Constante de dispersión térmica | **$= 0.0$:** Cero termodinámico adiabático perfecto; nada puede enfriarse ni calentarse dentro de la zona (inmunidad térmica total mientras dure). |
-| `PLANCK_ACTION_QUANTUM` | $\hbar$ | Umbral de indeterminación cuántica | **$> 10^3$:** Incertidumbre a escala macroscópica; la materia y los proyectiles parpadean en múltiples posiciones probabilísticas a la vez, volviéndose casi imposibles de acertar. |
+| ID de Constante          | Símbolo Físico  | Ley Gobernada                          | Efecto Táctico al Alterar Multiplicador (`multiplier`)                                                                                                                              |
+| :----------------------- | :-------------: | :------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `VACUUM_PERMITTIVITY`    | $\varepsilon_0$ | Permisividad eléctrica del vacío       | **$< 1.0$:** El aire no soporta voltaje; los arcos de rayo colapsan y no pueden dispararse.<br>**$> 1.0$:** Hiperconductividad de vacío; las chispas saltan a decenas de metros.    |
+| `VACUUM_PERMEABILITY`    |     $\mu_0$     | Permeabilidad magnética                | **$< 1.0$:** Los campos magnéticos se disuelven; balas e imanes pierden interacción electromagnética.<br>**$> 1.0$:** Inducción magnética masiva; metales quedan clavados al suelo. |
+| `GRAVITATIONAL_COUPLING` |       $G$       | Constante de gravitación universal     | **$= 0.0$:** Gravedad cero absoluta en la burbuja.<br>**$< 0.0$:** Inversión gravitacional; todo cae violentamente hacia el cielo.<br>**$> 2.0$:** Hipergravedad de aplastamiento.  |
+| `LOCAL_LIGHT_SPEED`      |       $c$       | Límite de propagación electromagnética | **$< 1.0$:** Reduce la velocidad de la luz y el radio; genera retraso extremo en visores y sensores ópticos rivales.<br>**$> 1.0$:** Aceleración causal de pulsos de energía.       |
+| `BOLTZMANN_TRANSFER`     |      $k_B$      | Constante de dispersión térmica        | **$= 0.0$:** Cero termodinámico adiabático perfecto; nada puede enfriarse ni calentarse dentro de la zona (inmunidad térmica total mientras dure).                                  |
+| `PLANCK_ACTION_QUANTUM`  |     $\hbar$     | Umbral de indeterminación cuántica     | **$> 10^3$:** Incertidumbre a escala macroscópica; la materia y los proyectiles parpadean en múltiples posiciones probabilísticas a la vez, volviéndose casi imposibles de acertar. |
 
 ---
 
