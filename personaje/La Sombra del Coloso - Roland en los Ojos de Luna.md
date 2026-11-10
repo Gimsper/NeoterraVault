@@ -49,7 +49,7 @@ Para la infantería de la Federación, para los veteranos mutilados y para los m
 
 ### Cómo lo vive Luna:
 * **Orgullo Feroz:** Cuando un sargento veterano o un soldado raso reconoce su apellido y cuadra los hombros con respeto, Luna siente un fogonazo de orgullo visceral. Para ella, los generales de despacho y los burócratas de levita limpia como el [[Teniente Vance]] no le llegan a la suela de las botas embarradas a su padre.
-* **La Sombra y la Rebeldía Estética:** Ser la hija de un monolito de piedra indestructible es una carga colosal. Luna supo desde niña que jamás sería una guerrera pesada de trinchera que aguanta golpes en silencio. Por eso **eligió el camino diametralmente opuesto: el fuego, el plasma y la teatralidad**. Su magia no es roca bruta; es arte geométrico deslumbrante. En su mente, sublimar el combate en un espectáculo visual despampanante es su forma de decir: *«Soy la hija dEl Coloso de la Tercera, pero mi fuego va a iluminar el cielo entero para que nadie se atreva a compadecerme»*.
+* **La Sombra y la Rebeldía Estética:** Ser la hija de un monolito de piedra indestructible es una carga colosal. Luna supo desde niña que jamás sería una guerrera pesada de trinchera que aguanta golpes en silencio. Por eso **eligió el camino diametralmente opuesto: el fuego, el plasma y la teatralidad**. Su magia no es roca bruta; es arte geométrico deslumbrante. En su mente, sublimar el combate en un espectáculo visual despampanante es su forma de decir: *«Soy la hija de «El Coloso de la Tercera», pero mi fuego va a iluminar el cielo entero para que nadie se atreva a compadecerme»*.
 
 ---
 
@@ -86,7 +86,7 @@ Roland le enseñó a Luna que un Especialista no es un hechicero de salón que h
 | :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Un veterano o recluta elogia a Roland**                   | Sonrisa sincera pero esquiva; baja la guardia por un instante y muestra un respeto solemne poco común en ella.                                                                                                                |
 | **Un oficial (como Vance) insulta o minimiza a su padre**   | Se le enciende la mirada con un odio gélido y peligroso; la ironía se vuelve afilada como un bisturí y busca cualquier forma reglamentaria de humillarlo.                                                                     |
-| **Sufre estática o visiones del Heraldo (su Complicación)** | Lleva instintivamente la mano derecha al **catalizador calcinado** que lleva en el cinto. Aferrarse a ese metal derretido es su ancla física para recordar quién es y no disolverse en la colmena.                            |
+| **Sufre estática o visiones del Heraldo (su Complicación)** | Lleva instintivamente la mano derecha al **pesado tambor calcinado** que lleva en el cinto. Aferrarse al acero estriado de ese cilindro de cinco recámaras es su ancla física para recordar quién es y no disolverse en la colmena.                            |
 | **Frente al peligro inminente o la tentación de huir**      | Recuerda la espalda de su padre frente a la pared de roca: Luna no da un paso atrás cuando hay inocentes en juego, aunque disfrace su heroísmo de vanidad dramática (*«No me voy a ir sin darles el clímax que se merecen»*). |
 
 ---

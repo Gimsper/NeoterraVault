@@ -9,7 +9,7 @@
 * **Raza / Condición:** Especialista (humanoide bio-modificada con materiales del Reino Olvidado)
 * **Afinidad Elemental:** 🔥 **Pyro** (`RuneScript.Elements.Fire` — Termodinámica molecular, combustión, plasma y confinamiento térmico)
 * **Capacidad de Recuperación:** 3 (Puntos de Destino iniciales al inicio de cada sesión: 3)
-* **Descripción Breve:** Joven Especialista de porte erguido, mirada penetrante y una sonrisa ladeada teñida de mordacidad. Viste el uniforme de cadete Especialista de la Federación en su característico azul marino profundo, portado con una calculada elegancia rebelde (que contrasta marcadamente con el verde oliva de los reclutas de infantería común). Aunque la Federación le asignó el tosco catalizador reglamentario de ordenanza (*Aegis Sentinel-C*), Luna se negó a operar con semejante 'ladrillo de baquelita' y adquirió por decisión y ahorros propios un **Little Fox** de Kitsune Micro-Arcana; para ella, este terminal táctil no es un simple visor civil, sino la consola de una virtuosa donde compone secuencias de fuego milimétricas con efectos visuales despampanantes. Sobre el pecho o al cinto, en riguroso contraste, descansa una reliquia enmudecida por el fuego: el viejo catalizador de trinchera de su padre, derretido e inútil para la magia, pero su ancla emocional más sagrada.
+* **Descripción Breve:** Joven Especialista de porte erguido, mirada penetrante y una sonrisa ladeada teñida de mordacidad. Viste el uniforme de cadete Especialista de la Federación en su característico azul marino profundo, portado con una calculada elegancia rebelde (que contrasta marcadamente con el verde oliva de los reclutas de infantería común). Aunque la Federación le asignó el tosco catalizador reglamentario de ordenanza (*Aegis Sentinel-C*), Luna se negó a operar con semejante 'ladrillo de baquelita' y adquirió por decisión y ahorros propios un **Little Fox** de Kitsune Micro-Arcana; para ella, este terminal táctil no es un simple visor civil, sino la consola de una virtuosa donde compone secuencias de fuego milimétricas con efectos visuales despampanantes. Al cinto, en riguroso contraste, descansa una reliquia enmudecida por el fuego: el pesado tambor rotativo de cinco recámaras rescatado del monumental catalizador de trinchera de su padre (el Dreadnought-MK1), fundido e inútil para la magia pero su ancla emocional más sagrada.
 
 ---
 
@@ -116,9 +116,10 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 * **Consumible Sanitario Reglamentario:** 1x Chip ROM sellado de un solo uso con [[Secuencia - Parche de Coagulacion Hidrostatica]].
 * **Protección Corporal:** Uniforme reglamentario de cadete Especialista en azul marino profundo con chaleco interior de kevlar ligero.
 
-#### 3. 🛡️ Reliquia Inerte: *El Catalizador Calcinado de Papá*
+#### 3. 🛡️ Reliquia Inerte: *El Tambor Calcinado de Papá (Núcleo del Dreadnought-MK1)*
 * **Tipo:** Objeto narrativo / Reliquia familiar inoperativa.
-* **Estado:** Hardware completamente fundido por el ataque de los Heraldos. Circuitos muertos, sin capacidad de compilar código ni albergar ranuras.
+* **Descripción Física:** Dado que transportar el descomunal exoesqueleto de asalto completo era tácticamente inviable por su volumen y peso, Luna desmontó y rescató únicamente el **tambor rotativo blindado de 5 recámaras**. Lo lleva sujeto a la cadera mediante una gruesa correa táctica de cuero de trinchera.
+* **Estado:** Cilindro de titanio-tungsteno deformado y ennegrecido por calor extremo, con dos recámaras reventadas, dial de cuarzo agrietado y ranuras selladas por microcristales de calcificación etérea. Completamente inerte, frío y sin lecturas de energía.
 * **Función:** Ancla de cordura y foco dramático del aspecto *«El catalizador calcinado de mi padre como brújula»*.
 
 ![[aegis_dreadnought_mk1_relic.jpg]]
