@@ -57,7 +57,7 @@ Para la infantería de la Federación, para los veteranos mutilados y para los m
 
 Lejos del uniforme y de las miradas del ejército, Roland era un hombre rudo, de pocas palabras, pero de una devoción silenciosa e incondicional hacia su hija. Tras la muerte de su madre cuando Luna era apenas una niña, Roland se convirtió en su mundo entero.
 
-### Las memorias que el zumbido de la Antimagia no pudo borrar:
+### Las memorias que el zumbido no pudo borrar:
 * **La Ternura Tosca:** Las manos gigantescas de Roland, cubiertas de callos y cicatrices de metralla, curando con torpeza infinita las quemaduras accidentales de Luna con ungüento casero de caléndula.
 * **La Sonrisa Clandestina:** Las broncas fingidas que le echaba cuando Luna aprendía una pirueta rúnica prohibida con chispas de fuego en el patio de casa... y la mirada de fascinación y orgullo que Roland no lograba disimular mientras fingía leer el periódico de la guarnición.
 * **El Quiebre de la Máscara:** Cuando Luna cruza la puerta del Pabellón 4B del hospital militar, **toda la coraza cínica se derrumba**. Frente a esa cama no hay chistes mordaces ni poses teatrales; solo una muchacha de diecinueve años apretando una mano áspera que se enfría por minutos, dispuesta a cometer alta traición, quemar la base o asaltar los laboratorios de Aegis para escuchar su voz una vez más.
@@ -76,18 +76,18 @@ Roland le enseñó a Luna que un Especialista no es un hechicero de salón que h
 2. **Combate Sucio y Rudo:** Roland le enseñó que si la magia falla o el artefacto se recalienta, los puños, las patadas al barro y la culata de la pistola siguen funcionando. Luna no vacila en pelear cuerpo a cuerpo porque tiene en sus músculos la memoria muscular de su padre.
 3. **La Deuda de Sangre de la Ruta Sur 14-B:**  
    Luna sabe que está viva por una sola razón: **Roland Evergarden decidió morir para que ella corriera**.  
-   Cuando la frecuencia del Heraldo Aguja-03 amenazaba con aplastar la caravana, Roland se interpuso entre la criatura y el camión de Luna. Sus últimas palabras (*«¡No mires atrás, Luna! ¡Sube a ese camión y aprieta el acelerador! ¡La pared va a aguantar mientras me quede sangre en las venas... corre y haz que valga la pena!»*) no son un recuerdo; son un mandato sagrado. Luna considera que **su propia vida ya no le pertenece del todo: es un préstamo que su padre pagó con sus pulmones**.
+   Cuando la frecuencia amenazaba con aplastar la caravana, Roland se interpuso. Sus últimas palabras (*«¡No mires atrás, Luna! ¡Sube a ese camión y aprieta el acelerador! ¡La pared va a aguantar mientras me quede sangre en las venas... corre y haz que valga la pena!»*) no son un recuerdo; son un mandato sagrado. Luna considera que **su propia vida ya no le pertenece del todo: es un préstamo que su padre pagó**.
 
 ---
 
 ## 🎭 Pautas de Roleplay para la Mesa (Cómo Usar Esto en la Partida)
 
-| Situación en Mesa | Cómo reacciona Luna a través de Roland |
-| :--- | :--- |
-| **Un veterano o recluta elogia a Roland** | Sonrisa sincera pero esquiva; baja la guardia por un instante y muestra un respeto solemne poco común en ella. |
-| **Un oficial (como Vance) insulta o minimiza a su padre** | Se le enciende la mirada con un odio gélido y peligroso; la ironía se vuelve afilada como un bisturí y busca cualquier forma reglamentaria de humillarlo. |
-| **Sufre estática o visiones del Heraldo (su Complicación)** | Lleva instintivamente la mano derecha al **catalizador calcinado** que lleva en el cinto. Aferrarse a ese metal derretido es su ancla física para recordar quién es y no disolverse en la colmena. |
-| **Frente al peligro inminente o la tentación de huir** | Recuerda la espalda de su padre frente a la pared de roca: Luna no da un paso atrás cuando hay inocentes en juego, aunque disfrace su heroísmo de vanidad dramática (*«No me voy a ir sin darles el clímax que se merecen»*). |
+| Situación en Mesa                                           | Cómo reacciona Luna a través de Roland                                                                                                                                                                                        |
+| :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Un veterano o recluta elogia a Roland**                   | Sonrisa sincera pero esquiva; baja la guardia por un instante y muestra un respeto solemne poco común en ella.                                                                                                                |
+| **Un oficial (como Vance) insulta o minimiza a su padre**   | Se le enciende la mirada con un odio gélido y peligroso; la ironía se vuelve afilada como un bisturí y busca cualquier forma reglamentaria de humillarlo.                                                                     |
+| **Sufre estática o visiones del Heraldo (su Complicación)** | Lleva instintivamente la mano derecha al **catalizador calcinado** que lleva en el cinto. Aferrarse a ese metal derretido es su ancla física para recordar quién es y no disolverse en la colmena.                            |
+| **Frente al peligro inminente o la tentación de huir**      | Recuerda la espalda de su padre frente a la pared de roca: Luna no da un paso atrás cuando hay inocentes en juego, aunque disfrace su heroísmo de vanidad dramática (*«No me voy a ir sin darles el clímax que se merecen»*). |
 
 ---
 
