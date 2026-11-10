@@ -34,7 +34,7 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
 
 ### 🛡️ Aegis Dynamics: La Chatarra de la Federación
 * **Lo que opinas:** Ves a los artefactos de Aegis como **ladrillos de hierro toscos, feos y aburridos**. Te recuerdan a los sargentos amargados de la academia que te gritan por no llevar la corbata reglamentaria. 
-* **La Herida Familiar:** Tu padre, el legendario [[Ronald_Evergarden|Capitán Ronald Evergarden]], combatió más de 25 años en la Guardia de Especialistas con un guantelete pesado de Aegis. Hoy conservas ese viejo catalizador colgado de tu cinto: está derretido e inservible, mudo por el fuego de trinchera. Amas a tu padre con devoción absoluta, pero juraste que jamás combatirías como un peón gris con un cerrojo de hierro.
+* **La Herida Familiar:** Tu padre, el legendario [[Roland_Evergarden|Capitán Roland Evergarden]], combatió más de 25 años en la Guardia de Especialistas con un guantelete pesado de Aegis. Hoy conservas ese viejo catalizador colgado de tu cinto: está derretido e inservible, mudo por el fuego de trinchera. Amas a tu padre con devoción absoluta, pero juraste que jamás combatirías como un peón gris con un cerrojo de hierro.
 
 ### 🔥 Vulcan Heavy Industries: Fuerza Bruta de Mineros
 * **Lo que opinas:** Respetas el volumen de fuego que generan, pero los consideras herramientas de demolición para gente sin oído ni gusto artístico. Son aparatos ruidosos, que huelen a grasa y vapor, diseñados para derribar murallas a golpes, no para bailar entre llamas de plasma.
@@ -51,10 +51,12 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
 
 * **La Versión Oficial:** En la academia te enseñaron que la Antimagia es una **fuerza cósmica corruptora**, un veneno del vacío que busca consumir a la civilización humana.
 * **Tu Experiencia Íntima (Tu Complicación en FATE):**  
-  Durante la masacre de la caravana de tu pueblo fuiste expuesta a un brote de antimagia. Desde entonces, tienes una firma anómala bajo la piel:
-  * A veces, en pleno estrés o silencio, sientes una **estática lacerante en la nuca y un zumbido de mil voces** que hablan a la vez en tu mente.
-  * **Tu Mayor Terror:** No le temes a la muerte en combate (de hecho, buscas una muerte legendaria y despampanante), pero **le tienes pánico absoluto a perder la cordura**. Tienes pesadillas con que esas voces alienígenas borren tu memoria, tus chistes, tu arte y el recuerdo de la voz de tu padre, dejándote como una cáscara vacía en una cama de hospital.
-* **Tu Defensa:** Cada vez que el zumbido de la Antimagia arrecia, aprietas con la mano el catalizador derretido de tu padre o te concentras en componer una secuencia de fuego perfecta en la pantalla de tu *Little Fox*. El arte y tu ego son tu ancla.
+  Durante el ataque a la caravana fuiste expuesta a la radiación directa de un Heraldo. El choque psico-etéreo no solo alteró tu biología: **te arrancó la memoria episódica del suceso**.
+  * **Tus Únicos Recuerdos Reales:** En medio de una niebla negra impenetrable, solo puedes recordar con nitidez absoluta dos cosas: **la silueta monumental de tu padre** de espaldas, con su guantelete al rojo vivo resistiendo una presión invisible, y sus últimas palabras gritadas entre la polvareda: *«¡No mires atrás, Luna! ¡Sube a ese camión y aprieta el acelerador! ¡La pared va a aguantar mientras me quede sangre en las venas... corre y haz que valga la pena!»*.
+  * **El Gran Vacío y la Mentira Oficial:** Todo lo que ocurrió después —cómo escapaste, quién más sobrevivió y cómo llegaste a la base— es un agujero negro de estática blanca. Cuando despertaste en el hospital militar, los oficiales de inteligencia y los médicos te repitieron una y otra vez la misma historia prefabricada: *«Fue una explosión accidental de combustible clandestino. Tu padre es un héroe que inhaló gases tóxicos salvando a los colonos. El shock te causó amnesia postraumática»*.
+  * **La Disonancia Interior:** Tuviste que aceptar esa versión para rellenar el vacío de tu propia cabeza, pero tus entrañas la rechazan con furia. Cada vez que escuchas a un oficial hablar de "combustible", sientes que te están insultando: la estática en tu nuca y las voces que susurran en tu cráneo te recuerdan que tu padre no cayó por una fuga de gasolina, sino combatiendo contra una pesadilla viviente que la Federación se niega a nombrar.
+  * **Tu Mayor Terror:** No le temes a morir en combate (buscas un final despampanante), pero **le tienes pánico absoluto a que el zumbido de la Red borre lo poco que te queda de tu padre**: su silueta de piedra y el eco de su última orden.
+* **Tu Defensa:** Cada vez que la estática mental arrecia o la narrativa oficial te asfixia, aprietas con los dedos el catalizador calcinado de tu padre o te concentras en componer una secuencia milimétrica en la pantalla de tu *Little Fox*. El arte, el fuego y tu nombre son tu único ancla a la realidad.
 
 ---
 

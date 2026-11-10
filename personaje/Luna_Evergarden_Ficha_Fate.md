@@ -26,7 +26,7 @@ Para Luna, un ataque de fuego ordinario es un insulto al arte de la programació
 * **Puesta en Escena:** Aunque la situación solo requiera disuadir, Luna programa la secuencia para que la deflagración dibuje una corona de fuego simétrica, una onda de calor resonante o una lluvia de ascuas suspendidas. Prefiere arriesgar una décima de segundo extra antes que tolerar una explosión desprolija.
 
 #### 3. El Talón de Aquiles: Su Padre en Cuidados Intensivos
-Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vulnerable: su padre moribundo, el condecorado [[Ronald_Evergarden|Capitán Ronald Evergarden]], es lo único que le impide inmolarse en una misión suicida hoy mismo. Tras seis meses en coma vegetativo en el Pabellón 4B, frente a él no hay ironía ni teatralidad; solo la devota hija de un veterano de la Guardia de Especialistas, dispuesta a quemar el mundo o forzar los secretos más prohibidos del laboratorio para mantenerlo con vida.
+Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vulnerable: su padre moribundo, el condecorado [[Roland_Evergarden|Capitán Roland Evergarden]], es lo único que le impide inmolarse en una misión suicida hoy mismo. Tras seis meses en coma vegetativo en el Pabellón 4B, frente a él no hay ironía ni teatralidad; solo la devota hija de un veterano de la Guardia de Especialistas, dispuesta a quemar el mundo o forzar los secretos más prohibidos del laboratorio para mantenerlo con vida.
 
 ---
 
@@ -39,9 +39,9 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 
 2. **Complicación:**  
    > **«El eco de los Heraldos devora mi mente»**  
-   * *Nota de Lore:* Luna no conoce el concepto científico de la "antimagia"; solo sabe que las voces, visiones y sentimientos ajenos que asaltan su cerebro provienen directamente de los monstruos que emboscaron su caravana.  
+   * *Nota de Lore y Lagunas de Memoria:* El choque psico-etéreo del ataque borró casi por completo los recuerdos biográficos de Luna sobre la masacre. Solo conserva una imagen grabada a fuego: **la silueta titánica de su padre sosteniendo el colapso** y sus últimas palabras gritadas entre el humo (*«¡No mires atrás, Luna! ¡Corre y haz que valga la pena!»*). Todo lo demás es un abismo de estática que la Federación rellenó con la versión oficial de una "explosión de combustible clandestino". Luna sabe intuitivamente que esa versión es una mentira prefabricada, pero carece de recuerdos propios para contrastarla.  
    * *Invocación (+2 o repetir):* Al anticipar ataques de los Heraldos por pura resonancia instintiva, percibir distorsiones anómalas en el ambiente o reaccionar a engendros antes de que sean visibles.  
-   * *Forzado (+1 Punto FATE):* En momentos críticos, sufre jaquecas lacerantes, estática sensorial, ráfagas de palabras incomprensibles del enjambre o una parálisis momentánea debida a la sobrecarga mental.
+   * *Forzado (+1 Punto FATE):* En momentos críticos, sufre jaquecas lacerantes, estática sensorial, ráfagas de palabras incomprensibles del enjambre, o brotes de desorientación cuando la narrativa oficial implantada colisiona con la realidad.
 
 3. **Fase 1 (Trasfondo y Origen):**  
    > **«El peso de una vida efímera»**  
