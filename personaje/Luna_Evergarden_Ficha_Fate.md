@@ -121,6 +121,8 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 * **Estado:** Hardware completamente fundido por el ataque de los Heraldos. Circuitos muertos, sin capacidad de compilar código ni albergar ranuras.
 * **Función:** Ancla de cordura y foco dramático del aspecto *«El catalizador calcinado de mi padre como brújula»*.
 
+![[aegis_dreadnought_mk1_relic.jpg]]
+
 ---
 
 ### 🩺 MEDIDORES DE RESISTENCIA Y ESTRÉS
