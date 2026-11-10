@@ -47,9 +47,16 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
 
 ---
 
-## 2. Lo que Luna Sabe
+## 2. La Huella de tus Padres en tu Vida
 
-* **La Versión Oficial:** En la academia te enseñaron que existe **fuerza cósmica corruptora**, un veneno del éter que busca consumir a la civilización humana.
+* **Tu Padre, Roland Evergarden («El Coloso de la Tercera»):** Es tu ancla viva, el hombre que compró tu supervivencia con su propia salud y a quien acompañas a diario en la sala de cuidados intensivos. De él heredaste la disciplina física, la resistencia y el código moral de no retroceder ante el peligro. *(Para consultar cómo lo ves y cómo interpretarlo en mesa, lee: [[La Sombra del Coloso - Roland en los Ojos de Luna]]).*
+* **Tu Madre, Elena Evergarden (Elena Akanksha):** Falleció cuando tenías apenas **5 años de edad**. No conservas recuerdos nítidos ni conversaciones con ella, sino impresiones casi oníricas: un aroma a manzanilla, una melena cobrizo brillante bajo el sol, una risa desafiante y chispas de fuego que flotaban en la penumbra para calmar tu llanto. Tu talento innato y tu afinidad Pyro son su herencia directa en tu sangre. *(Para profundizar en esta memoria difusa, lee: [[El Eco de la Llama - Elena en la Memoria de Luna]]).*
+
+---
+
+## 3. Lo que Luna Sabe (y Teme) de la Amenaza Etérea
+
+* **La Versión Oficial:** En la academia te enseñaron que existe una **fuerza cósmica corruptora**, un veneno del éter que busca consumir a la civilización humana.
 * **Tu Experiencia Íntima (Tu Complicación en FATE):**  
   Durante el ataque a la caravana fuiste expuesta a la radiación directa de un ser etéreo. El choque psico-etéreo no solo alteró tu biología: **te arrancó la memoria episódica del suceso**.
   * **Tus Únicos Recuerdos:** En medio de una niebla negra impenetrable, solo puedes recordar con nitidez absoluta dos cosas: **la silueta monumental de tu padre** de espaldas, con su guantelete al rojo vivo resistiendo una presión invisible, y sus últimas palabras gritadas entre la polvareda: *«¡No mires atrás, Luna! ¡Sube a ese camión y aprieta el acelerador! ¡La pared va a aguantar mientras me quede sangre en las venas... corre y haz que valga la pena!»*.
@@ -60,14 +67,14 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
 
 ---
 
-## 3. Tu Situación con la Federación y la Academia Militar
+## 4. Tu Situación con la Federación y la Academia Militar
 
 * **El Doble Juego:** Aprobaste las pruebas de aptitud como Especialista y entraste como cadete militar. Para los oficiales superiores eres un recluta disciplinado aunque "algo extravagante y presumido". Por dentro, desprecias la burocracia militar; solo estás allí porque el uniforme te da credenciales para visitar a tu padre y acceso a los archivos clasificados de la enfermería.
 * **Tus Compañeros Cadetes:** Los miras con una mezcla de lástima e ironía mordaz. Muchos de ellos presumen de títulos familiares o sueñan con ascender a generales dentro de treinta años. Tú sabes lo frágil que es la vida (viste morir a tus vecinos en diez segundos en la carretera), así que prefieres no hacer planes más allá de la próxima comida.
 
 ---
 
-## 4. Consejos de Roleplay para la Mesa de Juego
+## 5. Consejos de Roleplay para la Mesa de Juego
 
 * **Frente a un Superior Estricto:**  
   Finge sumisión militar impecable (cuadrarse, decir *"¡A la orden, mi comandante!"*), pero acompaña el saludo con una sonrisa ligeramente burlona o una apostilla irónica en voz baja.
@@ -75,7 +82,7 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
   No te limites a decir *"lanzo una bola de fuego"*. Describe cómo tus dedos se mueven a toda velocidad por la pantalla táctil de tu *Little Fox*, ajustando gradientes de color (de rojo rubí a blanco puro) y geometría esférica para que la explosión sea visualmente impresionante. Si un enemigo va a caer, que caiga en un escenario digno de ser recordado.
 * **Si Alguien Menciona a tu Padre:**  
   Toda tu fachada de cinismo y teatralidad se apaga en seco. Tu voz se vuelve gélida, cortante y letal. Nadie toca la memoria ni la dignidad de tu padre.
-* **Si la Antimagia Zumba en tu Cabeza (Forzado de FATE):**  
+* **Si Zumba tu Cabeza (Forzado de FATE):**  
   Muestra una jaqueca súbita, parpadea contra la estática visual y finge que solo es cansancio antes de que un médico militar te revise con un bioescáner.
 
 ---

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personaje/La Sombra del Coloso - Roland en los Ojos de Luna.md",
+                "file": "99_Secretos_GM/Personajes/Elena_Evergarden.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "La Sombra del Coloso - Roland en los Ojos de Luna"
+              "title": "Elena_Evergarden"
             }
           }
         ]
@@ -190,9 +190,12 @@
   },
   "active": "92a3a86a6d7466ba",
   "lastOpenFiles": [
-    "99_Secretos_GM/Personajes/Elena_Evergarden.md",
+    "personaje/El Eco de la Llama - Elena en la Memoria de Luna.md",
+    "personaje/Luna_Evergarden_Ficha_Fate.md",
     "personaje/Luna_Conocimiento_del_Mundo.md",
     "personaje/La Sombra del Coloso - Roland en los Ojos de Luna.md",
+    "personaje/Guia_Narrativa_y_Mecanicas.md",
+    "99_Secretos_GM/Personajes/Elena_Evergarden.md",
     "personaje/La Sombra del Bastion - Roland en los Ojos de Luna.md",
     "personaje/assets/aegis_dreadnought_mk1_prime.jpg",
     "personaje/assets/roland_evergarden_sheet.jpg",
@@ -209,7 +212,6 @@
     "99_Secretos_GM/Personajes/Teniente Vance.md",
     "99_Secretos_GM/Personajes/Roland_Evergarden.md",
     "99_Secretos_GM/Personajes/Doctor Thorne.md",
-    "personaje/Guia_Narrativa_y_Mecanicas.md",
     "99_Secretos_GM/Personajes/Ronald_Evergarden.md",
     "99_Secretos_GM/Personajes",
     "personaje/Ronald_Evergarden.md",
@@ -220,8 +222,6 @@
     "Magia_Artificial_FATE/01_Mundo_y_Lore/Calculo de Rangos SCMEH - Big-O y Flujo.md",
     "Magia_Artificial_FATE/01_Mundo_y_Lore/Macro de Librerias SCMEH.md",
     "Magia_Artificial_FATE/01_Mundo_y_Lore/Compendio de Librerias Elementales SCMEH.md",
-    "Magia_Artificial_FATE/01_Mundo_y_Lore/Manual de Programacion SCMEH.md",
-    "README.md",
     "Magia_Artificial_FATE/05_Objetos_y_Lore_Items",
     "Magia_Artificial_FATE/01_Mundo_y_Lore",
     "Magia_Artificial_FATE/00_MOCs",
