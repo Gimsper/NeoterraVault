@@ -50,7 +50,7 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
 ## 2. La Huella de tus Padres en tu Vida
 
 * **Tu Padre, Roland Evergarden («El Coloso de la Tercera»):** Es tu ancla viva, el hombre que compró tu supervivencia con su propia salud y a quien acompañas a diario en la sala de cuidados intensivos. De él heredaste la disciplina física, la resistencia y el código moral de no retroceder ante el peligro. *(Para consultar cómo lo ves y cómo interpretarlo en mesa, lee: [[La Sombra del Coloso - Roland en los Ojos de Luna]]).*
-* **Tu Madre, Elena Evergarden (Elena Akanksha):** Falleció cuando tenías apenas **5 años de edad**. No conservas recuerdos nítidos ni conversaciones con ella, sino impresiones casi oníricas: un aroma a manzanilla, una melena cobrizo brillante bajo el sol, una risa desafiante y chispas de fuego que flotaban en la penumbra para calmar tu llanto. Tu talento innato y tu afinidad Pyro son su herencia directa en tu sangre. *(Para profundizar en esta memoria difusa, lee: [[El Eco de la Llama - Elena en la Memoria de Luna]]).*
+* **Tu Madre, Elena Evergarden:** Falleció cuando tenías apenas **5 años de edad**. Tu padre siempre te dijo que era una artista civil que conoció lejos del frente, una mujer libre y sensible que llenaba la casa de color y dibujos. No conservas recuerdos estructurados de ella, sino impresiones sensoriales cálidas: un aroma suave a pigmentos y manzanilla, un mechón cobrizo al sol y una risa ligera y cantarina. Consideras que tu amor por la estética y tu negativa a hacer magia gris y aburrida son su legado en tu vida. *(Para profundizar en este recuerdo, lee: [[El Recuerdo de Elena - La Madre de Luna]]).*
 
 ---
 
