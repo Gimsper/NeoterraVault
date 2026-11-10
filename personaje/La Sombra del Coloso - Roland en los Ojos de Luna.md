@@ -1,5 +1,5 @@
 ---
-title: "La Sombra del Bastión: Roland en los Ojos de Luna"
+title: "La Sombra del Coloso: Roland en los Ojos de Luna"
 type: guia_jugador
 categoria: personaje/trasfondo_emocional
 destinatario: jugador_de_luna
@@ -18,7 +18,7 @@ created: 2026-11-10
 updated: 2026-11-10
 ---
 
-# 🛡️ La Sombra del Bastión: Roland en los Ojos de Luna
+# 🛡️ La Sombra del Coloso: Roland en los Ojos de Luna
 ## Guía de Interpretación Emocional y Brújula de Personaje para el Jugador
 
 > [!NOTE] GUÍA PARA EL JUGADOR DE LUNA
@@ -31,7 +31,7 @@ updated: 2026-11-10
 ```mermaid
 flowchart TD
     subgraph Trilogia_Roland ["La Trinidad de Roland en el Corazón de Luna"]
-        Mito["🏛️ 1. LA FIGURA MÍTICA\n('El Bastión de Hierro')\nEl orgullo de su apellido y el listón que la empuja a ser extraordinaria."]
+        Mito["🏛️ 1. LA FIGURA MÍTICA\n('El Coloso de la Tercera')\nEl orgullo de su apellido y el listón que la empuja a ser extraordinaria."]
         Padre["🪵 2. EL PADRE ÍNTIMO\n('El refugio de pólvora y caléndula')\nSu única verdad pura; el ancla que le impide inmolarse hoy mismo."]
         Soldado["🪖 3. EL SOLDADO DE TRINCHERA\n('La muralla que no dio un paso atrás')\nSu código táctico de honor y la deuda de sangre que la mantiene viva."]
     end
@@ -43,13 +43,13 @@ flowchart TD
 
 ---
 
-## 🏛️ 1. La Figura Mítica: *«El Bastión de Hierro»*
+## 🏛️ 1. La Figura Mítica: *«El Coloso de la Tercera»*
 
 Para la infantería de la Federación, para los veteranos mutilados y para los manuales de la academia, Roland Evergarden es una leyenda viviente: el hombre que aguantó 25 años en la primera línea de la 3.ª Compañía («Los Rompemuros»), el que levantaba empalizadas de basalto a puño limpio con su monumental [[Artefacto - Little Fox#Arquitectura de Hardware Interno|Aegis Dreadnought-MK1]] y el que jamás dejó a un recluta atrás.
 
 ### Cómo lo vive Luna:
 * **Orgullo Feroz:** Cuando un sargento veterano o un soldado raso reconoce su apellido y cuadra los hombros con respeto, Luna siente un fogonazo de orgullo visceral. Para ella, los generales de despacho y los burócratas de levita limpia como el [[Teniente Vance]] no le llegan a la suela de las botas embarradas a su padre.
-* **La Sombra y la Rebeldía Estética:** Ser la hija de un monolito de piedra indestructible es una carga colosal. Luna supo desde niña que jamás sería una guerrera pesada de trinchera que aguanta golpes en silencio. Por eso **eligió el camino diametralmente opuesto: el fuego, el plasma y la teatralidad**. Su magia no es roca bruta; es arte geométrico deslumbrante. En su mente, sublimar el combate en un espectáculo visual despampanante es su forma de decir: *«Soy la hija del Bastión de Hierro, pero mi fuego va a iluminar el cielo entero para que nadie se atreva a compadecerme»*.
+* **La Sombra y la Rebeldía Estética:** Ser la hija de un monolito de piedra indestructible es una carga colosal. Luna supo desde niña que jamás sería una guerrera pesada de trinchera que aguanta golpes en silencio. Por eso **eligió el camino diametralmente opuesto: el fuego, el plasma y la teatralidad**. Su magia no es roca bruta; es arte geométrico deslumbrante. En su mente, sublimar el combate en un espectáculo visual despampanante es su forma de decir: *«Soy la hija dEl Coloso de la Tercera, pero mi fuego va a iluminar el cielo entero para que nadie se atreva a compadecerme»*.
 
 ---
 
