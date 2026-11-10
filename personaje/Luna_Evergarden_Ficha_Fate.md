@@ -123,6 +123,10 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 
 ![[aegis_dreadnought_mk1_relic.jpg]]
 
+#### 4. 💎 Amuleto Materno: *El Prisma de Rubí de Elena*
+* **Tipo:** Objeto narrativo sentimental.
+* **Descripción:** Un pequeño cristal óptico tallado en rubí que perteneció a su madre, [[Personajes/Elena_Evergarden|Elena Evergarden]]. Luna lo lleva en una fina cadena bajo su uniforme. Conserva una levísima tibieza térmica residual que le recuerda que su fuego es una herencia viva.
+
 ---
 
 ### 🩺 MEDIDORES DE RESISTENCIA Y ESTRÉS
