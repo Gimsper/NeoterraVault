@@ -68,6 +68,8 @@ Casi todo lo que sabes sobre Elena proviene de las pocas veces en que tu padre s
 En tu inventario **no conservas ningún objeto físico de tu madre**:
 * No tienes relicarios, joyas ni cartas guardadas. Todo lo que Elena poseía se fue desvaneciendo o quedó en los viejos muebles de la casa familiar.
 * **Tu única reliquia material es el núcleo calcinado del catalizador de tu padre**: el pesado **tambor selector rotatorio de 5 recámaras** del *Aegis Dreadnought-MK1*, asegurado a tu cadera con una correa de cuero militar. Transportar el guantelete completo (una manga de asedio de 45 kg) hubiera sido físicamente imposible para ti en combate; desmontar y conservar únicamente el tambor selector derretido fue tu manera de llevar su corazón blindado a tu lado.
+
+![[aegis_revolver_core_relic.jpg]]
 * **La Razón de Luna:** No necesitas una medalla para recordar a tu madre. Consideras que su herencia no es un pedazo de metal, sino **tu propia mirada hacia el mundo**:
   * Si tu padre te dio la resistencia para no dar un paso atrás, **tu madre te dio el alma de artista**.
   * Tu negativa a conformarte con una magia gris, utilitaria y aburrida como la que exige la Federación nace de ella: *«Papá me enseñó a aguantar los golpes, pero mamá me enseñó que la vida tiene que ser despampanante para que valga la pena vivirla»*.

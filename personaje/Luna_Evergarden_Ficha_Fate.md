@@ -122,7 +122,7 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 * **Estado:** Cilindro de titanio-tungsteno deformado y ennegrecido por calor extremo, con dos recámaras reventadas, dial de cuarzo agrietado y ranuras selladas por microcristales de calcificación etérea. Completamente inerte, frío y sin lecturas de energía.
 * **Función:** Ancla de cordura y foco dramático del aspecto *«El catalizador calcinado de mi padre como brújula»*.
 
-![[aegis_dreadnought_mk1_relic.jpg]]
+![[aegis_revolver_core_relic.jpg]]
 
 
 
