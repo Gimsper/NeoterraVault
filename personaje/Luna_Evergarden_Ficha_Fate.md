@@ -26,7 +26,7 @@ Para Luna, un ataque de fuego ordinario es un insulto al arte de la programació
 * **Puesta en Escena:** Aunque la situación solo requiera disuadir, Luna programa la secuencia para que la deflagración dibuje una corona de fuego simétrica, una onda de calor resonante o una lluvia de ascuas suspendidas. Prefiere arriesgar una décima de segundo extra antes que tolerar una explosión desprolija.
 
 #### 3. El Talón de Aquiles: Su Padre en Cuidados Intensivos
-Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vulnerable: su padre moribundo, el condecorado [[Roland_Evergarden|Capitán Roland Evergarden]], es lo único que le impide inmolarse en una misión suicida hoy mismo. Tras seis meses en coma vegetativo en el Pabellón 4B, frente a él no hay ironía ni teatralidad; solo la devota hija de un veterano de la Guardia de Especialistas, dispuesta a quemar el mundo o forzar los secretos más prohibidos del laboratorio para mantenerlo con vida.
+Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vulnerable: su padre moribundo, el condecorado [[Roland_Evergarden|Capitán Roland Evergarden]], es lo único que le impide inmolarse en una misión suicida hoy mismo. Tras seis meses en coma vegetativo en el Pabellón 4B, frente a él no hay ironía ni teatralidad; solo la devota hija de un veterano de la Guardia de Especialistas, dispuesta a quemar el mundo o forzar los secretos más prohibidos del laboratorio para mantenerlo con vida (para profundizar en esta relación filial, consulta la guía de interpretación: [[La Sombra del Bastion - Roland en los Ojos de Luna|La Sombra del Bastión: Roland en los Ojos de Luna]]).
 
 ---
 

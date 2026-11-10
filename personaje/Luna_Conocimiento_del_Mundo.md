@@ -47,15 +47,15 @@ Como [[Los Especialistas|Especialista]] con afinidad elemental **Pyro**, tu rela
 
 ---
 
-## 2. Lo que Luna Sabe (y Teme) de la Antimagia
+## 2. Lo que Luna Sabe
 
-* **La Versión Oficial:** En la academia te enseñaron que la Antimagia es una **fuerza cósmica corruptora**, un veneno del vacío que busca consumir a la civilización humana.
+* **La Versión Oficial:** En la academia te enseñaron que existe **fuerza cósmica corruptora**, un veneno del éter que busca consumir a la civilización humana.
 * **Tu Experiencia Íntima (Tu Complicación en FATE):**  
-  Durante el ataque a la caravana fuiste expuesta a la radiación directa de un Heraldo. El choque psico-etéreo no solo alteró tu biología: **te arrancó la memoria episódica del suceso**.
-  * **Tus Únicos Recuerdos Reales:** En medio de una niebla negra impenetrable, solo puedes recordar con nitidez absoluta dos cosas: **la silueta monumental de tu padre** de espaldas, con su guantelete al rojo vivo resistiendo una presión invisible, y sus últimas palabras gritadas entre la polvareda: *«¡No mires atrás, Luna! ¡Sube a ese camión y aprieta el acelerador! ¡La pared va a aguantar mientras me quede sangre en las venas... corre y haz que valga la pena!»*.
-  * **El Gran Vacío y la Mentira Oficial:** Todo lo que ocurrió después —cómo escapaste, quién más sobrevivió y cómo llegaste a la base— es un agujero negro de estática blanca. Cuando despertaste en el hospital militar, los oficiales de inteligencia y los médicos te repitieron una y otra vez la misma historia prefabricada: *«Fue una explosión accidental de combustible clandestino. Tu padre es un héroe que inhaló gases tóxicos salvando a los colonos. El shock te causó amnesia postraumática»*.
+  Durante el ataque a la caravana fuiste expuesta a la radiación directa de un ser etéreo. El choque psico-etéreo no solo alteró tu biología: **te arrancó la memoria episódica del suceso**.
+  * **Tus Únicos Recuerdos:** En medio de una niebla negra impenetrable, solo puedes recordar con nitidez absoluta dos cosas: **la silueta monumental de tu padre** de espaldas, con su guantelete al rojo vivo resistiendo una presión invisible, y sus últimas palabras gritadas entre la polvareda: *«¡No mires atrás, Luna! ¡Sube a ese camión y aprieta el acelerador! ¡La pared va a aguantar mientras me quede sangre en las venas... corre y haz que valga la pena!»*.
+  * **El Gran Vacío:** Todo lo que ocurrió después —cómo escapaste, quién más sobrevivió y cómo llegaste a la base— es un agujero negro de estática blanca. Cuando despertaste en el hospital militar, los oficiales de inteligencia y los médicos te repitieron una y otra vez la misma historia prefabricada: *«Fue una explosión accidental de combustible clandestino. Tu padre es un héroe que inhaló gases tóxicos salvando a los colonos. El shock te causó amnesia postraumática»*.
   * **La Disonancia Interior:** Tuviste que aceptar esa versión para rellenar el vacío de tu propia cabeza, pero tus entrañas la rechazan con furia. Cada vez que escuchas a un oficial hablar de "combustible", sientes que te están insultando: la estática en tu nuca y las voces que susurran en tu cráneo te recuerdan que tu padre no cayó por una fuga de gasolina, sino combatiendo contra una pesadilla viviente que la Federación se niega a nombrar.
-  * **Tu Mayor Terror:** No le temes a morir en combate (buscas un final despampanante), pero **le tienes pánico absoluto a que el zumbido de la Red borre lo poco que te queda de tu padre**: su silueta de piedra y el eco de su última orden.
+  * **Tu Mayor Terror:** No le temes a morir en combate (buscas un final despampanante), pero **le tienes pánico absoluto a que el zumbido borre lo poco que te queda de tu padre**: su silueta de piedra y el eco de su última orden.
 * **Tu Defensa:** Cada vez que la estática mental arrecia o la narrativa oficial te asfixia, aprietas con los dedos el catalizador calcinado de tu padre o te concentras en componer una secuencia milimétrica en la pantalla de tu *Little Fox*. El arte, el fuego y tu nombre son tu único ancla a la realidad.
 
 ---

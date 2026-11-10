@@ -11,12 +11,14 @@
             "id": "92a3a86a6d7466ba",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "personaje/assets/aegis_dreadnought_mk1_relic.jpg"
+                "file": "personaje/Luna_Conocimiento_del_Mundo.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "aegis_dreadnought_mk1_relic"
+              "icon": "lucide-file",
+              "title": "Luna_Conocimiento_del_Mundo"
             }
           }
         ]
@@ -186,8 +188,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "92a3a86a6d7466ba",
+  "active": "69aeb85e77e789c9",
   "lastOpenFiles": [
+    "personaje/La Sombra del Bastion - Roland en los Ojos de Luna.md",
     "personaje/assets/aegis_dreadnought_mk1_prime.jpg",
     "personaje/assets/roland_evergarden_sheet.jpg",
     "personaje/assets/Aguja de Plasma Rubí (CAAP-C01).webp",
