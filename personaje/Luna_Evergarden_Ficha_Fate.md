@@ -103,8 +103,8 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
   * **V-RAM:** *512 MB-Arcanos* $\rightarrow$ **Escala Puntual** (misma zona o contacto directo, 0 a 5 metros).
   * **TDP / Estrés de Hardware:** **1 casilla `[1]`** para disipación térmica y absorción de sobrecargas.
 * **Secuencias Configuradas en Slots (SCMEH - Rango C):**
-  * **Slot #1 — S.C.M.E.H. [[Secuencia - Daga de Plasma Confinada]] [Pyro / Rango C]:**  
-    *Permite usar `[✨] Control` para Atacar cuerpo a cuerpo (Arma: 2). Gracias a su afinidad de Fuego, dura 4 asaltos y coloca `[En Llamas]` en éxitos con estilo.*
+  * **Slot #1 — S.C.M.E.H. [[CAAP-C09 - Espadín de Ascuas|Espadín de Ascuas [CAAP-C09]]] [Pyro / Rango C]:**  
+    *(Modificación virtuosa de la [[Secuencia - Daga de Plasma Confinada]]). Permite usar `[✨] Control` o `Pelear` para Atacar cuerpo a cuerpo (Arma: 2, con sinergia de +2 por Sincronía de Linaje). Hoja ahusada de 65 cm con compresión adiabática. Gracias a su afinidad de Fuego, dura 4 asaltos y coloca `[En Llamas]` en éxitos con estilo.*
   * **Slot #2 — S.C.M.E.H. [[Secuencia - Pantalla Deflectora de Punto]] [Neutro / Rango C]:**  
     *Permite usar `[✨] Control` para Defenderse (+2 a la Defensa) desviando proyectiles individuales con un broquel hexagonal.*
   * **Slot #3 — S.C.M.E.H. [[Secuencia - Micro-Impulso Cinetico]] [Aire / Rango C]:**  

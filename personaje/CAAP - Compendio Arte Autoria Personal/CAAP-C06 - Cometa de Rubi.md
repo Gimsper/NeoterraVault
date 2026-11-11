@@ -42,7 +42,7 @@ _El encabezado brilla con un marcador táctil dorado en la memoria rápida del L
 
 Estaba sentada en el suelo del barracón, desplazando archivos viejos y bocetos en la pantalla de mi *Little Fox*. Hacía horas que no podía dormir. En mi cabeza no dejaba de repetirse la misma pesadilla táctica: **el maldito tiempo de recarga**.
 
-La [[Secuencia - Aguja de Plasma Rubi|Aguja de Plasma Rubí (CAAP-C01)]] tenía su encanto visual, sí, pero tenía un defecto letal que ningún profesor cobarde quiso admitir: `Recycle: "Cooldown_1_Round"`. En una escaramuza real, seis segundos de espera con las manos vacías no es «disciplina de tiro»; es una invitación formal para que un enemigo te parta el cráneo con una pala o un engendro te desgarre el pecho.
+La [[CAAP-C01 - Aguja de Plasma Rubi|Aguja de Plasma Rubí (CAAP-C01)]] tenía su encanto visual, sí, pero tenía un defecto letal que ningún profesor cobarde quiso admitir: `Recycle: "Cooldown_1_Round"`. En una escaramuza real, seis segundos de espera con las manos vacías no es «disciplina de tiro»; es una invitación formal para que un enemigo te parta el cráneo con una pala o un engendro te desgarre el pecho.
 
 Miré las líneas de la aguja con ojo clínico y me llegó el chispazo. **¿Por qué demonios arrastraba tanto equipaje inútil?**
 * ¿Para qué comprimir gas previamente con `AeroDensity` si puedo ionizar el bolsillo de aire inmediato?
@@ -53,7 +53,7 @@ Agarré la tijera digital e hice una carnicería con los módulos.
 
 ### ⚖️ La Cirugía Algorítmica: De la Aguja al Cometa
 
-| Parámetro / Módulo      | [[Secuencia - Aguja de Plasma Rubi\|Aguja de Rubí (CAAP-C01)]] |      **Cometa de Rubí (CAAP-C06)**      | Decisión de Luna                                                                                                                             |
+| Parámetro / Módulo      | [[CAAP-C01 - Aguja de Plasma Rubi\|Aguja de Rubí (CAAP-C01)]] |      **Cometa de Rubí (CAAP-C06)**      | Decisión de Luna                                                                                                                             |
 | :---------------------- | :------------------------------------------------------------: | :-------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Recarga / Recycle**   |                `Cooldown_1_Round` *(¡Peligro!)*                |        **`Infinite` (Continuo)**        | **El gran objetivo.** Disparar asalto tras asalto sin que el Little Fox se queje.                                                            |
 | **Flujo Bio-Mágico**    |                       $8.8\text{ kR/s}$                        |          **$6.7\text{ kR/s}$**          | Reducción del **24%** de carga térmica. La batería y los cristales lo agradecen.                                                             |
@@ -196,6 +196,6 @@ SEQUENCE CometaDeRubi(Target: Entity, LaunchPocket: GasPocket) {
 ## 🔗 5. Enlaces del Compendio
 
 * 🎭 Índice Maestro: [[MOC - Compendio de Arte de Autoria Personal]]
-* 🔴 Antecesora Académica: [[Secuencia - Aguja de Plasma Rubi]]
+* 🔴 Antecesora Académica: [[CAAP-C01 - Aguja de Plasma Rubi]]
 * 🦊 Consola de Compilación: [[Artefacto - Little Fox]]
 * 📋 Ficha de Operadora: [[Luna_Evergarden_Ficha_Fate]]

@@ -65,9 +65,14 @@ flowchart TD
     subgraph ActoI ["🔥 Acto I: Preludio y Pinceladas (Rango C)"]
         direction TB
         C1["🔴 [[Secuencia - Aguja de Plasma Rubi|CAAP-C01: Aguja de Plasma Rubí]]<br/><i>Micro-balística rubí (Tarea de seguridad)</i>"]
-        C_BLUR["🔒 <i>[CAAP-C02 ... C05: Bloques Cifrados]</i>"]
+        C2_BLUR["🔒 <i>[CAAP-C02: Bloque Cifrado]</i>"]
+        C3["💧 [[Secuencia - Apósito Hidrostático Escolar|CAAP-C03: Apósito Hidrostático]]<br/><i>Primeros auxilios superficiales (Tarea de aula)</i>"]
+        C_BLUR1["🔒 <i>[CAAP-C04 ... C05: Bloques Cifrados]</i>"]
         C6["☄️ [[Secuencia - Cometa de Rubi|CAAP-C06: Cometa de Rubí]]<br/><i>Ataque principal / Cadencia infinita</i>"]
-        C1 -.-> C_BLUR -.-> C6
+        C7["👁️ [[Secuencia - Inspección de Platea|CAAP-C07: Inspección de Platea]]<br/><i>Telemetría bi-fase sísmica e infrarroja</i>"]
+        C8_BLUR["🔒 <i>[CAAP-C08: Bloque Cifrado]</i>"]
+        C9["🗡️ [[Secuencia - Espadín de Ascuas|CAAP-C09: Espadín de Ascuas]]<br/><i>Esgrima térmica ahusada (Compresión adiabática)</i>"]
+        C1 -.-> C2_BLUR -.-> C3 -.-> C_BLUR1 -.-> C6 -.-> C7 -.-> C8_BLUR -.-> C9
     end
     
     subgraph ActoII ["⚡ Acto II: La Tensión Dramática (Rango B)"]
@@ -98,12 +103,15 @@ flowchart TD
 
 | Código / ID | Título de la Obra   | Rango | Complejidad $\mathcal{O}$ | Flujo ($kR/s$) | Concepto Teatral / Efecto FATE                                                        |
 | :---------- | :------------------ | :---: | :-----------------------: | :------------: | :------------------------------------------------------------------------------------ |
-| `CAAP-C01`  | [[Secuencia - Aguja de Plasma Rubi\|Aguja de Plasma Rubí]] |  `C`  |     $\mathcal{O}(1)$      |     $8.8$      | *Micro-balística confinada de salón. Tarea de academia ultra-segura (¡aburrida!).* |
+| `CAAP-C01`  | [[CAAP-C01 - Aguja de Plasma Rubi\|Aguja de Plasma Rubí]] |  `C`  |     $\mathcal{O}(1)$      |     $8.8$      | *Micro-balística confinada de salón. Tarea de academia ultra-segura (¡aburrida!).* |
 | `CAAP-C02`  | [[CAAP-C02 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
-| `CAAP-C03`  | [[CAAP-C03 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
+| `CAAP-C03`  | [[CAAP-C03 - Apósito Hidrostático Escolar\|Apósito Hidrostático Escolar]] |  `C`  |     $\mathcal{O}(1)$      |     $3.8$      | *Medicina de salón para rasguños triviales. Tarea escolar aburrida pero obligatoria.* |
 | `CAAP-C04`  | [[CAAP-C04 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
 | `CAAP-C05`  | [[CAAP-C05 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
-| `CAAP-C06`  | [[Secuencia - Cometa de Rubi\|Cometa de Rubí]] |  `C`  |     $\mathcal{O}(1)$      |     $6.7$      | *¡Mi consentida! Balística esférica continua, sin enfriamiento y optimizada.* |
+| `CAAP-C06`  | [[CAAP-C06 - Cometa de Rubi\|Cometa de Rubí]] |  `C`  |     $\mathcal{O}(1)$      |     $6.7$      | *¡Mi consentida! Balística esférica continua, sin enfriamiento y optimizada.* |
+| `CAAP-C07`  | [[CAAP-C07 - Inspección de Platea\|Inspección de Platea]] |  `C`  |     $\mathcal{O}(1)$      |     $4.1$      | *Telemetría bi-fase: sondeo sísmico de masa + barrido infrarrojo de miradas.* |
+| `CAAP-C08`  | [[CAAP-C08 - [Archivo Sin Descifrar]\|[Archivo Sin Descifrar]]] |  `?`  |           `?`             |      `?`       | *%%Bloque de memoria dañado o cifrado personal%%* |
+| `CAAP-C09`  | [[CAAP-C09 - Espadín de Ascuas\|Espadín de Ascuas]] |  `C`  |     $\mathcal{O}(1)$      |     $7.5$      | *¡Misma masa de gas, más compresión! Hoja ahusada de 65 cm, gradiente rubí y cazoleta floral.* |
 | `CAAP-B01`  | *(Próximo estreno)* |  `B`  |     $\mathcal{O}(n)$      |   $10 - 100$   | *Balística cinética de plasma, coreografía de proyectiles o barrera simétrica.*       |
 | `CAAP-A01`  | *(Próximo estreno)* |  `A`  |    $\mathcal{O}(n^2)$     | $100 - 1.000$  | *Deflagración masiva bi-fase, implosión de vacío térmico o corona de plasma blanco.*  |
 | `CAAP-OVER` | *(Protocolo Negro)* |  `S`  |    $\mathcal{O}(2^n)$     |    Crítico     | *Pira de emergencia: consumo del catalizador para garantizar una despedida inmortal.* |
