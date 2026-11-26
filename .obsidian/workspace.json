@@ -11,14 +11,12 @@
             "id": "92a3a86a6d7466ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Bitácora/Entrada_A01_10_11_2026_Evergarden.md",
-                "mode": "source",
-                "source": false
+                "file": "Claude outputs/Mapa_Mundi_Neoterra_GM.png"
               },
-              "icon": "lucide-file",
-              "title": "Entrada_A01_10_11_2026_Evergarden"
+              "icon": "lucide-image",
+              "title": "Mapa_Mundi_Neoterra_GM"
             }
           }
         ]
@@ -190,10 +188,32 @@
   },
   "active": "92a3a86a6d7466ba",
   "lastOpenFiles": [
+    "99_Secretos_GM/Mapa_Mundi_FEDNET.html",
+    "Claude outputs/Mapa_Federacion_LittleFox_marcado.png",
     "99_Secretos_GM/Misiones/terminal_nodo04.py",
     "99_Secretos_GM/Misiones/Terminal - Nodo Logistico 04.md",
+    "99_Secretos_GM/Misiones/Mision 01 - Guardia en el Hangar 4.md",
     "99_Secretos_GM/Misiones/Guia de Mision - 02 - Ceniza y Expedientes.md",
+    "personaje/Mapa_Mundi_FEDNET.html",
+    "Claude outputs/Mapa_Mundi_Neoterra_GM.png",
+    "99_Secretos_GM/Atlas_Neoterra_Interactivo.html",
+    "99_Secretos_GM/Lugares/MOC - Lugares de los Incidentes Silente.md",
+    "99_Secretos_GM/Lugares/Lugar - Yacimiento Minero Suroeste 07 (INC-19).md",
+    "99_Secretos_GM/Lugares/Lugar - Ruta de la Caravana Sur 14-B (INC-14).md",
+    "99_Secretos_GM/Lugares/Lugar - Linea Ferroviaria Norte 08-C (INC-11).md",
+    "99_Secretos_GM/Lugares/Lugar - Estacion de Transmision Central-Sur 02 (INC-16).md",
+    "99_Secretos_GM/Lugares/Lugar - Asentamiento Agrario Este 04-A (INC-07).md",
     "99_Secretos_GM/Misiones/Mision 02 - Los Archivos de Aegis.md",
+    "Claude outputs",
+    "99_Secretos_GM/assets/Mapa_Mundi_Neoterra_GM.svg",
+    "99_Secretos_GM/assets/Mapa_Mundi_Neoterra_GM.png",
+    "99_Secretos_GM/Mapa Mundi de Neoterra.md",
+    "99_Secretos_GM/Lugares",
+    "personaje/assets/Mapa_Federacion_LittleFox_base.svg",
+    "personaje/assets/Mapa_Federacion_LittleFox_marcado.svg",
+    "personaje/assets/Mapa_Federacion_LittleFox_base.png",
+    "personaje/assets/Mapa_Federacion_LittleFox_marcado.png",
+    "personaje/Mapa Tactico Federacion - Little Fox.md",
     "99_Secretos_GM/Misiones/Terminal - Manifiesto HazMat-07.md",
     "Bitácora/Entrada_A01_10_11_2026_Evergarden.md",
     "Bitácora",
@@ -208,26 +228,11 @@
     "99_Secretos_GM/Corporaciones - Secretos y Figuras de Poder.md",
     "99_Secretos_GM/Rol Actual de la Antimagia y los Heraldos.md",
     "99_Secretos_GM/Los Dragones Custodios y las Cicatrices del Mundo.md",
-    "99_Secretos_GM/Geopolitica y Facciones Opositoras a la Federacion.md",
-    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/Secuencia - Dardo Neumatico.md",
-    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/Secuencia - Cresta Litologica de Parapeto.md",
     "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/assets/aegis_sentinel_c_schematic.jpg",
     "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/assets/equipamiento_recluta_federacion.jpg",
-    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/assets/little_fox_schematic.jpg",
-    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/assets/hangar_4_depot.jpg",
-    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/assets/equipamiento_recluta_especialista.jpg",
-    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/Artefacto - Little Fox.md",
-    "Magia_Artificial_FATE/05_Objetos_y_Lore_Items/Secuencia - Micro-Impulso Cinetico.md",
-    "Magia_Artificial_FATE/01_Mundo_y_Lore/Compendio de Librerias Elementales SCMEH.md",
-    "Magia_Artificial_FATE/01_Mundo_y_Lore/Calculo de Rangos SCMEH - Big-O y Flujo.md",
-    "Magia_Artificial_FATE/01_Mundo_y_Lore/Corporaciones y Fabricantes de Neoterra.md",
-    "Magia_Artificial_FATE/01_Mundo_y_Lore/Manual de Programacion SCMEH.md",
     "Magia_Artificial_FATE/05_Objetos_y_Lore_Items",
     "Magia_Artificial_FATE/01_Mundo_y_Lore",
     "Magia_Artificial_FATE/00_MOCs",
-    "Magia_Artificial_FATE",
-    "Proyecto_Abaddon/01_Mundo_y_Lore",
-    "Proyecto_Abaddon/00_MOCs",
-    "Proyecto_Abaddon"
+    "Magia_Artificial_FATE"
   ]
 }
