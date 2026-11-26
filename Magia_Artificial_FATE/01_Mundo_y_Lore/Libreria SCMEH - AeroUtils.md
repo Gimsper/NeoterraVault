@@ -122,45 +122,7 @@ A continuación se muestra cómo un jugador programa secuencias reales utilizand
 # COMPILADO CON: RuneScript.Elements.Air (AeroUtils v1.2)
 # =========================================================
 
-IMPORT RuneScript.Elements.Air AS Aero;
-
-SEQUENCE Levitar(Target: Object) {
-    HEADER {
-        Rank: "C";
-        Affinity: "Air";
-        Control_Threshold: 1;
-        Recycle: "Infinite";
-    }
-
-    PARAMETERS {
-        Max_Weight: 250.kg;
-        Flight_Height: 3.5.meters;
-    }
-
-    EXECUTE {
-        # Validación de peso mediante método de presión
-        IF (Target.weight > Max_Weight) {
-            ABORT("Carga fuera de los límites de compresión de AeroUtils");
-        }
-
-        # Aplicación combinada de presión y flujo laminar
-        Aero.AirPressure.polarize(target=Target, surface=BOTTOM, delta_bar=+2.8);
-        Aero.WindFlow.emit_cushion(altitude_m=Flight_Height, weight_limit_kg=Max_Weight);
-    }
-
-    SAFETY_OVERFLOW {
-        ON Control_Failure:
-            # En caso de fallo en tirada FATE, el sistema activa descenso suave
-            Aero.AeroSafety.soft_landing_override(target=Target);
-            Aero.AirPressure.release_slowly(decay_rate=0.4);
-    }
-
-    CUSTOM_EXPLOIT {
-        # El jugador aprovecha AeroAcoustics para no hacer ruido de viento
-        Aero.AeroAcoustics.mute_frequencies(band="AeroWindNoise");
-    }
-}
-```
+a
 
 ---
 
