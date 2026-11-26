@@ -9,7 +9,7 @@
 * **Raza / Condición:** Especialista (humanoide bio-modificada con materiales del Reino Olvidado)
 * **Afinidad Elemental:** 🔥 **Pyro** (`RuneScript.Elements.Fire` — Termodinámica molecular, combustión, plasma y confinamiento térmico)
 * **Capacidad de Recuperación:** 3 (Puntos de Destino iniciales al inicio de cada sesión: 3)
-* **Descripción Breve:** Joven Especialista de porte erguido, mirada penetrante y una sonrisa ladeada teñida de mordacidad. Viste el uniforme de cadete Especialista de la Federación en su característico azul marino profundo, portado con una calculada elegancia rebelde (que contrasta marcadamente con el verde oliva de los reclutas de infantería común). Aunque la Federación le asignó el tosco catalizador reglamentario de ordenanza (*Aegis Sentinel-C*), Luna se negó a operar con semejante 'ladrillo de baquelita' y adquirió por decisión y ahorros propios un **Little Fox** de Kitsune Micro-Arcana; para ella, este terminal táctil no es un simple visor civil, sino la consola de una virtuosa donde compone secuencias de fuego milimétricas con efectos visuales despampanantes. Sobre el pecho o al cinto, en riguroso contraste, descansa una reliquia enmudecida por el fuego: el viejo catalizador de trinchera de su padre, derretido e inútil para la magia, pero su ancla emocional más sagrada.
+* **Descripción Breve:** Joven Especialista de porte erguido, mirada penetrante y una sonrisa ladeada teñida de mordacidad. Viste el uniforme de cadete Especialista de la Federación en su característico azul marino profundo, portado con una calculada elegancia rebelde (que contrasta marcadamente con el verde oliva de los reclutas de infantería común). Aunque la Federación le asignó el tosco catalizador reglamentario de ordenanza (*Aegis Sentinel-C*), Luna se negó a operar con semejante 'ladrillo de baquelita' y adquirió por decisión y ahorros propios un **Little Fox** de Kitsune Micro-Arcana; para ella, este terminal táctil no es un simple visor civil, sino la consola de una virtuosa donde compone secuencias de fuego milimétricas con efectos visuales despampanantes. Al cinto, en riguroso contraste, descansa una reliquia enmudecida por el fuego: el pesado tambor rotativo de cinco recámaras rescatado del monumental catalizador de trinchera de su padre (el Dreadnought-MK1), fundido e inútil para la magia pero su ancla emocional más sagrada.
 
 ---
 
@@ -26,7 +26,7 @@ Para Luna, un ataque de fuego ordinario es un insulto al arte de la programació
 * **Puesta en Escena:** Aunque la situación solo requiera disuadir, Luna programa la secuencia para que la deflagración dibuje una corona de fuego simétrica, una onda de calor resonante o una lluvia de ascuas suspendidas. Prefiere arriesgar una décima de segundo extra antes que tolerar una explosión desprolija.
 
 #### 3. El Talón de Aquiles: Su Padre en Cuidados Intensivos
-Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vulnerable: su padre moribundo, el condecorado [[Ronald_Evergarden|Capitán Ronald Evergarden]], es lo único que le impide inmolarse en una misión suicida hoy mismo. Tras seis meses en coma vegetativo en el Pabellón 4B, frente a él no hay ironía ni teatralidad; solo la devota hija de un veterano de la Guardia de Especialistas, dispuesta a quemar el mundo o forzar los secretos más prohibidos del laboratorio para mantenerlo con vida.
+Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vulnerable: su padre moribundo, el condecorado [[Roland_Evergarden|Capitán Roland Evergarden]], es lo único que le impide inmolarse en una misión suicida hoy mismo. Tras seis meses en coma vegetativo en el Pabellón 4B, frente a él no hay ironía ni teatralidad; solo la devota hija de un veterano de la Guardia de Especialistas, dispuesta a quemar el mundo o forzar los secretos más prohibidos del laboratorio para mantenerlo con vida (para profundizar en esta relación filial, consulta la guía de interpretación: [[La Sombra del Coloso - Roland en los Ojos de Luna|La Sombra del Coloso: Roland en los Ojos de Luna]]).
 
 ---
 
@@ -39,9 +39,9 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 
 2. **Complicación:**  
    > **«El eco de los Heraldos devora mi mente»**  
-   * *Nota de Lore:* Luna no conoce el concepto científico de la "antimagia"; solo sabe que las voces, visiones y sentimientos ajenos que asaltan su cerebro provienen directamente de los monstruos que emboscaron su caravana.  
+   * *Nota de Lore y Lagunas de Memoria:* El choque psico-etéreo del ataque borró casi por completo los recuerdos biográficos de Luna sobre la masacre. Solo conserva una imagen grabada a fuego: **la silueta titánica de su padre sosteniendo el colapso** y sus últimas palabras gritadas entre el humo (*«¡No mires atrás, Luna! ¡Corre y haz que valga la pena!»*). Todo lo demás es un abismo de estática que la Federación rellenó con la versión oficial de una "explosión de combustible clandestino". Luna sabe intuitivamente que esa versión es una mentira prefabricada, pero carece de recuerdos propios para contrastarla.  
    * *Invocación (+2 o repetir):* Al anticipar ataques de los Heraldos por pura resonancia instintiva, percibir distorsiones anómalas en el ambiente o reaccionar a engendros antes de que sean visibles.  
-   * *Forzado (+1 Punto FATE):* En momentos críticos, sufre jaquecas lacerantes, estática sensorial, ráfagas de palabras incomprensibles del enjambre o una parálisis momentánea debida a la sobrecarga mental.
+   * *Forzado (+1 Punto FATE):* En momentos críticos, sufre jaquecas lacerantes, estática sensorial, ráfagas de palabras incomprensibles del enjambre, o brotes de desorientación cuando la narrativa oficial implantada colisiona con la realidad.
 
 3. **Fase 1 (Trasfondo y Origen):**  
    > **«El peso de una vida efímera»**  
@@ -103,8 +103,8 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
   * **V-RAM:** *512 MB-Arcanos* $\rightarrow$ **Escala Puntual** (misma zona o contacto directo, 0 a 5 metros).
   * **TDP / Estrés de Hardware:** **1 casilla `[1]`** para disipación térmica y absorción de sobrecargas.
 * **Secuencias Configuradas en Slots (SCMEH - Rango C):**
-  * **Slot #1 — S.C.M.E.H. [[Secuencia - Daga de Plasma Confinada]] [Pyro / Rango C]:**  
-    *Permite usar `[✨] Control` para Atacar cuerpo a cuerpo (Arma: 2). Gracias a su afinidad de Fuego, dura 4 asaltos y coloca `[En Llamas]` en éxitos con estilo.*
+  * **Slot #1 — S.C.M.E.H. [[CAAP-C09 - Espadín de Ascuas|Espadín de Ascuas [CAAP-C09]]] [Pyro / Rango C]:**  
+    *(Modificación virtuosa de la [[Secuencia - Daga de Plasma Confinada]]). Permite usar `[✨] Control` o `Pelear` para Atacar cuerpo a cuerpo (Arma: 2, con sinergia de +2 por Sincronía de Linaje). Hoja ahusada de 65 cm con compresión adiabática. Gracias a su afinidad de Fuego, dura 4 asaltos y coloca `[En Llamas]` en éxitos con estilo.*
   * **Slot #2 — S.C.M.E.H. [[Secuencia - Pantalla Deflectora de Punto]] [Neutro / Rango C]:**  
     *Permite usar `[✨] Control` para Defenderse (+2 a la Defensa) desviando proyectiles individuales con un broquel hexagonal.*
   * **Slot #3 — S.C.M.E.H. [[Secuencia - Micro-Impulso Cinetico]] [Aire / Rango C]:**  
@@ -116,10 +116,15 @@ Bajo la máscara de sarcasmo, desapego y vanidad escénica, yace una verdad vuln
 * **Consumible Sanitario Reglamentario:** 1x Chip ROM sellado de un solo uso con [[Secuencia - Parche de Coagulacion Hidrostatica]].
 * **Protección Corporal:** Uniforme reglamentario de cadete Especialista en azul marino profundo con chaleco interior de kevlar ligero.
 
-#### 3. 🛡️ Reliquia Inerte: *El Catalizador Calcinado de Papá*
+#### 3. 🛡️ Reliquia Inerte: *El Tambor Calcinado de Papá (Núcleo del Dreadnought-MK1)*
 * **Tipo:** Objeto narrativo / Reliquia familiar inoperativa.
-* **Estado:** Hardware completamente fundido por el ataque de los Heraldos. Circuitos muertos, sin capacidad de compilar código ni albergar ranuras.
+* **Descripción Física:** Dado que transportar el descomunal exoesqueleto de asalto completo era tácticamente inviable por su volumen y peso, Luna desmontó y rescató únicamente el **tambor rotativo blindado de 5 recámaras**. Lo lleva sujeto a la cadera mediante una gruesa correa táctica de cuero de trinchera.
+* **Estado:** Cilindro de titanio-tungsteno deformado y ennegrecido por calor extremo, con dos recámaras reventadas, dial de cuarzo agrietado y ranuras selladas por microcristales de calcificación etérea. Completamente inerte, frío y sin lecturas de energía.
 * **Función:** Ancla de cordura y foco dramático del aspecto *«El catalizador calcinado de mi padre como brújula»*.
+
+![[aegis_revolver_core_relic.jpg]]
+
+
 
 ---
 
